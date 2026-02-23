@@ -9,7 +9,7 @@
  *   - Stars are session-level (all-or-nothing per session).
  *
  * localStorage key:  ndss2026_starred_talks  → JSON array of session_ids
- * URL hash:          #a=<base64url(JSON array of session_ids)>
+ * URL hash:          #a=v2:<base64url(bitmap)>  (compact; legacy JSON-base64 still decoded)
  */
 
 'use strict';
@@ -26,24 +26,70 @@ let starred      = new Set(); // set of session_ids
 /* ── Encoding helpers ────────────────────────────────────────────────── */
 
 /**
- * Encode an array of session_id strings to a URL-safe base64 string.
- * We use a simple approach: JSON → UTF-8 bytes → base64url.
+ * Return a stable sorted array of all unique session_ids in the program.
+ * Returns null when programData is not yet loaded.
+ */
+function getAllSessionIds() {
+  if (!programData) return null;
+  const seen = new Set();
+  for (const day of programData.days) {
+    for (const s of day.sessions) {
+      seen.add(s.session_id);
+    }
+  }
+  return [...seen].sort();
+}
+
+/**
+ * Encode an array of session_id strings to a compact URL-safe string.
+ *
+ * Format v2 (bitmap): "v2:<base64url>"
+ *   Each bit i corresponds to allSessionIds[i]; 1 = starred.
+ *   Requires programData to be loaded; falls back to legacy format otherwise.
+ *
+ * Legacy format: plain base64url of JSON array (no prefix).
  */
 function encodeStarred(ids) {
   if (ids.length === 0) return '';
+  const allIds = getAllSessionIds();
+  if (allIds) {
+    const idSet = new Set(ids);
+    const bytes = new Uint8Array(Math.ceil(allIds.length / 8));
+    for (let i = 0; i < allIds.length; i++) {
+      if (idSet.has(allIds[i])) bytes[i >> 3] |= 1 << (i & 7);
+    }
+    const b64 = btoa(String.fromCharCode(...bytes));
+    return 'v2:' + b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  // Legacy fallback (programData not yet loaded)
   const json = JSON.stringify([...ids].sort());
-  // btoa works on byte strings; we encode via encodeURIComponent trick
   const b64 = btoa(unescape(encodeURIComponent(json)));
-  // make base64url (no padding issues in hash)
   return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
 /**
- * Decode a base64url string back to an array of session_ids.
+ * Decode a URL fragment value back to an array of session_ids.
+ * Handles both the compact v2 bitmap format and the legacy JSON-base64 format.
  * Returns [] on any error.
  */
 function decodeStarred(encoded) {
   if (!encoded) return [];
+  if (encoded.startsWith('v2:')) {
+    const allIds = getAllSessionIds();
+    if (!allIds) return [];
+    try {
+      const b64 = encoded.slice(3).replace(/-/g, '+').replace(/_/g, '/');
+      const bin = atob(b64);
+      const result = [];
+      for (let i = 0; i < allIds.length; i++) {
+        if ((i >> 3) < bin.length && (bin.charCodeAt(i >> 3) & (1 << (i & 7)))) result.push(allIds[i]);
+      }
+      return result;
+    } catch {
+      return [];
+    }
+  }
+  // Legacy: JSON-base64
   try {
     const b64 = encoded.replace(/-/g, '+').replace(/_/g, '/');
     const json = decodeURIComponent(escape(atob(b64)));
