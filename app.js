@@ -523,7 +523,11 @@ function switchView(name) {
 /* ── Share link ──────────────────────────────────────────────────────── */
 
 function shareLink() {
-  const url = window.location.href;
+  const ids = [...starred];
+  const base = window.location.origin + window.location.pathname + window.location.search;
+  const url = ids.length === 0
+    ? base
+    : base + '#' + HASH_PARAM + '=' + encodeStarred(ids);
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(url).then(
       () => showToast('✓ Link copied to clipboard'),
