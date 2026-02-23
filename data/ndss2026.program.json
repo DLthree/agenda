@@ -1,760 +1,1936 @@
 {
   "meta": {
     "source_url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-    "generated_at": "2026-02-23T13:55:52.877590+00:00",
-    "raw_html_sha256": "c4d7ab9fe868419523933bc96597d1849f96fec6efad04b083e9a632d835f054"
+    "generated_at": "2026-02-23T14:09:17.154737+00:00",
+    "raw_html_sha256": "08aa82716aebfa14ea89cdc96b79cb13df32442068df2ce45d689b1945e11b02"
   },
   "days": [
     {
-      "day_id": "8749f4709d8e73db",
-      "label": "Tuesday, February 24, 2026",
+      "day_id": "be76f50ca95fdff4",
+      "label": "Tuesday, 24 February",
       "date": "2026-02-24",
       "sessions": [
         {
-          "session_id": "d7e214cb27db2920",
-          "start": "08:00",
-          "end": "09:00",
-          "track": "",
-          "room": "",
-          "title": "Registration & Welcome",
-          "url": "",
-          "items": []
-        },
-        {
-          "session_id": "90d630826efeb608",
-          "start": "09:00",
-          "end": "10:00",
-          "track": "",
-          "room": "",
-          "title": "Keynote: The Future of Trustworthy AI Systems",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "bf6acb44519ea693",
-              "title": "The Future of Trustworthy AI Systems",
-              "url": "",
-              "authors": "Dr. Jane Smith, Stanford University",
-              "order": 1
-            }
-          ]
-        },
-        {
-          "session_id": "8ac99df3672e6843",
-          "start": "10:00",
-          "end": "10:30",
-          "track": "",
-          "room": "",
-          "title": "Break",
-          "url": "",
-          "items": []
-        },
-        {
-          "session_id": "6f564def2ad84b03",
+          "session_id": "63ae902663088a14",
           "start": "10:30",
-          "end": "12:00",
+          "end": "11:50",
           "track": "1A",
-          "room": "",
+          "room": "Pacific Ballroom A-C",
           "title": "Session 1A: Network Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+          "url": "",
           "items": [
             {
-              "item_id": "f7d127eb5c2c5ad6",
-              "title": "Detecting BGP Hijacks at Scale Using Machine Learning",
-              "url": "",
-              "authors": "Alice Johnson, Bob Williams, Carol Davis (MIT)",
+              "item_id": "ed7bab1c180bad72",
+              "title": "A Hard-Label Black-Box Evasion Attack against ML-based Malicious Traffic Detection Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/a-hard-label-black-box-evasion-attack-against-ml-based-malicious-traffic-detection-systems/",
+              "authors": "Zixuan Liu (Tsinghua University), Yi Zhao (Beijing Institute of Technology), Zhuotao Liu (Tsinghua University), Qi Li (Tsinghua University), Chuanpu Fu (Tsinghua University), Guangmeng Zhou (Tsinghua University), Ke Xu (Tsinghua University)",
               "order": 1
             },
             {
-              "item_id": "b0ecfccd3bd915e0",
-              "title": "DNS Cache Poisoning in Modern Recursive Resolvers",
-              "url": "",
-              "authors": "Dave Wilson, Eve Martinez (Carnegie Mellon University)",
+              "item_id": "867a4c8f514983c2",
+              "title": "Enhancing Website Fingerprinting Attacks against Traffic Drift",
+              "url": "https://www.ndss-symposium.org/ndss-paper/enhancing-website-fingerprinting-attacks-against-traffic-drift/",
+              "authors": "Xinhao Deng (Tsinghua University & Ant Group), Yixiang Zhang (Tsinghua University), Qi Li (Tsinghua University & Zhongguancun Laboratory), Zhuotao Liu (Tsinghua University & Zhongguancun Laboratory), Yabo Wang (Tsinghua University), Ke Xu (Tsinghua University & Zhongguancun Laboratory)",
               "order": 2
             },
             {
-              "item_id": "be728ca7f5cf72fa",
-              "title": "Security Analysis of QUIC Protocol Implementations",
-              "url": "",
-              "authors": "Frank Lee, Grace Kim, Henry Brown (UC Berkeley)",
+              "item_id": "f287c8b445d3816e",
+              "title": "NetRadar: Enabling Robust Carpet Bombing DDoS Detection",
+              "url": "https://www.ndss-symposium.org/ndss-paper/netradar-enabling-robust-carpet-bombing-ddos-detection/",
+              "authors": "Junchen Pan (Tsinghua University), Lei Zhang (Zhongguancun Laboratory), Xiaoyong Si (Tencent Technology (Shenzhen) Company Limited), Jie Zhang (Tsinghua University), Xinggong Zhang (Peking University), Yong Cui (Tsinghua University)",
               "order": 3
             },
             {
-              "item_id": "8c23394d58eab27c",
-              "title": "TCP Side Channels in Cloud Environments",
-              "url": "",
-              "authors": "Ivan Chen, Julia Lopez (Columbia University)",
+              "item_id": "0523b40313f4db12",
+              "title": "WiFinger: Fingerprinting Noisy IoT Event Traffic Using Packet-level Sequence Matching",
+              "url": "https://www.ndss-symposium.org/ndss-paper/wifinger-fingerprinting-noisy-iot-event-traffic-using-packet-level-sequence-matching/",
+              "authors": "Ronghua Li (The Hong Kong Polytechnic University), Shinan Liu (The University of Hong Kong), Haibo Hu (The Hong Kong Polytechnic University, PolyU Research Centre for Privacy and Security Technologies in Future Smart Systems), Qingqing Ye (The Hong Kong Polytechnic University), Nick Feamster (University of Chicago)",
               "order": 4
             }
           ]
         },
         {
-          "session_id": "ce88d266e44cdaff",
+          "session_id": "7f843e0db155fba6",
           "start": "10:30",
-          "end": "12:00",
+          "end": "11:50",
           "track": "1B",
-          "room": "",
-          "title": "Session 1B: Web Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+          "room": "Coast Ballroom",
+          "title": "Session 1B: AI Security",
+          "url": "",
           "items": [
             {
-              "item_id": "7b4e86c492bb3814",
-              "title": "XSS Vulnerabilities in LLM-Generated Code",
-              "url": "",
-              "authors": "Kevin Zhang, Laura White (Georgia Tech)",
+              "item_id": "af6e6cae159a35e5",
+              "title": "ThinkTrap: Denial-of-Service Attacks against Black-box LLM Services via Infinite Thinking",
+              "url": "https://www.ndss-symposium.org/ndss-paper/thinktrap-denial-of-service-attacks-against-black-box-llm-services-via-infinite-thinking/",
+              "authors": "Yunzhe Li (Shanghai Jiao Tong University), Jianan Wang (Shanghai Jiao Tong University), Hongzi Zhu (Shanghai Jiao Tong University), James Lin (Shanghai Jiao Tong University), Shan Chang (Donghua University), Minyi Guo (Shanghai Jiao Tong University)",
               "order": 1
             },
             {
-              "item_id": "c867a24b53d3abaf",
-              "title": "Browser Extension Security: A Large-Scale Study",
-              "url": "",
-              "authors": "Mike Taylor, Nancy Anderson (University of Michigan)",
+              "item_id": "0486471e44a4f4e6",
+              "title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/neurostrike-neuron-level-attacks-on-aligned-llms/",
+              "authors": "Lichao Wu (Technical University of Darmstadt), Sasha Behrouzi (Technical University of Darmstadt), Mohamadreza Rostami (Technical University of Darmstadt), Maximilian Thang (Technical University of Darmstadt), Stjepan Picek (University of Zagreb & Radboud University), Ahmad-Reza Sadeghi (Technical University of Darmstadt)",
               "order": 2
             },
             {
-              "item_id": "75a8e617fc61d102",
-              "title": "CSRF Attacks on Modern Web Frameworks",
-              "url": "",
-              "authors": "Oscar Harris, Patricia Lewis (Princeton University)",
+              "item_id": "d15c12a6c28482bd",
+              "title": "In-Context Probing for Membership Inference in Fine-Tuned Language Models",
+              "url": "https://www.ndss-symposium.org/ndss-paper/in-context-probing-for-membership-inference-in-fine-tuned-language-models/",
+              "authors": "Zhexi Lu (Rensselaer Polytechnic Institute), Hongliang Chi (Rensselaer Polytechnic Institute), Nathalie Baracaldo (IBM Research - Almaden), Swanand Ravindra Kadhe (IBM Research - Almaden), Yuseok Jeon (Korea University), Lei Yu (Rensselaer Polytechnic Institute)",
               "order": 3
+            },
+            {
+              "item_id": "0887c6997431bc4e",
+              "title": "Characterizing the Implementation of Censorship Policies in Chinese LLM Services",
+              "url": "https://www.ndss-symposium.org/ndss-paper/characterizing-the-implementation-of-censorship-policies-in-chinese-llm-services/",
+              "authors": "Anna Ablove (University of Michigan), Shreyas Chandrashekaran (University of Michigan), Xiao Qiang (University of California at Berkeley), Roya Ensafi (University of Michigan)",
+              "order": 4
             }
           ]
         },
         {
-          "session_id": "d0ec7b92afe125b3",
-          "start": "12:00",
-          "end": "13:30",
-          "track": "",
-          "room": "",
-          "title": "Lunch Break",
+          "session_id": "8edd03690b3d07d7",
+          "start": "10:30",
+          "end": "11:50",
+          "track": "1C",
+          "room": "Porthole",
+          "title": "Session 1C: Distributed Systems & Security",
           "url": "",
-          "items": []
+          "items": [
+            {
+              "item_id": "932404db0001496d",
+              "title": "Idioms: A Simple and Effective Framework for Turbo-Charging Local Neural Decompilation with Well-Defined Types",
+              "url": "https://www.ndss-symposium.org/ndss-paper/idioms-a-simple-and-effective-framework-for-turbo-charging-local-neural-decompilation-with-well-defined-types/",
+              "authors": "Luke Dramko (Carnegie Mellon University), Claire Le Goues (Carnegie Mellon University), Edward J. Schwartz (Carnegie Mellon University)",
+              "order": 1
+            },
+            {
+              "item_id": "19dbf52a9ba098a2",
+              "title": "HoneySat: A Network-based Satellite Honeypot Framework",
+              "url": "https://www.ndss-symposium.org/ndss-paper/honeysat-a-network-based-satellite-honeypot-framework/",
+              "authors": "Efrén López-Morales (New Mexico State University), Ulysse Planta (CISPA Helmholtz Center for Information Security), Gabriele Marra (CISPA Helmholtz Center for Information Security), Carlos Gonzalez-Cortes (Universidad de Santiago de Chile), Jacob Hopkins (Texas A&M University - Corpus Christi), Majid Garoosi (CISPA Helmholtz Center for Information Security), Elías Obreque (Universidad de Chile), Carlos Rubio-Medrano (Texas A&M University - Corpus Christi), Ali Abbasi (CISPA Helmholtz Center for Information Security)",
+              "order": 2
+            },
+            {
+              "item_id": "2b854f883aa8db77",
+              "title": "Pando: Extremely Scalable BFT Based on Committee Sampling",
+              "url": "https://www.ndss-symposium.org/ndss-paper/pando-extremely-scalable-bft-based-on-committee-sampling/",
+              "authors": "Xin Wang (Tsinghua University), Haochen Wang (Tsinghua University), Haibin Zhang (Yangtze Delta Region Institute of Tsinghua University, Zhejiang), Sisi Duan (Tsinghua University)",
+              "order": 3
+            },
+            {
+              "item_id": "c1b2663366f5178c",
+              "title": "Janus: Enabling Expressive and Efficient ACLs in High-speed RDMA Clouds",
+              "url": "https://www.ndss-symposium.org/ndss-paper/janus-enabling-expressive-and-efficient-acls-in-high-speed-rdma-clouds/",
+              "authors": "Ziteng Chen (Southeast University), Menghao Zhang (Beihang University), Jiahao Cao (Tsinghua University & Quan Cheng Laboratory), Xuzheng Chen (Zhejiang University), Qiyang Peng (Beihang University), Shicheng Wang (Unaffiliated), Guanyu Li (Unaffiliated), Mingwei Xu (Quan Cheng Laboratory & Tsinghua University & Southeast University)",
+              "order": 4
+            }
+          ]
         },
         {
-          "session_id": "6a8d9c4db1067ab5",
-          "start": "13:30",
-          "end": "15:00",
+          "session_id": "8d1c36380136a348",
+          "start": "10:30",
+          "end": "11:50",
+          "track": "1D",
+          "room": "Embarcadero",
+          "title": "Session 1D: Microarchitectural Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "e26319e17024bcc2",
+              "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/",
+              "authors": "Ruiyi Zhang (CISPA Helmholtz Center for Information Security), Albert Cheu (Google), Adria Gascon (Google), Daniel Moghimi (Google), Phillipp Schoppmann (Google), Michael Schwarz (CISPA Helmholtz Center for Information Security), Octavian Suciu (Google)",
+              "order": 1
+            },
+            {
+              "item_id": "e319bad6ebe2710f",
+              "title": "Revisiting Differentially Private Hyper-parameter Tuning",
+              "url": "https://www.ndss-symposium.org/ndss-paper/revisiting-differentially-private-hyper-parameter-tuning/",
+              "authors": "Zihang Xiang (KAUST), Tianhao Wang (University of Virginia), Cheng-Long Wang (King Abdullah University of Science and Technology), Di Wang (King Abdullah University of Science and Technology)",
+              "order": 2
+            },
+            {
+              "item_id": "9853b5cc361224b7",
+              "title": "Eviction Notice: Reviving and Advancing Page Cache Attacks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/eviction-notice-reviving-and-advancing-page-cache-attacks/",
+              "authors": "Sudheendra Raghav Neela (Graz University of Technology), Jonas Juffinger (Graz University of Technology), Lukas Maar (Graz University of Technology), Daniel Gruss (Graz University of Technology)",
+              "order": 3
+            },
+            {
+              "item_id": "9530a52b7a1c1e89",
+              "title": "FLIPPYRAM: A Large-Scale Study of Rowhammer Prevalence",
+              "url": "https://www.ndss-symposium.org/ndss-paper/flippyram-a-large-scale-study-of-rowhammer-prevalence/",
+              "authors": "Martin Heckel (Hof University of Applied Sciences), Nima Sayadi (Hof University of Applied Sciences), Jonas Juffinger (Unaffiliated), Carina Fiedler (Graz University of Technology), Daniel Gruss (Graz University of Technology), Florian Adamsky (Hof University of Applied Sciences)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "33baf916c2c8ba51",
+          "start": "13:00",
+          "end": "14:20",
           "track": "2A",
-          "room": "",
-          "title": "Session 2A: Machine Learning Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "937adc8923d4185e",
-              "title": "Adversarial Attacks on Large Language Models via Prompt Injection",
-              "url": "",
-              "authors": "Quinn Robinson, Rose Walker (UT Austin)",
-              "order": 1
-            },
-            {
-              "item_id": "4d75fc2abca2faaa",
-              "title": "Privacy Attacks on Federated Learning Systems",
-              "url": "",
-              "authors": "Sam Young, Tina Scott (ETH Zurich)",
-              "order": 2
-            },
-            {
-              "item_id": "467facb771eb2575",
-              "title": "Model Stealing via Black-Box API Access",
-              "url": "",
-              "authors": "Uma Allen, Victor Wright (Oxford University)",
-              "order": 3
-            },
-            {
-              "item_id": "f79e3b50a68d70f8",
-              "title": "A Survey of Backdoor Attacks in Deep Neural Networks",
-              "url": "",
-              "authors": "Walter King, Xena Turner (NYU)",
-              "order": 4
-            }
-          ]
-        },
-        {
-          "session_id": "e0074494a548a27f",
-          "start": "13:30",
-          "end": "15:00",
-          "track": "2B",
-          "room": "",
-          "title": "Session 2B: Privacy Enhancing Technologies",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "f4f68f3e1ae1f8ab",
-              "title": "Differential Privacy in Practice: A Gap Analysis",
-              "url": "",
-              "authors": "Yara Adams, Zoe Baker (Harvard University)",
-              "order": 1
-            },
-            {
-              "item_id": "9b8d3d0db2691919",
-              "title": "Anonymous Credentials on Mobile Devices",
-              "url": "",
-              "authors": "Aaron Clark, Beth Davis (Imperial College London)",
-              "order": 2
-            },
-            {
-              "item_id": "3608d2874dd8ecb5",
-              "title": "Deanonymization Attacks Against Tor Hidden Services",
-              "url": "",
-              "authors": "Carlos Evans, Diana Foster (Johns Hopkins University)",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "session_id": "188af83b283c2058",
-          "start": "15:00",
-          "end": "15:30",
-          "track": "",
-          "room": "",
-          "title": "Break",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 2A: Cross-Domain Attacks & Defenses",
           "url": "",
-          "items": []
-        },
-        {
-          "session_id": "ce4eefdea9919b18",
-          "start": "15:30",
-          "end": "17:00",
-          "track": "3A",
-          "room": "",
-          "title": "Session 3A: Systems Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
           "items": [
             {
-              "item_id": "b19812379d0eb0c4",
-              "title": "Kernel Exploit Mitigations: Effectiveness and Bypass",
-              "url": "",
-              "authors": "Ethan Gray, Fiona Hall (UIUC)",
+              "item_id": "2f7f8e1aa3921f53",
+              "title": "BLERP: BLE Re-Pairing Attacks and Defenses",
+              "url": "https://www.ndss-symposium.org/ndss-paper/blerp-ble-re-pairing-attacks-and-defenses/",
+              "authors": "Tommaso Sacchetti (EURECOM), Daniele Antonioli (EURECOM)",
               "order": 1
             },
             {
-              "item_id": "34e9bb48936db41f",
-              "title": "New Speculative Execution Gadgets in Modern CPUs",
-              "url": "",
-              "authors": "George Hill, Hannah Ingram (Purdue University)",
+              "item_id": "6f80f571be444ace",
+              "title": "Breaking Isolation: A New Perspective on Hypervisor Exploitation via Cross-Domain Attacks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/breaking-isolation-a-new-perspective-on-hypervisor-exploitation-via-cross-domain-attacks/",
+              "authors": "Gaoning Pan (Hangzhou Dianzi University & Zhejiang Provincial Key Laboratory of Sensitive Data Security and Confidentiality Governance), Yiming Tao (Zhejiang University), Qinying Wang (EPFL and Zhejiang University), Chunming Wu (Zhejiang University), Mingde Hu (Hangzhou Dianzi University & Zhejiang Provincial Key Laboratory of Sensitive Data Security and Confidentiality Governance), Yizhi Ren (Hangzhou Dianzi University & Zhejiang Provincial Key Laboratory of Sensitive Data Security and Confidentiality Governance), Shouling Ji (Zhejiang University)",
               "order": 2
             },
             {
-              "item_id": "95caa8d95bdd1521",
-              "title": "Container Escape Techniques in Production Environments",
-              "url": "",
-              "authors": "Ian James, Jessica Knight (University of Wisconsin)",
+              "item_id": "cf8165d22dd39dd5",
+              "title": "Memory Band-Aid: A Principled Rowhammer Defense-in-Depth",
+              "url": "https://www.ndss-symposium.org/ndss-paper/memory-band-aid-a-principled-rowhammer-defense-in-depth/",
+              "authors": "Carina Fiedler (Graz University of Technology), Jonas Juffinger (Graz University of Technology), Sudheendra Raghav Neela (Graz University of Technology), Martin Heckel (Hof University of Applied Sciences), Hannes Weissteiner (Graz University of Technology), Abdullah Giray Yağlıkçı (ETH Zürich), Florian Adamsky (Hof University of Applied Sciences), Daniel Gruss (Graz University of Technology)",
               "order": 3
             },
             {
-              "item_id": "f294146e0bc4e92a",
-              "title": "New RowHammer Variants on Modern DRAM Chips",
-              "url": "",
-              "authors": "Kyle Long, Laura Moore (TU Graz)",
+              "item_id": "27fd2c3809b51e5b",
+              "title": "Mirage: Private, Mobility-based Routing for Censorship Evasion",
+              "url": "https://www.ndss-symposium.org/ndss-paper/mirage-private-mobility-based-routing-for-censorship-evasion/",
+              "authors": "Zachary Ratliff (Harvard University), Ruoxing (David) Yang (Georgetown University), Avery Bai (Georgetown University), Harel Berger (Ariel University), Micah Sherr (Georgetown University), James Mickens (Harvard University)",
               "order": 4
             }
           ]
         },
         {
-          "session_id": "c4b7ada5826c0057",
-          "start": "15:30",
-          "end": "17:00",
-          "track": "3B",
-          "room": "",
-          "title": "Session 3B: Cryptography & Protocols",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+          "session_id": "db496b4addc5dca6",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "2B",
+          "room": "Coast Ballroom",
+          "title": "Session 2B: Trusted Execution & Privacy",
+          "url": "",
           "items": [
             {
-              "item_id": "a39b2dcacb510266",
-              "title": "Post-Quantum TLS: Deployment Challenges and Performance",
-              "url": "",
-              "authors": "Mike Nelson, Nina Owen (Stanford)",
+              "item_id": "e3dd53ad7ae917c9",
+              "title": "Automated Code Annotation with LLMs for Establishing TEE Boundaries",
+              "url": "https://www.ndss-symposium.org/ndss-paper/automated-code-annotation-with-llms-for-establishing-tee-boundaries/",
+              "authors": "Varun Gadey (University of Würzburg), Melanie Goetz (University of Würzburg), Christoph Sendner (University of Würzburg), Sampo Sovio (Huawei Technologies), Alexandra Dmitrienko (University of Wuerzburg)",
               "order": 1
             },
             {
-              "item_id": "03f7b6bf7646daf5",
-              "title": "Practical Secure Multi-Party Computation for Database Queries",
-              "url": "",
-              "authors": "Oliver Parker, Penelope Quinn (MIT)",
+              "item_id": "95acd575ec07aaab",
+              "title": "SoK: Analysis of Accelerator TEE Designs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/sok-analysis-of-accelerator-tee-designs/",
+              "authors": "Chenxu Wang (Southern University of Science and Technology (SUSTech) and The Hong Kong Polytechnic University), Junjie Huang (Southern University of Science and Technology (SUSTech)), Yujun Liang (Southern University of Science and Technology (SUSTech)), Xuanyao Peng (Southern University of Science and Technology (SUSTech) and University of Chinese Academy of Sciences), Yuqun Zhang (Southern University of Science and Technology (SUSTech)), Fengwei Zhang (Southern University of Science and Technology (SUSTech)), Jiannong Cao (Hong Kong Polytechnic University), Hang Lu (University of Chinese Academy of Sciences), Rui Hou (University of Chinese Academy of Sciences), Shoumeng Yan (Ant Group), Tao Wei (Ant Group), Zhengyu He (Ant Group)",
               "order": 2
             },
             {
-              "item_id": "8ad0fc9a1353dab9",
-              "title": "A Formal Analysis of End-to-End Encrypted Messaging Protocols",
-              "url": "",
-              "authors": "Rachel Roberts, Samuel Stone (CMU)",
+              "item_id": "d90a0f3c785f263d",
+              "title": "PrivCode: When Code Generation Meets Differential Privacy",
+              "url": "https://www.ndss-symposium.org/ndss-paper/privcode-when-code-generation-meets-differential-privacy/",
+              "authors": "Zheng Liu (University of Virginia), Chen Gong (University of Virginia), Terry Yue Zhuo (Monash University and CSIRO's Data61), Kecen Li (University of Virginia), Weichen Yu (Carnegie Mellon University), Matt Fredrikson (Carnegie Mellon University), Tianhao Wang (University of Virginia)",
               "order": 3
+            },
+            {
+              "item_id": "102dec81efebf821",
+              "title": "UIEE: Secure and Efficient User-space Isolated Execution Environment for Embedded TEE Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/uiee-secure-and-efficient-user-space-isolated-execution-environment-for-embedded-tee-systems/",
+              "authors": "Huaiyu Yan (Southeast University), Zhen Ling (Southeast University), Xuandong Chen (Southeast University), Xinhui Shao (Southeast University, City University of Hong Kong), Yier Jin (University of Science and Technology of China), Haobo Li (Southeast University), Ming Yang (Southeast University), Ping Jiang (Southeast University), Junzhou Luo (Southeast University, Fuyao University of Science and Technology)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "40996ffa9a0941fd",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "2C",
+          "room": "Porthole",
+          "title": "Session 2C: Applied Cryptography",
+          "url": "",
+          "items": [
+            {
+              "item_id": "e6e3229ea09f6e96",
+              "title": "Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using FHE",
+              "url": "https://www.ndss-symposium.org/ndss-paper/select-then-compute-encrypted-label-selection-and-analytics-over-distributed-datasets-using-fhe/",
+              "authors": "Nirajan Koirala (University of Notre Dame), Seunghun Paik (Hanyang University), Sam Martin (University of Notre Dame), Helena Berens (University of Notre Dame), Tasha Januszewicz (University of Notre Dame), Jonathan Takeshita (Old Dominion University), Jae Hong Seo (Hanyang University), Taeho Jung (University of Notre Dame)",
+              "order": 1
+            },
+            {
+              "item_id": "5c83564045f48ac1",
+              "title": "cwPSU: Efficient Unbalanced Private Set Union via Constant-weight Codes",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cwpsu-efficient-unbalanced-private-set-union-via-constant-weight-codes/",
+              "authors": "Qingwen Li (Xidian University), Song Bian (Beihang University), Hui Li (Xidian University)",
+              "order": 2
+            },
+            {
+              "item_id": "10ca8947c1c624b6",
+              "title": "Robust Fraud Transaction Detection: A Two-Player Game Approach",
+              "url": "https://www.ndss-symposium.org/ndss-paper/robust-fraud-transaction-detection-a-two-player-game-approach/",
+              "authors": "Qi Tan (Shenzhen University), Yi Zhao (Beijing Institute of Technology), Laizhong Cui (Shenzhen University), Qi Li (Tsinghua University), Ming Zhu (Tsinghua University), Xing Fu (Ant Group), Weiqiang Wang (Ant Group), Xiaotong Lin (Ant Group), Ke Xu (Tsinghua University)",
+              "order": 3
+            },
+            {
+              "item_id": "f533b7a4576b40f2",
+              "title": "Cirrus: Performant and Accountable Distributed SNARK",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cirrus-performant-and-accountable-distributed-snark/",
+              "authors": "Wenhao Wang (Yale University, IC3), Fangyan Shi (Tsinghua University), Dani Vilardell (Cornell Tech, IC3), Fan Zhang (Yale University, IC3)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "3eedc0ad48714611",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "2D",
+          "room": "Embarcadero",
+          "title": "Session 2D: Web & Content Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "c7b7e4292e2e7b24",
+              "title": "Paladin: Defending LLM-enabled Phishing Emails with a New Trigger-Tag Paradigm",
+              "url": "https://www.ndss-symposium.org/ndss-paper/paladin-defending-llm-enabled-phishing-emails-with-a-new-trigger-tag-paradigm/",
+              "authors": "Yan Pang (University of Virginia), Wenlong Meng (University of Virginia), Xiaojing Liao (Indiana University Bloomington), Tianhao Wang (University of Virginia)",
+              "order": 1
+            },
+            {
+              "item_id": "76830cd4c86a88bb",
+              "title": "Beyond Jailbreak: Unveiling Risks in LLM Applications Arising from Blurred Capability Boundaries",
+              "url": "https://www.ndss-symposium.org/ndss-paper/beyond-jailbreak-unveiling-risks-in-llm-applications-arising-from-blurred-capability-boundaries/",
+              "authors": "Yunyi Zhang (Tsinghua University), Shibo Cui (Tsinghua University), Baojun Liu (Tsinghua University), Jingkai Yu (Tsinghua University), Min Zhang (National University of Defense Technology), Fan Shi (National University of Defense Technology), Han Zheng (TrustAl Pte. Ltd.)",
+              "order": 2
+            },
+            {
+              "item_id": "8774d7d8df48cba6",
+              "title": "Incident Response Planning Using a Lightweight Large Language Model with Reduced Hallucination",
+              "url": "https://www.ndss-symposium.org/ndss-paper/incident-response-planning-using-a-lightweight-large-language-model-with-reduced-hallucination/",
+              "authors": "Kim Hammar (University of Melbourne), Tansu Alpcan (University of Melbourne), Emil Lupu (Imperial College London)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "e03ad98665577d4a",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "3A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 3A: Systems Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "64bd7e0c07c8b6c8",
+              "title": "IoTBec: An Accurate and Efficient Recurring Vulnerability Detection Framework for Black Box IoT devices",
+              "url": "https://www.ndss-symposium.org/ndss-paper/iotbec-an-accurate-and-efficient-recurring-vulnerability-detection-framework-for-black-box-iot-devices/",
+              "authors": "Haoran Yang (Institute of Information Engineering, Chinese Academy of Sciences), Jiaming Guo (Institute of Information Engineering, Chinese Academy of Sciences), Shuangning Yang (School of Internet, Anhui University), Guoli Zhao (Institute of Information Engineering, Chinese Academy of Sciences), Qingqi Liu (Institute of Information Engineering, Chinese Academy of Sciences), Chi Zhang (Institute of Information Engineering, Chinese Academy of Sciences), Zhenlu Tan (Institute of Information Engineering, Chinese Academy of Sciences), Lixiao Shan (Institute of Information Engineering, Chinese Academy of Sciences), Qihang Zhou (Institute of Information Engineering, Chinese Academy of Sciences), Mengting Zhou (Institute of Information Engineering, Chinese Academy of Sciences), Jianwei Tai (School of Internet, Anhui University), Xiaoqi Jia (Institute of Information Engineering, Chinese Academy of Sciences)",
+              "order": 1
+            },
+            {
+              "item_id": "21f8eebaebeda13c",
+              "title": "FirmCross: Detecting Taint-style Vulnerabilities in Modern C-Lua Hybrid Web Services of Linux-based Firmware",
+              "url": "https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/",
+              "authors": "Runhao Liu (National University of Defense Technology), Jiarun Dai (Fudan University), Haoyu Xiao (Fudan University), Yuan Zhang (Fudan University), Yeqi Mou (National University of Defense Technology), Lukai Xu (National University of Defense Technology), Bo Yu (National University of Defense Technology), Baosheng Wang (National University of Defense Technology), Min Yang (Fudan University)",
+              "order": 2
+            },
+            {
+              "item_id": "3e6d3d8bea48378f",
+              "title": "Trust Me, I Know This Function: Hijacking LLM Static Analysis using Bias",
+              "url": "https://www.ndss-symposium.org/ndss-paper/trust-me-i-know-this-function-hijacking-llm-static-analysis-using-bias/",
+              "authors": "Shir Bernstein (Ben Gurion University of the Negev), David Beste (CISPA Helmholtz Center for Information Security), Daniel Ayzenshteyn (Ben Gurion University of the Negev), Lea Schönherr (CISPA Helmholtz Center for Information Security), Yisroel Mirsky (Ben Gurion University of the Negev)",
+              "order": 3
+            },
+            {
+              "item_id": "6e3390846f43789d",
+              "title": "TranSPArent: Taint-style Vulnerability Detection in Generic Single Page Applications through Automated Framework Abstraction",
+              "url": "https://www.ndss-symposium.org/ndss-paper/transparent-taint-style-vulnerability-detection-in-generic-single-page-applications-through-automated-framework-abstraction/",
+              "authors": "Senapati Diwangkara (Johns Hopkins University), Yinzhi Cao (Johns Hopkins University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "fa24f635cd39aec2",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "3B",
+          "room": "Coast Ballroom",
+          "title": "Session 3B: AI Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "1c84dd996416a23b",
+              "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
+              "authors": "Jiongchi Yu (Singapore Management University), Xiaofei Xie (Singapore Management University), Qiang Hu (Tianjin University), Yuhan Ma (Tianjin University), Ziming Zhao (Zhejiang University)",
+              "order": 1
+            },
+            {
+              "item_id": "538ca76de780641b",
+              "title": "Les Dissonances: Cross-Tool Harvesting and Polluting in Pool-of-Tools Empowered LLM Agents",
+              "url": "https://www.ndss-symposium.org/ndss-paper/les-dissonances-cross-tool-harvesting-and-polluting-in-pool-of-tools-empowered-llm-agents/",
+              "authors": "Zichuan Li (University of Illinois Urbana-Champaign), Jian Cui (University of Illinois Urbana-Champaign), Xiaojing Liao (University of Illinois Urbana-Champaign), Luyi Xing (University of Illinois Urbana-Champaign)",
+              "order": 2
+            },
+            {
+              "item_id": "764ba8046f1fd9ad",
+              "title": "Achieving Interpretable DL-based Web Attack Detection through Malicious Payload Localization",
+              "url": "https://www.ndss-symposium.org/ndss-paper/achieving-interpretable-dl-based-web-attack-detection-through-malicious-payload-localization/",
+              "authors": "Peiyang Li (Tsinghua University & Ant Group), Fukun Mei (Tsinghua University), Ye Wang (Tsinghua University), Zhuotao Liu (Tsinghua University), Ke Xu (Tsinghua University & Zhongguancun Laboratory), Chao Shen (Xi'an Jiaotong University), Qian Wang (Wuhan University), Qi Li (Tsinghua University & Zhongguancun Laboratory)",
+              "order": 3
+            },
+            {
+              "item_id": "cc91bee95babe488",
+              "title": "Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/attention-is-all-you-need-to-defend-against-indirect-prompt-injection-attacks-in-llms/",
+              "authors": "Yinan Zhong (Zhejiang University), Qianhao Miao (Zhejiang University), Yanjiao Chen (Zhejiang University), Jiangyi Deng (Zhejiang University), Yushi Cheng (Zhejiang University), Wenyuan Xu (Zhejiang University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "8d60aba3f30692b6",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "3C",
+          "room": "Porthole",
+          "title": "Session 3C: Apps and Cloud Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "cbb03137d045781b",
+              "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/ace-a-security-architecture-for-llm-integrated-app-systems/",
+              "authors": "Evan Li (Northeastern University), Tushin Mallick (Northeastern University), Evan Rose (Northeastern University), William Robertson (Northeastern University), Alina Oprea (Northeastern University), Cristina Nita-Rotaru (Northeastern University)",
+              "order": 1
+            },
+            {
+              "item_id": "bf1cb8b4c4872c0f",
+              "title": "Better Safe than Sorry: Uncovering the Insecure Resource Management in App-in-App Cloud Services",
+              "url": "https://www.ndss-symposium.org/ndss-paper/better-safe-than-sorry-uncovering-the-insecure-resource-management-in-app-in-app-cloud-services/",
+              "authors": "Yizhe Shi (Fudan University), Zhemin Yang (Fudan University), Dingyi Liu (Fudan University), Kangwei Zhong (Fudan University), Jiarun Dai (Fudan University), Min Yang (Fudan University)",
+              "order": 2
+            },
+            {
+              "item_id": "e4b458dcde31213e",
+              "title": "Side-channel Inference of User Activities in AR/VR Using GPU Profiling",
+              "url": "https://www.ndss-symposium.org/ndss-paper/side-channel-inference-of-user-activities-in-ar-vr-using-gpu-profiling/",
+              "authors": "Seonghun Son (Iowa State University), Chandrika Mukherjee (Purdue University), Reham Mohamed Aburas (American University of Sharjah), Berk Gulmezoglu (Iowa State University), Z. Berkay Celik (Purdue University)",
+              "order": 3
+            },
+            {
+              "item_id": "740b9ecf5c92c0de",
+              "title": "MVPNalyzer: An Investigative Framework for Auditing the Security & Privacy of Mobile VPNs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/mvpnalyzer-an-investigative-framework-for-auditing-the-security-privacy-of-mobile-vpns/",
+              "authors": "Wayne Wang (University of Michigan), Aaron Ortwein (University of Michigan), Enrique Sobrados (University of New Mexico), Robert Stanley (University of Michigan), Piyush Kumar Sharma (IIT Delhi), Afsah Anwar (University of New Mexico), Roya Ensafi (University of Michigan)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "44c696bb773901e3",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "3D",
+          "room": "Embarcadero",
+          "title": "Session 3D: Distributed & Secure Computation",
+          "url": "",
+          "items": [
+            {
+              "item_id": "45a8e04dbdb91419",
+              "title": "HOUSTON: Real-Time Anomaly Detection of Attacks against Ethereum DeFi Protocols",
+              "url": "https://www.ndss-symposium.org/ndss-paper/houston-real-time-anomaly-detection-of-attacks-against-ethereum-defi-protocols/",
+              "authors": "Dongyu Meng (UC Santa Barbara), Fabio Gritti (UC Santa Barbara), Robert McLaughlin (UC Santa Barbara), Nicola Ruaro (UC Santa Barbara), Ilya Grishchenko (University of Toronto), Christopher Kruegel (UC Santa Barbara), Giovanni Vigna (UC Santa Barbara)",
+              "order": 1
+            },
+            {
+              "item_id": "cb1d26e1f5dac6b3",
+              "title": "Indicator of Benignity: An Industry View of False Positive in Malicious Domain Detection and its Mitigation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/indicator-of-benignity-an-industry-view-of-false-positive-in-malicious-domain-detection-and-its-mitigation/",
+              "authors": "Daiping Liu (Palo Alto Networks, Inc.), Danyu Sun (University of California, Irvine), Zhenhua Chen (Palo Alto Networks, Inc.), Shu Wang (Palo Alto Networks, Inc.), Zhou Li (University of California, Irvine)",
+              "order": 2
+            },
+            {
+              "item_id": "1db78d4c3edf8ba1",
+              "title": "VDORAM: Towards a Random Access Machine with Both Public Verifiability and Distributed Obliviousness",
+              "url": "https://www.ndss-symposium.org/ndss-paper/vdoram-towards-a-random-access-machine-with-both-public-verifiability-and-distributed-obliviousness/",
+              "authors": "Huayi Qi (Shandong University), Minghui Xu (Shandong University), Xiaohua Jia (City University of Hong Kong), Xiuzhen Cheng (Shandong University)",
+              "order": 3
+            },
+            {
+              "item_id": "382e8cd3ddb0f4e0",
+              "title": "RoundRole: Unlocking the Efficiency of Multi-party Computation with Bandwidth-aware Execution",
+              "url": "https://www.ndss-symposium.org/ndss-paper/roundrole-unlocking-the-efficiency-of-multi-party-computation-with-bandwidth-aware-execution/",
+              "authors": "xiaoyu fan (IIIS, Tsinghua University), Kun Chen (Ant Group), Jiping Yu (Tsinghua University), Xin Liu (Tsinghua University), Yunyi Chen (Tsinghua University), Wei Xu (Tsinghua Univesity)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "4f3f9d559927977f",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "4A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 4A: Privacy & Measurement",
+          "url": "",
+          "items": [
+            {
+              "item_id": "9fbeecd38a0ee2a1",
+              "title": "When Focus Enhances Utility: Target Range LDP Frequency Estimation and Unknown Item Discovery",
+              "url": "https://www.ndss-symposium.org/ndss-paper/when-focus-enhances-utility-target-range-ldp-frequency-estimation-and-unknown-item-discovery/",
+              "authors": "Bo Jiang (TikTok Inc.), Wanrong Zhang (TikTok Inc.), Donghang Lu (TikTok Inc.), Jian Du (TikTok Inc.), Qiang Yan (TikTok Inc.)",
+              "order": 1
+            },
+            {
+              "item_id": "eea4e647fcd51fe9",
+              "title": "Augmented Shuffle Differential Privacy Protocols for Large-Domain Categorical and Key-Value Data",
+              "url": "https://www.ndss-symposium.org/ndss-paper/augmented-shuffle-differential-privacy-protocols-for-large-domain-categorical-and-key-value-data/",
+              "authors": "Takao Murakami (The Institute of Statistical Mathematics (ISM) / National Institute of Advanced Industrial Science and Technology (AIST) / RIKEN AIP), Yuichi Sei (University of Electro-Communications), Reo Eriguchi (National Institute of Advanced Industrial Science and Technology (AIST))",
+              "order": 2
+            },
+            {
+              "item_id": "a413a6b041bb8ed8",
+              "title": "PrivATE: Differentially Private Average Treatment Effect Estimation for Observational Data",
+              "url": "https://www.ndss-symposium.org/ndss-paper/private-differentially-private-average-treatment-effect-estimation-for-observational-data/",
+              "authors": "Quan Yuan (Zhejiang University), Xiaochen Li (University of North Carolina at Greensboro), Linkang Du (Xi'an Jiaotong University), Min Chen (Vrije Universiteit Amsterdam), Mingyang Sun (Peking University), Yunjun Gao (Zhejiang University), Shibo He (Zhejiang University), Jiming Chen (Zhejiang University), Zhikun Zhang (Zhejiang University)",
+              "order": 3
+            },
+            {
+              "item_id": "d8d1cc18eed04324",
+              "title": "Convergent Privacy Framework for Multi-layer GNNs through Contractive Message Passing",
+              "url": "https://www.ndss-symposium.org/ndss-paper/convergent-privacy-framework-for-multi-layer-gnns-through-contractive-message-passing/",
+              "authors": "Yu Zheng (University of California, Irvine), Chenang Li (University of California, Irvine), Zhou Li (University of California, Irvine), Qingsong Wang (University of California, San Diego)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "965f496a9f94b1a5",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "4B",
+          "room": "Coast Ballroom",
+          "title": "Session 4B: Systems Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "8e11faddaa840896",
+              "title": "NetCap: Data-Plane Capability-Based Defense Against Token Theft in Network Access",
+              "url": "https://www.ndss-symposium.org/ndss-paper/netcap-data-plane-capability-based-defense-against-token-theft-in-network-access/",
+              "authors": "Osama Bajaber (Virginia Tech), Bo Ji (Virginia Tech), Peng Gao (Virginia Tech)",
+              "order": 1
+            },
+            {
+              "item_id": "fd878f2dd271f933",
+              "title": "On the Security Risks of Memory Adaptation and Augmentation in Data-plane DoS Mitigation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/on-the-security-risks-of-memory-adaptation-and-augmentation-in-data-plane-dos-mitigation/",
+              "authors": "Hocheol Nam (KAIST), Daehyun Lim (KAIST), Huancheng Zhou (Texas A&M University), Guofei Gu (Texas A&M University), Min Suk Kang (KAIST)",
+              "order": 2
+            },
+            {
+              "item_id": "5962daa3ca38ca85",
+              "title": "Beyond Conventional Triggers: Auto-Contextualized Covert Triggers for Android Logic Bombs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/",
+              "authors": "Ye Wang (University of Kansas), Bo Luo (University of Kansas), Fengjun Li (University of Kansas)",
+              "order": 3
+            },
+            {
+              "item_id": "34b5dd7b35e60491",
+              "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/",
+              "authors": "Georgios Syros (Northeastern University), Anshuman Suri (Northeastern University), Jacob Ginesin (Northeastern University), Cristina Nita-Rotaru (Northeastern University), Alina Oprea (Northeastern University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "71d6e66aa9ae3751",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "4C",
+          "room": "Porthole",
+          "title": "Session 4C: Web & Content Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "08b61e1d3e636939",
+              "title": "From Obfuscated to Obvious: A Comprehensive JavaScript Deobfuscation Tool for Security Analysis",
+              "url": "https://www.ndss-symposium.org/ndss-paper/from-obfuscated-to-obvious-a-comprehensive-javascript-deobfuscation-tool-for-security-analysis/",
+              "authors": "Dongchao Zhou (Beijing University of Post and Telecommunications, QI-ANXIN Technology Research Institute), Lingyun Ying (QI-ANXIN Technology Research Institute), Huajun Chai (QI-ANXIN Technology Research Institute), Dongbin Wang (Beijing University of Post and Telecommunications)",
+              "order": 1
+            },
+            {
+              "item_id": "abf7e0a527ea5ee4",
+              "title": "Cross-Boundary Mobile Tracking: Exploring Java-to-JavaScript Information Diffusion in WebViews",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cross-boundary-mobile-tracking-exploring-java-to-javascript-information-diffusion-in-webviews/",
+              "authors": "Sohom Datta (North Carolina State University), Michalis Diamantaris (Technical University of Crete), Ahsan Zafar (North Carolina State University), Junhua Su (North Carolina State University), Anupam Das (North Carolina State University), Jason Polakis (University of Illinois Chicago), Alexandros Kapravelos (North Carolina State University)",
+              "order": 2
+            },
+            {
+              "item_id": "438ceb714f6b072b",
+              "title": "LLMBisect: Breaking Barriers in Bug Bisection with A Comparative Analysis Pipeline",
+              "url": "https://www.ndss-symposium.org/ndss-paper/llmbisect-breaking-barriers-in-bug-bisection-with-a-comparative-analysis-pipeline/",
+              "authors": "Zheng Zhang (UC RIverside), Haonan Li (UC Riverside), Xingyu Li (UC Riverside), Hang Zhang (Indiana University), Zhiyun Qian (University of California, Riverside)",
+              "order": 3
+            },
+            {
+              "item_id": "42faf9bb44f3be62",
+              "title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+              "url": "https://www.ndss-symposium.org/ndss-paper/prompt-injection-attack-to-tool-selection-in-llm-agents/",
+              "authors": "Jiawen Shi (Huazhong University of Science and Technology), Zenghui Yuan (Huazhong University of Science and Technology), Guiyao Tie (Huazhong University of Science and Technology), Pan Zhou (Huazhong University of Science and Technology), Neil Gong (Duke University), Lichao Sun (Lehigh University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "22aefac222835a39",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "4D",
+          "room": "Embarcadero",
+          "title": "Session 4D: AI Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "f558de99f39591cb",
+              "title": "Character-Level Perturbations Disrupt LLM Watermarks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/character-level-perturbations-disrupt-llm-watermarks/",
+              "authors": "Zhaoxi Zhang (University of Technology Sydney), Xiaomei Zhang (Griffith University), Yanjun Zhang (University of Technology Sydney), He Zhang (RMIT University), Shirui Pan (Griffith University), Bo Liu (University of Technology Sydney), Asif Qumer Gill (University of Technology Sydney Australia), Leo Zhang (Griffith University)",
+              "order": 1
+            },
+            {
+              "item_id": "4672599bb0d10a6a",
+              "title": "Dataset Reduction and Watermark Removal via Self-supervised Learning for Model Extraction Attack",
+              "url": "https://www.ndss-symposium.org/ndss-paper/dataset-reduction-and-watermark-removal-via-self-supervised-learning-for-model-extraction-attack/",
+              "authors": "Hao Luan (Fudan University), Xue Tan (Fudan University), Zhiheng Li (Shandong University), Jun Dai (Worcester Polytechnic Institute), Xiaoyan Sun (Worcester Polytechnic Institute), Ping Chen (Fudan University)",
+              "order": 2
+            },
+            {
+              "item_id": "04819307f053dba8",
+              "title": "Unshaken by Weak Embedding: Robust Probabilistic Watermarking for Dataset Copyright Protection",
+              "url": "https://www.ndss-symposium.org/ndss-paper/unshaken-by-weak-embedding-robust-probabilistic-watermarking-for-dataset-copyright-protection/",
+              "authors": "Shang Wang (University of Technology Sydney), Tianqing Zhu (City University of Macau), Dayong Ye (City University of Macau), Hua Ma (Data61, CSIRO), Bo Liu (University of Technology Sydney), Ming Ding (Data61, CSIRO), Shengfang Zhai (National University of Singapore), Yansong Gao (School of Cyber Science and Engineering, Southeast University)",
+              "order": 3
+            },
+            {
+              "item_id": "2125a0d5a383e303",
+              "title": "Benchmarking and Understanding Safety Risks in AI Character Platforms",
+              "url": "https://www.ndss-symposium.org/ndss-paper/benchmarking-and-understanding-safety-risks-in-ai-character-platforms/",
+              "authors": "Yiluo Wei (The Hong Kong University of Science and Technology (Guangzhou)), Peixian Zhang (The Hong Kong University of Science and Technology (Guangzhou)), Gareth Tyson (The Hong Kong University of Science and Technology (Guangzhou))",
+              "order": 4
             }
           ]
         }
       ]
     },
     {
-      "day_id": "6bc160fe8543175e",
-      "label": "Wednesday, February 25, 2026",
+      "day_id": "4cd27305bc01e0b5",
+      "label": "Wednesday, 25 February",
       "date": "2026-02-25",
       "sessions": [
         {
-          "session_id": "3b117f7e33f7ae9e",
-          "start": "09:00",
-          "end": "10:00",
-          "track": "",
-          "room": "",
-          "title": "Keynote: Securing Critical Infrastructure",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "0ccd97f233891ab2",
-              "title": "Securing Critical Infrastructure Against Nation-State Threats",
-              "url": "",
-              "authors": "Dr. John Miller, Director, CISA",
-              "order": 1
-            }
-          ]
-        },
-        {
-          "session_id": "8ac99df3672e6843",
-          "start": "10:00",
-          "end": "10:30",
-          "track": "",
-          "room": "",
-          "title": "Break",
-          "url": "",
-          "items": []
-        },
-        {
-          "session_id": "85356dbb3a3df6ef",
+          "session_id": "3028669ba5acfce8",
           "start": "10:30",
-          "end": "12:00",
-          "track": "4A",
-          "room": "",
-          "title": "Session 4A: Mobile Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "34ee8dca53dcbaf8",
-              "title": "Android Malware Detection via Program Analysis",
-              "url": "",
-              "authors": "Tara Sullivan, Uma Thompson (UC San Diego)",
-              "order": 1
-            },
-            {
-              "item_id": "a3e8a415f79d9bd2",
-              "title": "Zero-Click Exploits on iOS: Anatomy and Mitigations",
-              "url": "",
-              "authors": "Victor Underwood, Wendy Vasquez (University of Toronto)",
-              "order": 2
-            },
-            {
-              "item_id": "deda39e8a8409ca5",
-              "title": "Baseband Security in Modern 5G Devices",
-              "url": "",
-              "authors": "Xavier Walker, Yvonne Xavier (Seoul National University)",
-              "order": 3
-            },
-            {
-              "item_id": "cc178982f4786b9b",
-              "title": "Large-Scale Privacy Leak Analysis in Mobile Apps",
-              "url": "",
-              "authors": "Zack Young, Amy Zimmerman (Northeastern University)",
-              "order": 4
-            }
-          ]
-        },
-        {
-          "session_id": "7ce56d65f560dc65",
-          "start": "10:30",
-          "end": "12:00",
-          "track": "4B",
-          "room": "",
-          "title": "Session 4B: Software Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "00b12d3855a140ea",
-              "title": "Fuzzing in 2026: A Comprehensive Survey",
-              "url": "",
-              "authors": "Brian Adams, Christine Baker (ETH Zurich)",
-              "order": 1
-            },
-            {
-              "item_id": "320bcd1ad8e8f438",
-              "title": "Rust Memory Safety: Remaining Vulnerabilities",
-              "url": "",
-              "authors": "Daniel Carter, Emily Davis (University of Maryland)",
-              "order": 2
-            },
-            {
-              "item_id": "6869bab970d6adea",
-              "title": "Using LLMs for Automated Vulnerability Detection",
-              "url": "",
-              "authors": "Frank Edwards, Grace Flynn (UC Berkeley)",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "session_id": "d0ec7b92afe125b3",
-          "start": "12:00",
-          "end": "13:30",
-          "track": "",
-          "room": "",
-          "title": "Lunch Break",
-          "url": "",
-          "items": []
-        },
-        {
-          "session_id": "bab91e07535fbf46",
-          "start": "13:30",
-          "end": "15:00",
+          "end": "11:50",
           "track": "5A",
-          "room": "",
-          "title": "Session 5A: IoT and Embedded Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "9e3d751fcb98ddc5",
-              "title": "Automated Firmware Security Testing for IoT Devices",
-              "url": "",
-              "authors": "Henry Garcia, Isabel Hernandez (Northeastern)",
-              "order": 1
-            },
-            {
-              "item_id": "302316fdfce98c59",
-              "title": "Threat Modeling for Smart Home Ecosystems",
-              "url": "",
-              "authors": "James Ingram, Karen Johnson (Rice University)",
-              "order": 2
-            },
-            {
-              "item_id": "278abdc2dc6fd233",
-              "title": "Vulnerabilities in Industrial Control System Protocols",
-              "url": "",
-              "authors": "Larry King, Mary Lewis (Virginia Tech)",
-              "order": 3
-            },
-            {
-              "item_id": "557247e0b66b05f2",
-              "title": "TEE Attestation Bypass Techniques",
-              "url": "",
-              "authors": "Nathan Martin, Olivia Moore (KU Leuven)",
-              "order": 4
-            }
-          ]
-        },
-        {
-          "session_id": "108dc8f91caf4b60",
-          "start": "13:30",
-          "end": "15:00",
-          "track": "5B",
-          "room": "",
-          "title": "Session 5B: Authentication & Access Control",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "08180ac3cdb302ba",
-              "title": "Security Analysis of Passkeys (FIDO2/WebAuthn)",
-              "url": "",
-              "authors": "Peter Nelson, Quinn Oliver (University of Edinburgh)",
-              "order": 1
-            },
-            {
-              "item_id": "c5b213513b4620df",
-              "title": "MFA Fatigue Attacks: Detection and Prevention",
-              "url": "",
-              "authors": "Rebecca Parker, Steven Quinn (Boston University)",
-              "order": 2
-            },
-            {
-              "item_id": "ce4e98de9480e6c7",
-              "title": "Zero Trust Architecture: Security Analysis in Practice",
-              "url": "",
-              "authors": "Thomas Roberts, Ursula Stone (Carnegie Mellon)",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "session_id": "188af83b283c2058",
-          "start": "15:00",
-          "end": "15:30",
-          "track": "",
-          "room": "",
-          "title": "Break",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 5A: Systems Security",
           "url": "",
-          "items": []
-        },
-        {
-          "session_id": "7c0bf3afc3ae661c",
-          "start": "15:30",
-          "end": "17:00",
-          "track": "6A",
-          "room": "",
-          "title": "Session 6A: Blockchain & Decentralized Systems",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
           "items": [
             {
-              "item_id": "3c079b6454ade0d4",
-              "title": "Automated Detection of Smart Contract Vulnerabilities",
-              "url": "",
-              "authors": "Victoria Turner, Walter Underwood (Cornell)",
+              "item_id": "573057e02f70249e",
+              "title": "SACK: Systematic Generation of Function Substitution Attacks Against Control-Flow Integrity",
+              "url": "https://www.ndss-symposium.org/ndss-paper/sack-systematic-generation-of-function-substitution-attacks-against-control-flow-integrity/",
+              "authors": "Zhechang Zhang (The Pennsylvania State University), Hengkai Ye (The Pennsylvania State University), Song Liu (University of Delaware), Hong Hu (The Pennsylvania State University)",
               "order": 1
             },
             {
-              "item_id": "f6b5c11e29943708",
-              "title": "MEV Attacks in Decentralized Finance",
-              "url": "",
-              "authors": "Xenia Vasquez, Yolanda Walker (MIT)",
+              "item_id": "273312622b2d55e0",
+              "title": "DirtyFree: Simplified Data-Oriented Programming in the Linux Kernel",
+              "url": "https://www.ndss-symposium.org/ndss-paper/dirtyfree-simplified-data-oriented-programming-in-the-linux-kernel/",
+              "authors": "Yoochan Lee (Max Planck Institute for Security and Privacy), Hyuk Kwon (Theori, Inc.), Thorsten Holz (Max Planck Institute for Security and Privacy)",
               "order": 2
             },
             {
-              "item_id": "47f2bd3fa8e55378",
-              "title": "Privacy Analysis of Public Blockchain Transactions",
-              "url": "",
-              "authors": "Zachary Xavier, Abby Young (Brown University)",
+              "item_id": "f0e7deb227f500d5",
+              "title": "EXIA: Trusted Transitions for Enclaves via External-Input Attestation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/exia-trusted-transitions-for-enclaves-via-external-input-attestation/",
+              "authors": "Zhen Huang (Shanghai Jiao Tong University), Yidi Kao (Auburn University), Sanchuan Chen (Auburn University), Guoxing Chen (Shanghai Jiao Tong University), Yan Meng (Shanghai Jiao Tong University), Haojin Zhu (Shanghai Jiao Tong University)",
               "order": 3
             },
             {
-              "item_id": "fae660761af62fd6",
-              "title": "Security of Cross-Chain Bridge Protocols",
-              "url": "",
-              "authors": "Benjamin Zimmerman, Clara Adams (Columbia)",
+              "item_id": "06604bc9df8c6566",
+              "title": "LinkGuard: A Lightweight State-Aware Runtime Guard Against Link Following Attacks in Windows File System",
+              "url": "https://www.ndss-symposium.org/ndss-paper/linkguard-a-lightweight-state-aware-runtime-guard-against-link-following-attacks-in-windows-file-system/",
+              "authors": "Bocheng Xiang (Fudan University), Yuan Zhang (Fudan University), Hao Huang (Fudan university), Fengyu Liu (Fudan University), Youkun Shi (Fudan University)",
               "order": 4
             }
           ]
         },
         {
-          "session_id": "25509932d2200aa2",
-          "start": "15:30",
-          "end": "17:00",
-          "track": "6B",
-          "room": "",
-          "title": "Session 6B: Malware & Threat Intelligence",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+          "session_id": "e5ca5f29349bdcda",
+          "start": "10:30",
+          "end": "11:50",
+          "track": "5B",
+          "room": "Coast Ballroom",
+          "title": "Session 5B: Program Analysis & Fuzzing",
+          "url": "",
           "items": [
             {
-              "item_id": "8cedb5014b0011d4",
-              "title": "Real-Time Ransomware Detection via File I/O Analysis",
-              "url": "",
-              "authors": "Derek Baker, Emily Carter (UC Irvine)",
+              "item_id": "dae392603a336344",
+              "title": "ProtocolGuard: Detecting Protocol Non-compliance Bugs via LLM-guided Static Analysis and Dynamic Verification",
+              "url": "https://www.ndss-symposium.org/ndss-paper/protocolguard-detecting-protocol-non-compliance-bugs-via-llm-guided-static-analysis-and-dynamic-verification/",
+              "authors": "Xiangpu Song (Shandong University), Longjia Pei (Shandong University), Jianliang Wu (Simon Fraser University), Yingpei Zeng (Hangzhou Dianzi University), Gaoshuo He (Shandong University), Chaoshun Zuo (Independent Researcher), Xiaofeng Liu (Shandong University), Qingchuan Zhao (City University of Hong Kong), Shanqing Guo (Shandong University)",
               "order": 1
             },
             {
-              "item_id": "02b754a63026e68e",
-              "title": "APT Attribution Using Code Similarity Analysis",
-              "url": "",
-              "authors": "Frank Davis, Grace Edwards (Symantec Research)",
+              "item_id": "3d741f71151b54a0",
+              "title": "Formal Analysis of BLE Secure Connection Pairing and Revelation of the PE Confusion Attack",
+              "url": "https://www.ndss-symposium.org/ndss-paper/formal-analysis-of-ble-secure-connection-pairing-and-revelation-of-the-pe-confusion-attack/",
+              "authors": "Min Shi (Wuhan University), Yongkang Xiao (Wuhan University), Jing Chen (Wuhan University), Kun He (Wuhan University), Ruiying Du (Wuhan University), Meng Jia (Department of Computing, the Hong Kong Polytechnic University)",
               "order": 2
             },
             {
-              "item_id": "2a57c3add1407694",
-              "title": "Packers and Anti-Analysis: Modern Obfuscation Techniques",
-              "url": "",
-              "authors": "Henry Flynn, Iris Garcia (UC Santa Barbara)",
+              "item_id": "c069b4be5df5dc62",
+              "title": "An LLM-Driven Fuzzing Framework for Detecting Logic Instruction Bugs in PLCs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/an-llm-driven-fuzzing-framework-for-detecting-logic-instruction-bugs-in-plcs/",
+              "authors": "Jiaxing Cheng (Institute of Information Engineering, CAS; School of Cyber Security, UCAS), Ming Zhou (School of Cyber Science and Engineering, Nanjing University of Science and Technology), Haining Wang (Virginia Tech), Xin Chen (Institute of Institute of Information Engineering, CAS; School of Cyber Security, UCAS), Yuncheng Wang (Institute of Institute of Information Engineering, CAS; School of Cyber Security, UCAS), Yibo Qu (Institute of Institute of Information Engineering, CAS; School of Cyber Security, UCAS), Limin Sun (Institute of Institute of Information Engineering, CAS; School of Cyber Security, UCAS)",
               "order": 3
+            },
+            {
+              "item_id": "66e2fa3634c27c2e",
+              "title": "What Do They Fix? LLM-Aided Categorization of Security Patches for Critical Memory Bugs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/what-do-they-fix-llm-aided-categorization-of-security-patches-for-critical-memory-bugs/",
+              "authors": "Xingyu Li (UC Riverside), Juefei Pu (UC Riverside), Yifan Wu (UC Riverside), Xiaochen Zou (UC Riverside), Shitong Zhu (UC Riverside), Qiushi Wu (IBM), Zheng Zhang (UC Riverside), Joshua Hsu (UC Riverside), Yue Dong (UC Riverside), Zhiyun Qian (UC Riverside), Kangjie Lu (University of Minnesota), Trent Jaeger (UC Riverside), Michael De Lucia (U.S. Army Research Laboratory), Srikanth V. Krishnamurthy (UC Riverside)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "7900348418634151",
+          "start": "10:30",
+          "end": "11:50",
+          "track": "5C",
+          "room": "Porthole",
+          "title": "Session 5C: Multimedia Forensics",
+          "url": "",
+          "items": [
+            {
+              "item_id": "e1002e37fa1cc367",
+              "title": "ViGText: Deepfake Image Detection with Vision-Language Model Explanations and Graph Neural Networks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/vigtext-deepfake-image-detection-with-vision-language-model-explanations-and-graph-neural-networks/",
+              "authors": "Ahmad ALBarqawi (New Jersey Institute of Technology), Mahmoud Nazzal (Old Dominion University), Issa Khalil (Qatar Computing Research Institute (QCRI), HBKU), Abdallah Khreishah (New Jersey Institute of Technology), NhatHai Phan (New Jersey Institute of Technology)",
+              "order": 1
+            },
+            {
+              "item_id": "350ac5223c2c09f6",
+              "title": "Light2Lie: Detecting Deepfake Images Using Physical Reflectance Laws",
+              "url": "https://www.ndss-symposium.org/ndss-paper/light2lie-detecting-deepfake-images-using-physical-reflectance-laws/",
+              "authors": "Kavita Kumari (Technical University of Darmstadt), Sasha Behrouzi (Technical University of Darmstadt), Alessandro Pegoraro (Technical University of Darmstadt), Ahmad-Reza Sadeghi (Technical University of Darmstadt)",
+              "order": 2
+            },
+            {
+              "item_id": "4b8171d78ed2e562",
+              "title": "Rethinking Fake Speech Detection: A Generalized Framework Leveraging Spectrogram Magnitude",
+              "url": "https://www.ndss-symposium.org/ndss-paper/rethinking-fake-speech-detection-a-generalized-framework-leveraging-spectrogram-magnitude/",
+              "authors": "Zihao Liu (Iowa State University), Aobo Chen (Iowa State University), Yan Zhang (Iowa State University), Wensheng Zhang (Iowa State University), Chenglin Miao (Iowa State University)",
+              "order": 3
+            },
+            {
+              "item_id": "8629b9b83863efa0",
+              "title": "CAT: Can Trust be Predicted with Context-Awareness in Dynamic Heterogeneous Networks?",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cat-can-trust-be-predicted-with-context-awareness-in-dynamic-heterogeneous-networks/",
+              "authors": "Jie Wang (Xidian University), Zheng Yan (Xidian University), Jiahe Lan (Xidian University), Xuyan Li (Xidian University), Elisa Bertino (Purdue University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "30958d0cabd5ee87",
+          "start": "10:30",
+          "end": "11:50",
+          "track": "5D",
+          "room": "Embarcadero",
+          "title": "Session 5D: Microarchitectural Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "101595a00ddc0e9d",
+              "title": "When Cache Poisoning Meets LLM Systems: Semantic Cache Poisoning and Its Countermeasures",
+              "url": "https://www.ndss-symposium.org/ndss-paper/when-cache-poisoning-meets-llm-systems-semantic-cache-poisoning-and-its-countermeasures/",
+              "authors": "Guanlong Wu (Southern University of Science and Technology), Taojie Wang (Southern University of Science and Technology), Yao Zhang (ByteDance Inc.), Zheng Zhang (Southern University of Science and Technolog), Jianyu Niu (Southern University of Science and Technology), Ye Wu (ByteDance Inc.), Yinqian Zhang (SUSTech)",
+              "order": 1
+            },
+            {
+              "item_id": "06980332eb1eb1c7",
+              "title": "Shadow in the Cache: Unveiling and Mitigating Privacy Risks of KV-cache in LLM Inference",
+              "url": "https://www.ndss-symposium.org/ndss-paper/shadow-in-the-cache-unveiling-and-mitigating-privacy-risks-of-kv-cache-in-llm-inference/",
+              "authors": "Zhifan Luo (Zhejiang University), Shuo Shao (Zhejiang University), Su Zhang (Huawei Technology), Lijing Zhou (Huawei Technology), Yuke Hu (Zhejiang University), Chenxu Zhao (Zhejiang University), Zhihao Liu (Zhejiang University), Zhan Qin (Zhejiang University)",
+              "order": 2
+            },
+            {
+              "item_id": "d35ffc8ac6a70983",
+              "title": "Should I Trust You? Rethinking the Principle of Zone-Based Isolation DNS Bailiwick Checking",
+              "url": "https://www.ndss-symposium.org/ndss-paper/should-i-trust-you-rethinking-the-principle-of-zone-based-isolation-dns-bailiwick-checking/",
+              "authors": "Yuxiao Wu (Institute for Network Sciences and Cyberspace, BNRist, Tsinghua University), Yunyi Zhang (Tsinghua University), Chaoyi Lu (Zhongguancun Laboratory), Baojun Liu (Tsinghua University; Zhongguancun Laboratory)",
+              "order": 3
+            },
+            {
+              "item_id": "63f453efc8b2aa7a",
+              "title": "Cross-Cache Attacks for the Linux Kernel via PCP Massaging",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cross-cache-attacks-for-the-linux-kernel-via-pcp-massaging/",
+              "authors": "Claudio Migliorelli (IBM Research Europe - Zurich), Andrea Mambretti (IBM Research Europe - Zurich), Alessandro Sorniotti (IBM Research Europe - Zurich), Vittorio Zaccaria (Politecnico di Milano), Anil Kurmus (IBM Research Europe - Zurich)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "8da02119e97adc08",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "6A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 6A: Privacy & Measurement",
+          "url": "",
+          "items": [
+            {
+              "item_id": "8c36f8d7385ab3c1",
+              "title": "Memory Backdoor Attacks on Neural Networks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/memory-backdoor-attacks-on-neural-networks/",
+              "authors": "Eden Luzon (Ben Gurion University of the Negev), Guy Amit (Ben-Gurion University & IBM Research), Roy Weiss (Ben Gurion University of the Negev), Torsten Krauß (University of Würzburg), Alexandra Dmitrienko (University of Würzburg), Yisroel Mirsky (Ben Gurion University of the Negev)",
+              "order": 1
+            },
+            {
+              "item_id": "323ff6931dd05f5b",
+              "title": "AirSnitch: Demystifying and Breaking Client Isolation in Wi-Fi Networks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/airsnitch-demystifying-and-breaking-client-isolation-in-wi-fi-networks/",
+              "authors": "Xin'an Zhou (University of California, Riverside), Juefei Pu (University of California, Riverside), Zhutian Liu (University of California, Riverside), Zhiyun Qian (University of California, Riverside), Zhaowei Tan (University of California, Riverside), Srikanth V. Krishnamurthy (University of California, Riverside), Mathy Vanhoef (DistriNet, KU Leuven)",
+              "order": 2
+            },
+            {
+              "item_id": "369bfa6bb4cc4ee8",
+              "title": "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning",
+              "url": "https://www.ndss-symposium.org/ndss-paper/entente-cross-silo-intrusion-detection-on-network-log-graphs-with-federated-learning/",
+              "authors": "Jiacen Xu (Microsoft), Chenang Li (University of California, Irvine), Yu Zheng (University of California, Irvine), Zhou Li (University of California, Irvine)",
+              "order": 3
+            },
+            {
+              "item_id": "7349485640752e9a",
+              "title": "SVDefense: Effective Defense against Gradient Inversion Attacks via Singular Value Decomposition",
+              "url": "https://www.ndss-symposium.org/ndss-paper/svdefense-effective-defense-against-gradient-inversion-attacks-via-singular-value-decomposition/",
+              "authors": "Chenxiang Luo (City University of Hong Kong), David Yau (Singapore University of Technology and Design), Qun Song (City University of Hong Kong)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "8584160ef55ded4e",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "6B",
+          "room": "Coast Ballroom",
+          "title": "Session 6B: Systems Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "ef440e62a7b09a84",
+              "title": "Pitfalls for Security Isolation in Multi-CPU Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/pitfalls-for-security-isolation-in-multi-cpu-systems/",
+              "authors": "Simeon Hoffmann (CISPA Helmholtz Center for Information Security), Nils Ole Tippenhauer (CISPA Helmholtz Center for Information Security)",
+              "order": 1
+            },
+            {
+              "item_id": "e817a44498567db2",
+              "title": "HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing",
+              "url": "https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/",
+              "authors": "Manuel Andreas (Technical University of Munich), Fabian Specht (Technical University of Munich), Marius Momeu (Technical University of Munich)",
+              "order": 2
+            },
+            {
+              "item_id": "cc2bc31d30cb4024",
+              "title": "IsolatOS: Detecting Double Fetch Bugs in COTS RTOS by Re-enabling Kernel Isolation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/isolatos-detecting-double-fetch-bugs-in-cots-rtos-by-re-enabling-kernel-isolation/",
+              "authors": "Yingjie Cao (The Hong Kong Polytechnic University), Xiaogang Zhu (The University of Adelaide), Dean Sullivan (University of New Hampshire), Haowei Yang (360 Security Technology Inc.), Lei Xue (Sun Yat-sen University), Xian Li (Swinburne University of Technology), Chenxiong Qian (University of Hong Kong), Minrui Yan (Swinburne University of Technology), Xiapu Luo (The Hong Kong Polytechnic University)",
+              "order": 3
+            },
+            {
+              "item_id": "452b76e0db480247",
+              "title": "PhantomMap: GPU-Assisted Kernel Exploitation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/phantommap-gpu-assisted-kernel-exploitation/",
+              "authors": "Jiayi Hu (Zhejiang University), Qi Tang (Jilin University), Xingkai Wang (Zhejiang University), Jinmeng Zhou (Zhejiang University), Rui Chang (Zhejiang University), Wenbo Shen (Zhejiang University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "ab7c4a0bc03ba756",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "6C",
+          "room": "Porthole",
+          "title": "Session 6C: AI Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "99485e83fe0ccc14",
+              "title": "DNN Latency Sequencing: Extracting DNN Architectures from Intel SGX Enclaves with Single-Stepping Attacks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/dnn-latency-sequencing-extracting-dnn-architectures-from-intel-sgx-enclaves-with-single-stepping-attacks/",
+              "authors": "Minkyung Park (University of Texas at Dallas), Zelun Kong (University of Texas at Dallas), Dave (Jing) Tian (Purdue University), Z. Berkay Celik (Purdue University), Chung Hwan Kim (University of Texas at Dallas)",
+              "order": 1
+            },
+            {
+              "item_id": "830508e75288aec4",
+              "title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+              "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/",
+              "authors": "Rui Xiao (Zhejiang University), Sibo Feng (Zhejiang University), Soundarya Ramesh (National University of Singapore), Jun Han (KAIST), Jinsong Han (Zhejiang University)",
+              "order": 2
+            },
+            {
+              "item_id": "354c19e54f2658fd",
+              "title": "Achieving Zen: Combining Mathematical and Programmatic Deep Learning Model Representations for Attribution and Reuse",
+              "url": "https://www.ndss-symposium.org/ndss-paper/achieving-zen-combining-mathematical-and-programmatic-deep-learning-model-representations-for-attribution-and-reuse/",
+              "authors": "David Oygenblik (Georgia Institute of Technology), Dinko Dermendzhiev (Georgia Institute of Technology), Filippos Sofias (Georgia Institute of Technology), Mingxuan Yao (Georgia Institute of Technology), Haichuan Xu (Georgia Institute of Technology), Runze Zhang (Georgia Institute of Technology), Jeman Park (Kyung Hee University), Amit Kumar Sikder (Iowa State University), Brendan Saltaformaggio (Georgia Institute of Technology)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "48f9f9653ebc8ad0",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "6D",
+          "room": "Embarcadero",
+          "title": "Session 6D: Wireless Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "ddcf8f8c15e44acd",
+              "title": "XR Devices Send WiFi Packets When They Should Not: Cross-Building Keylogging Attacks via Non-Cooperative Wireless Sensing",
+              "url": "https://www.ndss-symposium.org/ndss-paper/xr-devices-send-wifi-packets-when-they-should-not-cross-building-keylogging-attacks-via-non-cooperative-wireless-sensing/",
+              "authors": "Christopher Vattheuer (UCLA), Justin Feng (UCLA), Hossein Khalili (UCLA), Nader Sehatbakhsh (UCLA), Omid Abari (UCLA)",
+              "order": 1
+            },
+            {
+              "item_id": "94fbfe1ac3ad6fcd",
+              "title": "From Perception to Protection: A Developer-Centered Study of Security and Privacy Threats in Extended Reality (XR)",
+              "url": "https://www.ndss-symposium.org/ndss-paper/from-perception-to-protection-a-developer-centered-study-of-security-and-privacy-threats-in-extended-reality-xr/",
+              "authors": "Kunlin Cai (University of California, Los Angeles), Jinghuai Zhang (University of California, Los Angeles), Ying Li (University of California, Los Angeles), Zhiyuan Wang (University of Virginia), Xun Chen (Independent Researcher), Tianshi Li (Northeastern University), Yuan Tian (University of California, Los Angeles)",
+              "order": 2
+            },
+            {
+              "item_id": "9ea47f4848c5b5c8",
+              "title": "PhantomMotion: Laser-Based Motion Injection Attacks on Wireless Security Surveillance Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/phantommotion-laser-based-motion-injection-attacks-on-wireless-security-surveillance-systems/",
+              "authors": "Yan He (University of Oklahoma), Guanchong Huang (University of Oklahoma), Song Fang (University of Oklahoma)",
+              "order": 3
+            },
+            {
+              "item_id": "842eb921c1239b9d",
+              "title": "Unknown Target: Uncovering and Detecting Novel In-Flight Attacks to Collision Avoidance (TCAS)",
+              "url": "https://www.ndss-symposium.org/ndss-paper/unknown-target-uncovering-and-detecting-novel-in-flight-attacks-to-collision-avoidance-tcas/",
+              "authors": "Giacomo Longo (University School of Advanced Defense Studies), Giacomo Ratto (University School of Advanced Defense Studies), Alessio Merlo (University School of Advanced Defense Studies), Enrico Russo (University of Genova)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "fd043ab0456ace00",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "7A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 7A: Network Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "cc9247cf52bd4954",
+              "title": "CryptPEFT: Efficient and Private Neural Network Inference via Parameter-Efficient Fine-Tuning",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cryptpeft-efficient-and-private-neural-network-inference-via-parameter-efficient-fine-tuning/",
+              "authors": "Saisai Xia (Institute of Information Engineering, CAS), Wenhao Wang (Institute of Information Engineering, CAS), Zihao Wang (Nanyang Technological University (NTU)), Yuhui Zhang (Institute of Information Engineering, CAS), Yier Jin (University of Science and Technology of China), Dan Meng (Institute of Information Engineering, CAS), Rui Hou (Institute of Information Engineering, CAS)",
+              "order": 1
+            },
+            {
+              "item_id": "6ed3307ae0985ba4",
+              "title": "Kangaroo: A Private and Amortized Inference Framework over WAN for Large-Scale Decision Tree Evaluation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/kangaroo-a-private-and-amortized-inference-framework-over-wan-for-large-scale-decision-tree-evaluation/",
+              "authors": "Wei Xu (Xidian University), Hui Zhu (Xidian University), Yandong Zheng (Xidian University), Song Bian (Beihang University), Ning Sun (Xidian University), Yuan Hao (Xidian University), Dengguo Feng (School of Cyber Science and Technology), Hui Li (Xidian University)",
+              "order": 2
+            },
+            {
+              "item_id": "7af6ef4b61aaa8b2",
+              "title": "ANONYCALL: Enabling Native Private Calling in Mobile Networks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/anonycall-enabling-native-private-calling-in-mobile-networks/",
+              "authors": "Hexuan Yu (Virginia Tech), Chaoyu Zhang (Virginia Tech), Yang Xiao (University of Kentucky), Angelos D. Keromytis (Georgia Institute of Technology), Y. Thomas Hou (Virginia Polytechnic Institute and State University), Wenjing Lou (Virginia Tech)",
+              "order": 3
+            },
+            {
+              "item_id": "1e95d360513645b4",
+              "title": "CELLSHIFT: RTT-Aware Trace Transduction for Real-World Website Fingerprinting",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cellshift-rtt-aware-trace-transduction-for-real-world-website-fingerprinting/",
+              "authors": "Rob Jansen (U.S. Naval Research Laboratory)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "bc34d8235a77eee4",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "7B",
+          "room": "Coast Ballroom",
+          "title": "Session 7B: Usable Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "4679316d737ce4d2",
+              "title": "Connecting the Dots: An Investigative Study on Linking Private User Data Across Messaging Apps",
+              "url": "https://www.ndss-symposium.org/ndss-paper/connecting-the-dots-an-investigative-study-on-linking-private-user-data-across-messaging-apps/",
+              "authors": "Junkyu Kang (KAIST), Soyoung Lee (KAIST), Yonghwi Kwon (University of Maryland), Sooel Son (KAIST)",
+              "order": 1
+            },
+            {
+              "item_id": "0a01548cd5edaa82",
+              "title": "Hey there! You are using WhatsApp: Enumerating Three Billion Accounts for Security and Privacy",
+              "url": "https://www.ndss-symposium.org/ndss-paper/hey-there-you-are-using-whatsapp-enumerating-three-billion-accounts-for-security-and-privacy/",
+              "authors": "Gabriel Karl Gegenhuber (University of Vienna), Philipp Frenzel (SBA Research), Maximilian Günther (University of Vienna), Johanna Ullrich (University of Vienna), Aljosha Judmayer (University of Vienna)",
+              "order": 2
+            },
+            {
+              "item_id": "6ffc1884ece24b26",
+              "title": "Anchors of Trust: A Usability Study on User Awareness, Consent, and Control in Cross-Device Authentication",
+              "url": "https://www.ndss-symposium.org/ndss-paper/anchors-of-trust-a-usability-study-on-user-awareness-consent-and-control-in-cross-device-authentication/",
+              "authors": "Xin Zhang (Fudan University), Xiaohan Zhang (Fudan University), Huijun Zhou (Fudan University), Bo Zhao (Fudan University)",
+              "order": 3
+            },
+            {
+              "item_id": "db2aeb7b58deb627",
+              "title": "CHAMELEOSCAN: Demystifying and Detecting iOS Chameleon Apps via LLM-Powered UI Exploration",
+              "url": "https://www.ndss-symposium.org/ndss-paper/chameleoscan-demystifying-and-detecting-ios-chameleon-apps-via-llm-powered-ui-exploration/",
+              "authors": "Hongyu Lin (Zhejiang University), Yicheng Hu (Zhejiang University), Haitao Xu (Zhejiang University), Yanchen Lu (Zhejiang University), Mengxia Ren (Zhejiang University), Shuai Hao (Old Dominion University), Chuan Yue (Colorado School of Mines), Zhao Li (Hangzhou Yugu Technology), Fan Zhang (Zhejiang University), Yixin Jiang (Electric Power Research Institute)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "ad97103f96f81cda",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "7C",
+          "room": "Porthole",
+          "title": "Session 7C: Privacy-Preserving Systems",
+          "url": "",
+          "items": [
+            {
+              "item_id": "1a0746f79f83c9be",
+              "title": "PIRANHAS: PrIvacy-Preserving Remote Attestation in Non-Hierarchical Asynchronous Swarms",
+              "url": "https://www.ndss-symposium.org/ndss-paper/piranhas-privacy-preserving-remote-attestation-in-non-hierarchical-asynchronous-swarms/",
+              "authors": "Jonas Hofmann (Technische Universität Darmstadt), Philipp-Florens Lehwalder (Technische Universität Darmstadt), Shahriar Ebrahimi (Alan Turing Institute), Parisa Hassanizadeh (IPPT PAN / University of Warwick), Sebastian Faust (Technische Universität Darmstadt)",
+              "order": 1
+            },
+            {
+              "item_id": "d776a5dd359998c6",
+              "title": "Cryptobazaar: Private Sealed-bid Auctions at Scale",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cryptobazaar-private-sealed-bid-auctions-at-scale/",
+              "authors": "Andrija Novakovic (Bain Capital Crypto), Alireza Kavousi (University College London), Kobi Gurkan (Bain Capital Crypto), Philipp Jovanovic (University College London)",
+              "order": 2
+            },
+            {
+              "item_id": "392b99c8863e6a66",
+              "title": "MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage",
+              "url": "https://www.ndss-symposium.org/ndss-paper/mvp-oram-a-wait-free-concurrent-oram-for-confidential-bft-storage/",
+              "authors": "Robin Vassantlal (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal), Hasan Heydari (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal), Bernardo Ferreira (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal), Alysson Bessani (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal)",
+              "order": 3
+            },
+            {
+              "item_id": "b710c33bdb56096d",
+              "title": "Enhancing Legal Document Security and Accessibility with TAF",
+              "url": "https://www.ndss-symposium.org/ndss-paper/enhancing-legal-document-security-and-accessibility-with-taf/",
+              "authors": "Renata Vaderna (Independent Researcher), Dušan Nikolić (University of Novi Sad), Patrick Zielinski (New York University), David Greisen (Open Law Library), BJ Ard (University of Wisconsin–Madison), Justin Cappos (New York University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "e1a0ab39ebd60ffe",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "7D",
+          "room": "Embarcadero",
+          "title": "Session 7D: Malware & Reverse Engineering",
+          "url": "",
+          "items": [
+            {
+              "item_id": "a04df645877f5687",
+              "title": "Learning from Leakage: Database Reconstruction from Just a Few Multidimensional Range Queries",
+              "url": "https://www.ndss-symposium.org/ndss-paper/learning-from-leakage-database-reconstruction-from-just-a-few-multidimensional-range-queries/",
+              "authors": "Peijie Li (TU Delft), Huanhuan Chen (TU Delft), Evangelia Anna Markatou (TU Delft), Kaitai Liang (TU Delft)",
+              "order": 1
+            },
+            {
+              "item_id": "b3970ecb0217989b",
+              "title": "Enhancing Semantic-Aware Binary Diffing with High-Confidence Dynamic Instruction Alignment",
+              "url": "https://www.ndss-symposium.org/ndss-paper/enhancing-semantic-aware-binary-diffing-with-high-confidence-dynamic-instruction-alignment/",
+              "authors": "Chengfeng Ye (The Hong Kong University of Science and Technology), Anshunkang Zhou (The Hong Kong University of Science and Technology), Charles Zhang (The Hong Kong University of Science and Technology)",
+              "order": 2
+            },
+            {
+              "item_id": "8dd54655e5cae7a0",
+              "title": "DUALBREACH: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization",
+              "url": "https://www.ndss-symposium.org/ndss-paper/dualbreach-efficient-dual-jailbreaking-via-target-driven-initialization-and-multi-target-optimization/",
+              "authors": "Xinzhe Huang (Zhejiang university), Kedong Xiu (Zhejiang university), Tianhang Zheng (Zhejiang university), Churui Zeng (Zhejiang university), Wangze Ni (Zhejiang university), Zhan Qin (Zhejiang university), Kui Ren (Zhejiang university), Chun Chen (Zhejiang university)",
+              "order": 3
+            },
+            {
+              "item_id": "1a6cc63867cc2972",
+              "title": "Cease at the Ultimate Goodness: Towards Efficient Website Fingerprinting Defense via Iterative Mutual Information Minimization",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cease-at-the-ultimate-goodness-towards-efficient-website-fingerprinting-defense-via-iterative-mutual-information-minimization/",
+              "authors": "Rong Wang (Southeast University), Zhen Ling (Southeast University), Guangchi Liu (Southeast University), Shaofeng Li (Southeast University), Junzhou Luo (Southeast University), Xinwen Fu (University of Massachusetts Lowell)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "7e8aee887480f353",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "8A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 8A: Malware & Reverse Engineering",
+          "url": "",
+          "items": [
+            {
+              "item_id": "cbd4936d02c2186b",
+              "title": "KnowHow: Automatically Applying High-Level CTI Knowledge for Interpretable and Accurate Provenance Analysis",
+              "url": "https://www.ndss-symposium.org/ndss-paper/knowhow-automatically-applying-high-level-cti-knowledge-for-interpretable-and-accurate-provenance-analysis/",
+              "authors": "Yuhan Meng (Key Laboratory of High-Confidence Software Technologies (MOE), School of Computer Science, Peking University), Shaofei Li (Key Laboratory of High-Confidence Software Technologies (MOE), School of Computer Science, Peking University), Jiaping Gui (School of Computer Science, Shanghai Jiao Tong University), Peng Jiang (Southeast University), Ding Li (Key Laboratory of High-Confidence Software Technologies (MOE), School of Computer Science, Peking University)",
+              "order": 1
+            },
+            {
+              "item_id": "7715ac56a1781c88",
+              "title": "From Noise to Signal: Precisely Identify Affected Packages of Known Vulnerabilities in npm Ecosystem",
+              "url": "https://www.ndss-symposium.org/ndss-paper/from-noise-to-signal-precisely-identify-affected-packages-of-known-vulnerabilities-in-npm-ecosystem/",
+              "authors": "Yingyuan Pu (QI-ANXIN Technology Research Institute), Lingyun Ying (QI-ANXIN Technology Research Institute), Yacong Gu (Tsinghua University; Tsinghua University-QI-ANXIN Group JCNS)",
+              "order": 2
+            },
+            {
+              "item_id": "69f65a3c217037c7",
+              "title": "Automating Function-Level TARA for Automotive Full-Lifecycle Security",
+              "url": "https://www.ndss-symposium.org/ndss-paper/automating-function-level-tara-for-automotive-full-lifecycle-security/",
+              "authors": "Yuqiao Yang (University of Electronic Science and Technology of China), Yongzhao Zhang (University of Electronic Science and Technology of China), Wenhao Liu (GoGoByte Technology), Jun Li (GoGoByte Technology), Pengtao Shi (GoGoByte Technology), DingYu Zhong (University of Electronic Science and Technology of China), Jie Yang (University of Electronic Science and Technology of China), Ting Chen (University of Electronic Science and Technology of China), Sheng Cao (University of Electronic Science and Technology of China), Yuntao Ren (University of Electronic Science and Technology of China), Yongyue Wu (University of Electronic Science and Technology of China), Xiaosong Zhang (University of Electronic Science and Technology of China)",
+              "order": 3
+            },
+            {
+              "item_id": "337e0195ffde8e4c",
+              "title": "Beyond Raw Bytes: Towards Large Malware Language Models",
+              "url": "https://www.ndss-symposium.org/ndss-paper/beyond-raw-bytes-towards-large-malware-language-models/",
+              "authors": "Luke Kurlandski (Rochester Institute of Technology), Harel Berger (Ariel University), Yin Pan (Rochester Institute of Technology), Matthew Wright (Rochester Institute of Technology)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "d5ccbf061e3343c8",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "8B",
+          "room": "Coast Ballroom",
+          "title": "Session 8B: Program Analysis & Fuzzing",
+          "url": "",
+          "items": [
+            {
+              "item_id": "ec6f6ce9f60f8ca3",
+              "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+              "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+              "authors": "Meng Wang (CISPA Helmholtz Center for Information Security), Philipp Görz (CISPA Helmholtz Center for Information Security), Joschua Schilling (CISPA Helmholtz Center for Information Security), Keno Hassler (CISPA Helmholtz Center for Information Security), Liwei Guo (University of Electronic Science and Technology), Thorsten Holz (Max Planck Institute for Security and Privacy), Ali Abbasi (CISPA Helmholtz Center for Information Security)",
+              "order": 1
+            },
+            {
+              "item_id": "02456d501bfdeb05",
+              "title": "Discovering Blind-Trust Vulnerabilities in PLC Binaries via State Machine Recovery",
+              "url": "https://www.ndss-symposium.org/ndss-paper/discovering-blind-trust-vulnerabilities-in-plc-binaries-via-state-machine-recovery/",
+              "authors": "Fangzhou Dong (Arizona State University), Arvind S Raj (Arizona State University), Efrén López-Morales (New Mexico State University), Siyu Liu (Arizona State University), Yan Shoshitaishvili (Arizona State University), Tiffany Bao (Arizona State University), Adam Doupé (Arizona State University), Muslum Ozgur Ozmen (Arizona State University), Ruoyu Wang (Arizona State University)",
+              "order": 2
+            },
+            {
+              "item_id": "25400117fb24f763",
+              "title": "BunnyFinder: Finding Incentive Flaws for Ethereum Consensus",
+              "url": "https://www.ndss-symposium.org/ndss-paper/bunnyfinder-finding-incentive-flaws-for-ethereum-consensus/",
+              "authors": "Rujia Li (Tsinghua University), Mingfei Zhang (Shandong University), Xueqian Lu (Independent Reseacher), Wenbo Xu (AntChain Platform Division, Ant Group), Ying Yan (Blockchain Platform Division, Ant Group), Sisi Duan (Tsinghua University)",
+              "order": 3
+            },
+            {
+              "item_id": "cb863bece2597fec",
+              "title": "ReFuzz: Reusing Tests for Processor Fuzzing with Contextual Bandits",
+              "url": "https://www.ndss-symposium.org/ndss-paper/refuzz-reusing-tests-for-processor-fuzzing-with-contextual-bandits/",
+              "authors": "Chen Chen (Texas A&M University), Zaiyan Xu (Texas A&M University), Mohamadreza Rostami (Technical University of Darmstadt), David Liu (Texas A & M University), Dileep Kalathil (TAMU), Ahmad-Reza Sadeghi (TU Darmstadt), Jeyavijayan Rajendran (TAMU)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "8c046d28294c4bab",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "8C",
+          "room": "Porthole",
+          "title": "Session 8C: AI Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "178a9a57899d45a7",
+              "title": "Was My Data Used for Training? Membership Inference in Open-Source LLMs via Neural Activations",
+              "url": "https://www.ndss-symposium.org/ndss-paper/was-my-data-used-for-training-membership-inference-in-open-source-llms-via-neural-activations/",
+              "authors": "Xue Tan (Fudan University), Hao Luan (Fudan University), Mingyu Luo (Fudan University), Zhuyang Yu (Fudan University), Jun Dai (Worcester Polytechnic Institute), Xiaoyan Sun (Worcester Polytechnic Institute), Ping Chen (Fudan University)",
+              "order": 1
+            },
+            {
+              "item_id": "9db9b6159cf5405b",
+              "title": "Cascading and Proxy Membership Inference Attacks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cascading-and-proxy-membership-inference-attacks/",
+              "authors": "Yuntao Du (Purdue University), Jiacheng Li (Purdue University), Yuetian Chen (Purdue University), Kaiyuan Zhang (Purdue University), Zhizhen Yuan (Purdue University), Hanshen Xiao (Purdue University), Bruno Ribeiro (Purdue University), Ninghui Li (Purdue University)",
+              "order": 2
+            },
+            {
+              "item_id": "ea3f871848b6b29d",
+              "title": "ExpShield: Safeguarding Web Text from Unauthorized Crawling and LLM Exploitation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/expshield-safeguarding-web-text-from-unauthorized-crawling-and-llm-exploitation/",
+              "authors": "Ruixuan Liu (Emory University), Toan Tran (Emory University), Tianhao Wang (University of Virginia), Hongsheng Hu (Shanghai Jiao Tong University), Shuo Wang (Shanghai Jiao Tong University), Li Xiong (Emory University)",
+              "order": 3
+            },
+            {
+              "item_id": "980ee717cd590626",
+              "title": "ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data",
+              "url": "https://www.ndss-symposium.org/ndss-paper/obliinjection-order-oblivious-prompt-injection-attack-to-llm-agents-with-multi-source-data/",
+              "authors": "Reachal Wang (Duke University), Yuqi Jia (Duke University), Neil Gong (Duke University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "a8688aaa191cf744",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "8D",
+          "room": "Embarcadero",
+          "title": "Session 8D: Network Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "f23a262d9b7b5a86",
+              "title": "Lightweight Internet Bandwidth Allocation and Isolation with Fractional Fair Shares",
+              "url": "https://www.ndss-symposium.org/ndss-paper/lightweight-internet-bandwidth-allocation-and-isolation-with-fractional-fair-shares/",
+              "authors": "Marc Wyss (ETH Zurich), Yih-Chun Hu (University of Illinois at Urbana-Champaign), Vincent Lenders (University of Luxembourg), Roland Meier (armasuisse), Adrian Perrig (ETH Zurich)",
+              "order": 1
+            },
+            {
+              "item_id": "7a6634d66704dad7",
+              "title": "Aliens Among Us: Observing Private or Reserved IPs on the Public Internet",
+              "url": "https://www.ndss-symposium.org/ndss-paper/aliens-among-us-observing-private-or-reserved-ips-on-the-public-internet/",
+              "authors": "Radu Anghel (TU Delft), Carlos Gañán (ICANN), Qasim Lone (RIPE NCC), Matthew Luckie (CAIDA), Yury Zhauniarovich (TU Delft)",
+              "order": 2
+            },
+            {
+              "item_id": "0eda410c130d9476",
+              "title": "Are your Sites Truly Isolated? Automatically Detecting Logic Bugs in Site Isolation Implementations",
+              "url": "https://www.ndss-symposium.org/ndss-paper/are-your-sites-truly-isolated-automatically-detecting-logic-bugs-in-site-isolation-implementations/",
+              "authors": "Jan Drescher (TU Braunschweig), David Klein (TU Braunschweig), Martin Johns (TU Braunschweig)",
+              "order": 3
+            },
+            {
+              "item_id": "ece60e21570fdd6d",
+              "title": "Pruning the Tree: Rethinking RPKI Architecture from the Ground up",
+              "url": "https://www.ndss-symposium.org/ndss-paper/pruning-the-tree-rethinking-rpki-architecture-from-the-ground-up/",
+              "authors": "Haya Schulmann (Goethe-Universität Frankfurt), Niklas Vogel (Goethe-Universität Frankfurt)",
+              "order": 4
             }
           ]
         }
       ]
     },
     {
-      "day_id": "54648ff843e78a12",
-      "label": "Thursday, February 26, 2026",
+      "day_id": "6d7d60a4aec552cd",
+      "label": "Thursday, 26 February",
       "date": "2026-02-26",
       "sessions": [
         {
-          "session_id": "f5a4be0f66549e6f",
-          "start": "09:00",
-          "end": "10:00",
-          "track": "",
-          "room": "",
-          "title": "Keynote: Privacy in the Age of AI",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "a5629c5da1773f92",
-              "title": "Privacy in the Age of AI: Challenges and Opportunities",
-              "url": "",
-              "authors": "Prof. Maria Gonzalez, Cambridge University",
-              "order": 1
-            }
-          ]
-        },
-        {
-          "session_id": "8ac99df3672e6843",
-          "start": "10:00",
-          "end": "10:30",
-          "track": "",
-          "room": "",
-          "title": "Break",
+          "session_id": "fb0c85b6a01bbd78",
+          "start": "09:20",
+          "end": "10:40",
+          "track": "9A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 9A: Fuzzing",
           "url": "",
-          "items": []
-        },
-        {
-          "session_id": "24df1493e86db2d6",
-          "start": "10:30",
-          "end": "12:00",
-          "track": "7A",
-          "room": "",
-          "title": "Session 7A: Cloud & Virtualization Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
           "items": [
             {
-              "item_id": "13914deca328f51f",
-              "title": "Automated Detection of Cloud Misconfigurations at Scale",
-              "url": "",
-              "authors": "James Hernandez, Karen Ingram (Google Research)",
+              "item_id": "a8e570cec8f68eb1",
+              "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
+              "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilicon-a-post-silicon-microcode-guided-x86-cpu-fuzzer/",
+              "authors": "Johannes Lenzen (Technical University of Darmstadt), Mohamadreza Rostami (Technical University of Darmstadt), Lichao Wu (TU Darmstadt), Ahmad-Reza Sadeghi (Technical University of Darmstadt)",
               "order": 1
             },
             {
-              "item_id": "78ad809a2cd43616",
-              "title": "MicroVM Isolation: Security Analysis of Firecracker and gVisor",
-              "url": "",
-              "authors": "Larry Johnson, Mary King (AWS Research)",
+              "item_id": "ec1a5c2ed4b255b2",
+              "title": "GoldenFuzz: Generative Golden Reference Hardware Fuzzing",
+              "url": "https://www.ndss-symposium.org/ndss-paper/goldenfuzz-generative-golden-reference-hardware-fuzzing/",
+              "authors": "Lichao Wu (Technical University of Darmstadt), Mohamadreza Rostami (Technical University of Darmstadt), Huimin Li (Technical University of Darmstadt), Nikhilesh Singh (Technical University of Darmstadt), Ahmad-Reza Sadeghi (Technical University of Darmstadt)",
               "order": 2
             },
             {
-              "item_id": "49841775c6e1f894",
-              "title": "New Attacks Against Intel SGX Enclaves",
-              "url": "",
-              "authors": "Nathan Lewis, Olivia Martin (Graz University of Technology)",
+              "item_id": "7426085fd79d9f77",
+              "title": "ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles",
+              "url": "https://www.ndss-symposium.org/ndss-paper/adgfuzz-assignment-dependency-guided-fuzzing-for-robotic-vehicles/",
+              "authors": "Yuncheng Wang (Institute of Information Engineering, CAS, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China), Yaowen Zheng (Institute of Information Engineering, CAS, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China), Puzhuo Liu (Ant Group; Tsinghua University), Dongliang Fang (Institute of Information Engineering, CAS, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China), Jiaxing Cheng (Institute of Information Engineering, CAS, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China), Dingyi Shi (Institute of Information Engineering, CAS, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China), Limin Sun (Institute of Information Engineering, CAS, Beijing, China; School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China)",
               "order": 3
             },
             {
-              "item_id": "f685257492ca6de7",
-              "title": "Security Challenges in Serverless Computing",
-              "url": "",
-              "authors": "Peter Moore, Quinn Nelson (University of Chicago)",
+              "item_id": "38cfa0002ac1585d",
+              "title": "RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels",
+              "url": "https://www.ndss-symposium.org/ndss-paper/rtcon-context-adaptive-function-level-fuzzing-for-rtos-kernels/",
+              "authors": "Eunkyu Lee (KAIST), Junyoung Park (KAIST), Insu Yun (KAIST)",
               "order": 4
             }
           ]
         },
         {
-          "session_id": "f2121310f159d439",
-          "start": "10:30",
-          "end": "12:00",
-          "track": "7B",
-          "room": "",
-          "title": "Session 7B: Usable Security & Privacy",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": [
-            {
-              "item_id": "6a73e08d9d55f308",
-              "title": "Why Security Warnings Fail: A User Study",
-              "url": "",
-              "authors": "Rachel Oliver, Steven Parker (Carnegie Mellon)",
-              "order": 1
-            },
-            {
-              "item_id": "18be8f8792782d2f",
-              "title": "Privacy Nutrition Labels: Evaluation and Improvement",
-              "url": "",
-              "authors": "Thomas Quinn, Ursula Roberts (Georgetown University)",
-              "order": 2
-            },
-            {
-              "item_id": "60a3854a6a326771",
-              "title": "A Usability Study of Modern Password Managers",
-              "url": "",
-              "authors": "Victoria Stone, Walter Turner (Indiana University)",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "session_id": "4f6aa4da71a5789e",
-          "start": "12:00",
-          "end": "14:00",
-          "track": "",
-          "room": "",
-          "title": "Lunch Break & Poster Session",
+          "session_id": "1db0996d7c967fbe",
+          "start": "09:20",
+          "end": "10:40",
+          "track": "9B",
+          "room": "Coast Ballroom",
+          "title": "Session 9B: Systems Security",
           "url": "",
-          "items": []
-        },
-        {
-          "session_id": "18597905085a82bd",
-          "start": "14:00",
-          "end": "15:30",
-          "track": "8A",
-          "room": "",
-          "title": "Session 8A: AI Security",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
           "items": [
             {
-              "item_id": "9e0082556eb14db2",
-              "title": "Systematic Study of LLM Jailbreaking Techniques",
-              "url": "",
-              "authors": "Xenia Underwood, Yolanda Vasquez (Stanford)",
+              "item_id": "4127325bfbbf4651",
+              "title": "BINALIGNER: Aligning Binary Code for Cross-Compilation Environment Diffing",
+              "url": "https://www.ndss-symposium.org/ndss-paper/binaligner-aligning-binary-code-for-cross-compilation-environment-diffing/",
+              "authors": "Yiran Zhu (The State Key Laboratory of Blockchain and Data Security, Zhejiang University), Tong Tang (The State Key Laboratory of Blockchain and Data Security, Zhejiang University), Jie Wan (The State Key Laboratory of Blockchain and Data Security, Zhejiang University), Ziqi Yang (The State Key Laboratory of Blockchain and Data Security, Zhejiang University; Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain and Data Security), Zhenguang Liu (The State Key Laboratory of Blockchain and Data Security, Zhejiang University; Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain and Data Security), Lorenzo Cavallaro (University College London)",
               "order": 1
             },
             {
-              "item_id": "29dba425d6d75c1d",
-              "title": "AI-Powered Intrusion Detection: False Positive Analysis",
-              "url": "",
-              "authors": "Zachary Walker, Abby Xavier (University of Texas)",
+              "item_id": "42035f152a83e703",
+              "title": "Cross-Consensus Reliable Broadcast and its Applications",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cross-consensus-reliable-broadcast-and-its-applications/",
+              "authors": "Yue Huang (Tsinghua University), Xin Wang (Tsinghua University), Haibin Zhang (Yangtze Delta Region Institute of Tsinghua University, Zhejiang), Sisi Duan (Tsinghua University)",
               "order": 2
             },
             {
-              "item_id": "0cfecdf9cc62a0c7",
-              "title": "Deepfake Detection: State of the Art and Open Problems",
-              "url": "",
-              "authors": "Benjamin Young, Clara Zimmerman (Facebook Research)",
+              "item_id": "6a4d4d3da3156024",
+              "title": "vSim: Semantics-Aware Value Extraction for Efficient Binary Code Similarity Analysis",
+              "url": "https://www.ndss-symposium.org/ndss-paper/vsim-semantics-aware-value-extraction-for-efficient-binary-code-similarity-analysis/",
+              "authors": "Huaijin Wang (The Ohio State University), Zhiqiang Lin (The Ohio State University)",
               "order": 3
             },
             {
-              "item_id": "1bafd77ce3edcbde",
-              "title": "LLMs as Security Auditors: Benchmarks and Limits",
-              "url": "",
-              "authors": "Derek Adams, Emily Baker (Microsoft Research)",
+              "item_id": "a61f7955a2f1c362",
+              "title": "A Deep Dive into Function Inlining and its Security Implications for ML-based Binary Analysis",
+              "url": "https://www.ndss-symposium.org/ndss-paper/a-deep-dive-into-function-inlining-and-its-security-implications-for-ml-based-binary-analysis/",
+              "authors": "Omar Abusabha (Sungkyunkwan university), Jiyong Uhm (Sungkyunkwan University), Tamer Abuhmed (Sungkyunkwan university), Hyungjoon Koo (Sungkyunkwan University)",
               "order": 4
             }
           ]
         },
         {
-          "session_id": "2db49b09f6fbb73e",
-          "start": "14:00",
-          "end": "15:30",
-          "track": "8B",
-          "room": "",
-          "title": "Session 8B: Network Intrusion & Detection",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+          "session_id": "920c9b92443f5f15",
+          "start": "09:20",
+          "end": "10:40",
+          "track": "9C",
+          "room": "Porthole",
+          "title": "Session 9C: Network Security",
+          "url": "",
           "items": [
             {
-              "item_id": "4f144e68c0bb5b7e",
-              "title": "Encrypted Traffic Classification Without Decryption",
-              "url": "",
-              "authors": "Frank Carter, Grace Davis (EPFL)",
+              "item_id": "ab150a7629e0f028",
+              "title": "Time and Time Again: Leveraging TCP Timestamps to Improve Remote Timing Attacks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/time-and-time-again-leveraging-tcp-timestamps-to-improve-remote-timing-attacks/",
+              "authors": "Vik Vanderlinden (DistriNet, KU Leuven), Tom Van Goethem (DistriNet, KU Leuven), Mathy Vanhoef (DistriNet, KU Leuven)",
               "order": 1
             },
             {
-              "item_id": "558e89d29dde4cfc",
-              "title": "Botnet Detection Using Graph Neural Networks",
-              "url": "",
-              "authors": "Henry Edwards, Iris Flynn (University of Amsterdam)",
+              "item_id": "93f699403f913116",
+              "title": "Continuous User Behavior Monitoring using DNS Cache Timing Attacks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/continuous-user-behavior-monitoring-using-dns-cache-timing-attacks/",
+              "authors": "Hannes Weissteiner (Graz University of Technology), Roland Czerny (Graz University of Technology), Simone Franza (Graz University of Technology), Stefan Gast (Graz University of Technology), Johanna Ullrich (University of Vienna), Daniel Gruss (Graz University of Technology)",
               "order": 2
             },
             {
-              "item_id": "3ab5c3ebb14a6086",
-              "title": "New DDoS Amplification Vectors in Modern Protocols",
-              "url": "",
-              "authors": "James Garcia, Karen Hernandez (Ruhr University Bochum)",
+              "item_id": "34700a332ec3a411",
+              "title": "On Borrowed Time: Measurement-Informed Understanding of the NTP Pool's Robustness to Monopoly Attacks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-measurement-informed-understanding-of-the-ntp-pools-robustness-to-monopoly-attacks/",
+              "authors": "Robert Beverly (San Diego State University), Erik Rye (Johns Hopkins University)",
+              "order": 3
+            },
+            {
+              "item_id": "8d553017e10c533e",
+              "title": "Bit of a Close Talker: A Practical Guide to Serverless Cloud Co-Location Attacks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/bit-of-a-close-talker-a-practical-guide-to-serverless-cloud-co-location-attacks/",
+              "authors": "Wei Shao (University of California, Davis), Najmeh Nazari (University of California, Davis), Behnam Omidi (George Mason University), Setareh Rafatirad (University of California, Davis), Khaled N. Khasawneh (George Mason University), Houman Homayoun (University of California Davis), Chongzhou Fang (Rochester Institute of Technology)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "9680615bd81dadda",
+          "start": "09:20",
+          "end": "10:40",
+          "track": "9D",
+          "room": "Embarcadero",
+          "title": "Session 9D: Web & Content Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "dc5d0f0cf308a483",
+              "title": "PANDORA: Lightweight Adversarial Defense for Edge IoT using Uncertainty-Aware Metric Learning",
+              "url": "https://www.ndss-symposium.org/ndss-paper/pandora-lightweight-adversarial-defense-for-edge-iot-using-uncertainty-aware-metric-learning/",
+              "authors": "Avinash Awasth (Malaviya National Institute of Technology Jaipur), Pritam Vediya (Malaviya National Institute of Technology Jaipur), Hemant Miranka (LNMIIT Jaipur), Ramesh Babu Battula (Malaviya National Institute of Technology Jaipur), Manoj Sigh Gaur (IIT Jammu)",
+              "order": 1
+            },
+            {
+              "item_id": "e0b5ac678802ffe7",
+              "title": "Strategic Games and Zero-Shot Attacks on Heavy-Hitter Network Flow Monitoring",
+              "url": "https://www.ndss-symposium.org/ndss-paper/strategic-games-and-zero-shot-attacks-on-heavy-hitter-network-flow-monitoring/",
+              "authors": "Francesco Da Dalt (ETH Zürich), Adrian Perrig (ETH Zurich)",
+              "order": 2
+            },
+            {
+              "item_id": "97987c5048d7477f",
+              "title": "PhishLang: A Real-Time, Fully Client-Side Phishing Detection Framework Using MobileBERT",
+              "url": "https://www.ndss-symposium.org/ndss-paper/phishlang-a-real-time-fully-client-side-phishing-detection-framework-using-mobilebert/",
+              "authors": "Sayak Saha Roy (The University of Texas at Arlington), Shirin Nilizadeh (The University of Texas at Arlington)",
+              "order": 3
+            },
+            {
+              "item_id": "07c09c99b7137512",
+              "title": "CoLD: Collaborative Label Denoising Framework for Network Intrusion Detection",
+              "url": "https://www.ndss-symposium.org/ndss-paper/cold-collaborative-label-denoising-framework-for-network-intrusion-detection/",
+              "authors": "Shuo Yang (The University of Hong Kong), Xinran Zheng (University College London), Jinze Li (The University of Hong Kong), Jinfeng Xu (The University of Hong Kong), Edith C. H. Ngai (The University of Hong Kong)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "5c2a24015e32b8a9",
+          "start": "10:50",
+          "end": "11:50",
+          "track": "10A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 10A: Stealthy Evasion Attacks",
+          "url": "",
+          "items": [
+            {
+              "item_id": "603d6f60ee1ab24a",
+              "title": "Targeted Physical Evasion Attacks in the Near-Infrared Domain",
+              "url": "https://www.ndss-symposium.org/ndss-paper/targeted-physical-evasion-attacks-in-the-near-infrared-domain/",
+              "authors": "Pascal Zimmer (Ruhr University Bochum), Simon Lachnit (Ruhr University Bochum), Alexander Jan Zielinski (Ruhr University Bochum), Ghassan Karame (Ruhr University Bochum)",
+              "order": 1
+            },
+            {
+              "item_id": "7b7514529c94de48",
+              "title": "FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/flytrap-physical-distance-pulling-attack-towards-camera-based-autonomous-target-tracking-systems/",
+              "authors": "Shaoyuan Xie (University of California, Irvine), Mohamad Habib Fakih (University of California, Irvine), Junchi Lu (University of California, Irvine), Fayzah Alshammari (University of California, Irvine), Ningfei Wang (University of California, Irvine), Takami Sato (University of California, Irvine), Halima Bouzidi (University of California Irvine), Mohammad Abdullah Al Faruque (University of California, Irvine), Qi Alfred Chen (University of California, Irvine)",
+              "order": 2
+            },
+            {
+              "item_id": "258cd36dfdca9af1",
+              "title": "Understanding the Stealthy BGP Hijacking Risk in the ROV Era",
+              "url": "https://www.ndss-symposium.org/ndss-paper/understanding-the-stealthy-bgp-hijacking-risk-in-the-rov-era/",
+              "authors": "Yihao Chen (DCST & BNRist & State Key Laboratory of Internet Architecture, Tsinghua University; Zhongguancun Laboratory), Qi Li (INSC & State Key Laboratory of Internet Architecture, Tsinghua University; Zhongguancun Laboratory), Ke Xu (DCST & State Key Laboratory of Internet Architecture, Tsinghua University; Zhongguancun Laboratory), Zhuotao Liu (INSC & State Key Laboratory of Internet Architecture, Tsinghua University; Zhongguancun Laboratory), Jianping Wu (INSC & State Key Laboratory of Internet Architecture, Tsinghua University; Zhongguancun Laboratory)",
               "order": 3
             }
           ]
         },
         {
-          "session_id": "cd103934d132ecbb",
-          "start": "15:30",
-          "end": "16:00",
-          "track": "",
-          "room": "",
-          "title": "Break",
+          "session_id": "1db9a8e89e3e6835",
+          "start": "10:50",
+          "end": "11:50",
+          "track": "10B",
+          "room": "Coast Ballroom",
+          "title": "Session 10B: Messaging Security",
           "url": "",
-          "items": []
+          "items": [
+            {
+              "item_id": "eedb187f470ea09a",
+              "title": "TBTrackerX: Fantastic Trigger Bots and Where to Find Malicious Campaigns on X",
+              "url": "https://www.ndss-symposium.org/ndss-paper/tbtrackerx-fantastic-trigger-bots-and-where-to-find-malicious-campaigns-on-x/",
+              "authors": "Mohammad Majid Akhtar (University of New South Wales), Rahat Masood (University of New South Wales), Muhammad Ikram (Macquarie University), Salil S. Kanhere (University of New South Wales)",
+              "order": 1
+            },
+            {
+              "item_id": "d1da6a33092ccfd1",
+              "title": "CoordMail: Exploiting SMTP Timeout and Command Interaction to Coordinate Email Middleware for Convergence Amplification Attack",
+              "url": "https://www.ndss-symposium.org/ndss-paper/coordmail-exploiting-smtp-timeout-and-command-interaction-to-coordinate-email-middleware-for-convergence-amplification-attack/",
+              "authors": "Ruixuan Li (Tsinghua University), Chaoyi Lu (Zhongguancun Laboratory), Baojun Liu (Tsinghua University), Yanzhong Lin (Coremail Technology Co. Ltd), Qingfeng Pan (Coremail Technology Co. Ltd), Jun Shao (Zhejiang Gongshang University; Zhejiang Key Laboratory of Big Data and Future E-Commerce Technology)",
+              "order": 2
+            },
+            {
+              "item_id": "580222310b8da5ba",
+              "title": "One Email, Many Faces: A Deep Dive into Identity Confusion in Email Aliases",
+              "url": "https://www.ndss-symposium.org/ndss-paper/one-email-many-faces-a-deep-dive-into-identity-confusion-in-email-aliases/",
+              "authors": "Mengying Wu (Fudan University), Geng Hong (Fudan University), Jiatao Chen (Fudan University), Baojun Liu (Tsinghua University), Mingxuan Liu (Zhongguancun Laboratory), Min Yang (Fudan University)",
+              "order": 3
+            }
+          ]
         },
         {
-          "session_id": "8aa9ea57fbaca5cd",
-          "start": "16:00",
-          "end": "17:00",
-          "track": "",
-          "room": "",
-          "title": "Closing Ceremony & Awards",
-          "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-          "items": []
+          "session_id": "fabcf2ff4a90874e",
+          "start": "10:50",
+          "end": "11:50",
+          "track": "10C",
+          "room": "Porthole",
+          "title": "Session 10C: Systems Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "b6a27da9a2ec03ec",
+              "title": "Fast Pointer Nullification for Use-After-Free Prevention",
+              "url": "https://www.ndss-symposium.org/ndss-paper/fast-pointer-nullification-for-use-after-free-prevention/",
+              "authors": "Yubo Du (University of Pittsburgh), Youtao Zhang (University of Pittsburgh), Jun Yang (University of Pittsburgh)",
+              "order": 1
+            },
+            {
+              "item_id": "aad2410d84cbccb1",
+              "title": "ropbot: Reimaging Code Reuse Attack Synthesis",
+              "url": "https://www.ndss-symposium.org/ndss-paper/ropbot-reimaging-code-reuse-attack-synthesis/",
+              "authors": "Kyle Zeng (Arizona State University), Moritz Schloegel (CISPA Helmholtz Center for Information Security), Christopher Salls (UC Santa Barbara), Adam Doupé (Arizona State University), Ruoyu Wang (Arizona State University), Yan Shoshitaishvili (Arizona State University), Tiffany Bao (Arizona State University)",
+              "order": 2
+            },
+            {
+              "item_id": "ce5a4c31b8f6027e",
+              "title": "Token Time Bomb: Evaluating JWT Implementations for Vulnerability Discovery",
+              "url": "https://www.ndss-symposium.org/ndss-paper/token-time-bomb-evaluating-jwt-implementations-for-vulnerability-discovery/",
+              "authors": "Jingcheng Yang (Tsinghua University), Enze Wang (National University of Defense Technology & Tsinghua University), Jianjun Chen (Tsinghua University), Qi Wang (Tsinghua University), Yuheng Zhang (Tsinghua University), Haixin Duan (Quancheng Lab，Tsinghua University), Wei Xie (College of Computer, National University of Defense Technology), Baosheng Wang (National University of Defense Technology)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "cc2d2c1d41c3c894",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "11A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 11A: Usable Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "981614e3f0b4590c",
+              "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+              "url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+              "authors": "Andrea Infantino (University of Illinois Chicago), Mir Masood Ali (University of Illinois Chicago), Kostas Solomos (University of Illinois Chicago), Jason Polakis (University of Illinois Chicago)",
+              "order": 1
+            },
+            {
+              "item_id": "bcb762aa4ac68a9c",
+              "title": "Targeted Password Guessing Using k-Nearest Neighbors",
+              "url": "https://www.ndss-symposium.org/ndss-paper/targeted-password-guessing-using-k-nearest-neighbors/",
+              "authors": "Zhen Li (Nankai University), Ding Wang (Nankai University)",
+              "order": 2
+            },
+            {
+              "item_id": "b1f867eda7047c16",
+              "title": "Repairing Trust in Domain Name Disputes Practices: Insights from a Quarter-Century’s Worth of Squabbles",
+              "url": "https://www.ndss-symposium.org/ndss-paper/repairing-trust-in-domain-name-disputes-practices-insights-from-a-quarter-centurys-worth-of-squabbles/",
+              "authors": "Vinny Adjibi (Georgia Institute of Technology), Athanasios Avgetidis (Georgia Institute of Technology), Manos Antonakakis (Georgia Institute of Technology), Alberto Dainotti (Georgia Institute of Technology), Michael Bailey (Georgia Institute of Technology), Fabian Monrose (Georgia Institute of Technology)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "b1b7f4ecfac2b51d",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "11B",
+          "room": "Coast Ballroom",
+          "title": "Session 11B: Covert Sensing & Privacy Leakage",
+          "url": "",
+          "items": [
+            {
+              "item_id": "4b1b93a3f189fb3e",
+              "title": "DualStrike: Accurate, Real-time Eavesdropping and Injection of Keystrokes on Commodity Keyboards",
+              "url": "https://www.ndss-symposium.org/ndss-paper/dualstrike-accurate-real-time-eavesdropping-and-injection-of-keystrokes-on-commodity-keyboards/",
+              "authors": "Xiaomeng Chen (Shanghai Jiao Tong University), Jike Wang (Shanghai Jiao Tong University), Zhenyu Chen (Shanghai Jiao Tong University), Qi Alfred Chen (University of California, Irvine), Xinbing Wang (Shanghai Jiao Tong University), Dongyao Chen (Shanghai Jiao Tong University)",
+              "order": 1
+            },
+            {
+              "item_id": "bcfebcbe132fa63c",
+              "title": "Hiding an Ear in Plain Sight: On the Practicality and Implications of Acoustic Eavesdropping with Telecom Fiber Optic Cables",
+              "url": "https://www.ndss-symposium.org/ndss-paper/hiding-an-ear-in-plain-sight-on-the-practicality-and-implications-of-acoustic-eavesdropping-with-telecom-fiber-optic-cables/",
+              "authors": "Youqian Zhang (The Hong Kong Polytechnic University), Zheng Fang (The Hong Kong Polytechnic University), Huan Wu (The Hong Kong Polytechnic University & Technological and Higher Education Institute of Hong Kong), Sze Yiu Chau (The Chinese University of Hong Kong), Chao Lu (The Hong Kong Polytechnic University), Xiapu Luo (The Hong Kong Polytechnic University)",
+              "order": 2
+            },
+            {
+              "item_id": "59fd013dc5c311df",
+              "title": "The Role of Privacy Guarantees in Voluntary Donation of Private Health Data for Altruistic Goals",
+              "url": "https://www.ndss-symposium.org/ndss-paper/the-role-of-privacy-guarantees-in-voluntary-donation-of-private-health-data-for-altruistic-goals/",
+              "authors": "Ruizhe Wang (University of Waterloo), Roberta De Viti (MPI-SWS), Aarushi Dubey (University of Washington), Elissa Redmiles (Georgetown University)",
+              "order": 3
+            },
+            {
+              "item_id": "421e301673419b4f",
+              "title": "Passive Multi-Target GUTI Identification via Visual-RF Correlation in LTE Networks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/passive-multi-target-guti-identification-via-visual-rf-correlation-in-lte-networks/",
+              "authors": "Byeongdo Hong (The Affiliated Institute of ETRI), Gunwoo Yoon (The Affiliated Institute of ETRI)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "8beeec72a783ad2b",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "11C",
+          "room": "Porthole",
+          "title": "Session 11C: Privacy & Measurement",
+          "url": "",
+          "items": [
+            {
+              "item_id": "982cb2631a70a85e",
+              "title": "Prεεmpt: Sanitizing Sensitive Prompts for LLMs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/pr%ce%b5%ce%b5mpt-sanitizing-sensitive-prompts-for-llms/",
+              "authors": "Amrita Roy Chowdhury (University of Michigan, Ann Arbor), David Glukhov (University of Toronto), Divyam Anshumaan (University of Wisconsin), Prasad Chalasani (Langroid), Nicholas Papernot (University of Toronto), Somesh Jha (University of Wisconsin), Mihir Bellare (UCSD)",
+              "order": 1
+            },
+            {
+              "item_id": "33d6600489451a0f",
+              "title": "PrivORL: Differentially Private Synthetic Dataset for Offline Reinforcement Learning",
+              "url": "https://www.ndss-symposium.org/ndss-paper/privorl-differentially-private-synthetic-dataset-for-offline-reinforcement-learning/",
+              "authors": "Chen GONG (University of Virginia), Zheng Liu (University of Virginia), Kecen Li (University of Virginia), Tianhao Wang (University of Virginia)",
+              "order": 2
+            },
+            {
+              "item_id": "48062a488609fc19",
+              "title": "There is No War in Ba Sing Se: A Global Analysis of Content Moderation in Large Language Models",
+              "url": "https://www.ndss-symposium.org/ndss-paper/there-is-no-war-in-ba-sing-se-a-global-analysis-of-content-moderation-in-large-language-models/",
+              "authors": "Friedemann Lipphardt (MPI-INF), Moonis Ali (MPI-INF), Martin Banzer (MPI-INF), Anja Feldmann (MPI-INF), Devashish Gosain (IIT Bombay)",
+              "order": 3
+            },
+            {
+              "item_id": "5dc0919561507e4f",
+              "title": "PACS: Privacy-Preserving Attribute-Driven Community Search over Attributed Graphs",
+              "url": "https://www.ndss-symposium.org/ndss-paper/pacs-privacy-preserving-attribute-driven-community-search-over-attributed-graphs/",
+              "authors": "Fangyuan Sun (Qingdao University), Yaxi Yang (Singapore University of Technology and Design), Jia Yu (Qingdao University), Jianying Zhou (Singapore University of Technology and Design)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "019b9bbe6162d51f",
+          "start": "13:00",
+          "end": "14:20",
+          "track": "11D",
+          "room": "Embarcadero",
+          "title": "Session 11D: AI & Web Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "103efde680011812",
+              "title": "Chasing Shadows: Pitfalls in LLM Security Research",
+              "url": "https://www.ndss-symposium.org/ndss-paper/chasing-shadows-pitfalls-in-llm-security-research/",
+              "authors": "Jonathan Evertz (CISPA Helmholtz Center for Information Security), Niklas Risse (Max Planck Institute for Security and Privacy), Nicolai Neuer (Karlsruhe Institute of Technology), Andreas Müller (Ruhr University Bochum), Philipp Normann (TU Wien), Gaetano Sapia (Max Planck Institute for Security and Privacy), Srishti Gupta (Sapienza University of Rome), David Pape (CISPA Helmholtz Center for Information Security), Soumya Shaw (CISPA Helmholtz Center for Information Security), Devansh Srivastav (CISPA Helmholtz Center for Information Security), Christian Wressnegger (Karlsruhe Institute of Technology), Erwin Quiring (_fbeta), Thorsten Eisenhofer (CISPA Helmholtz Center for Information Security), Daniel Arp (TU Wien), Lea Schönherr (CISPA Helmholtz Center for Information Security)",
+              "order": 1
+            },
+            {
+              "item_id": "a51c1ec24a986961",
+              "title": "Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering",
+              "url": "https://www.ndss-symposium.org/ndss-paper/decompiling-the-synergy-an-empirical-study-of-human-llm-teaming-in-software-reverse-engineering/",
+              "authors": "Zion Leonahenahe Basque (Arizona State University), Samuele Doria (University of Padua), Ananta Soneji (Arizona State University), Wil Gibbs (Arizona State University), Adam Doupe (Arizona State University), Yan Shoshitaishvili (Arizona State University), Eleonora Losiouk (University of Padua), Ruoyu “Fish” Wang (Arizona State University), Simone Aonzo (EURECOM)",
+              "order": 2
+            },
+            {
+              "item_id": "b06702d25477bd42",
+              "title": "DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis",
+              "url": "https://www.ndss-symposium.org/ndss-paper/dom-xss-detection-via-webpage-interaction-fuzzing-and-url-component-synthesis/",
+              "authors": "Nuno Sabino (Carnegie Mellon University, Instituto Superior Técnico, Universidade de Lisboa, and Instituto de Telecomunicações), Darion Cassel (Carnegie Mellon University), Rui Abreu (Universidade do Porto, INESC-ID), Pedro Adão (Instituto Superior Técnico, Universidade de Lisboa, and Instituto de Telecomunicações), Lujo Bauer (Carnegie Mellon University), Limin Jia (Carnegie Mellon University)",
+              "order": 3
+            },
+            {
+              "item_id": "f418ee36cd27f98c",
+              "title": "Small Cell, Big Risk: A Security Assessment of 4G LTE Femtocells in the Wild",
+              "url": "https://www.ndss-symposium.org/ndss-paper/small-cell-big-risk-a-security-assessment-of-4g-lte-femtocells-in-the-wild/",
+              "authors": "Yaru Yang (Tsinghua University), Yiming Zhang (Tsinghua University), Tao Wan (CableLabs & Carleton University), Haixin Duan (Tsinghua University & Quancheng Laboratory), Deliang Chang (QI-ANXIN Technology Research Institute), Yishen Li (Tsinghua University), Shujun Tang (Tsinghua University & QI-ANXIN Technology Research Institute)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "ef9201eacd98d290",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "12A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 12A: Web & Content Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "56c451721436ae2a",
+              "title": "VICTOR: Dataset Copyright Auditing in Video Recognition Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/victor-dataset-copyright-auditing-in-video-recognition-systems/",
+              "authors": "Quan Yuan (Zhejiang University), Zhikun Zhang (Zhejiang University), Linkang Du (Xi'an Jiaotong University), Min Chen (Vrije Universiteit Amsterdam), Mingyang Sun (Peking University), Yunjun Gao (Zhejiang University), Shibo He (Zhejiang University), Jiming Chen (Zhejiang University)",
+              "order": 1
+            },
+            {
+              "item_id": "ffc9dc050b0157bd",
+              "title": "Revealing The Secret Power: How Algorithms Can Influence Content Visibility on Twitter/X",
+              "url": "https://www.ndss-symposium.org/ndss-paper/revealing-the-secret-power-how-algorithms-can-influence-content-visibility-on-twitter-x/",
+              "authors": "Alessandro Galeazzi (University of Padua), Pujan Paudel (Boston University), Mauro Conti (University of Padua), Emiliano De Cristofaro (UC Riverside), Gianluca Stringhini (Boston University)",
+              "order": 2
+            },
+            {
+              "item_id": "0232953ed86a0796",
+              "title": "CTng: Secure Certificate and Revocation Transparency",
+              "url": "https://www.ndss-symposium.org/ndss-paper/ctng-secure-certificate-and-revocation-transparency/",
+              "authors": "Jie Kong (Dept. of Computer Science and Engineering, University of Connecticut, Storrs, CT), Damon James (Dept. of Computer Science and Engineering, University of Connecticut, Storrs, CT), Hemi Leibowitz (Faculty of Computer Science, The College of Management Academic Studies, Rishon LeZion, Israel), Ewa Syta (Dept. of Computer Science, Trinity College, Hartford, CT), Amir Herzberg (Dept. of Computer Science and Engineering, University of Connecticut, Storrs, CT)",
+              "order": 3
+            },
+            {
+              "item_id": "af68b1a91e2cd9af",
+              "title": "Time will Tell: Large-scale De-anonymization of Hidden I2P Services via Live Behavior Alignment",
+              "url": "https://www.ndss-symposium.org/ndss-paper/time-will-tell-large-scale-de-anonymization-of-hidden-i2p-services-via-live-behavior-alignment/",
+              "authors": "Hongze Wang (Southeast University), Zhen Ling (Southeast University), Xiangyu Xu (Southeast University), Yumingzhi Pan (Southeast University), Guangchi Liu (Southeast University), Junzhou Luo (Southeast University), Xinwen Fu (University of Massachusetts Lowell)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "eb8594828292ce74",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "12B",
+          "room": "Coast Ballroom",
+          "title": "Session 12B: Attacks",
+          "url": "",
+          "items": [
+            {
+              "item_id": "8248d7f3198090c1",
+              "title": "BACnet or ``BADnet''? On the (In)Security of Implicitly Reserved Fields in BACnet",
+              "url": "https://www.ndss-symposium.org/ndss-paper/bacnet-or-badnet-on-the-insecurity-of-implicitly-reserved-fields-in-bacnet/",
+              "authors": "Qiguang Zhang (Southeast University), Junzhou Luo (Southeast University, Fuyao University of Science and Technology), Zhen Ling (Southeast University), Yue Zhang (Shandong University), Chongqing Lei (Southeast University), Christopher Morales (University of Massachusetts Lowell), Xinwen Fu (University of Massachusetts Lowell)",
+              "order": 1
+            },
+            {
+              "item_id": "a040dc046c539b57",
+              "title": "Scalable Off-chain Auction",
+              "url": "https://www.ndss-symposium.org/ndss-paper/scalable-off-chain-auction/",
+              "authors": "Mohsen Minaei (Visa Research), Ranjit Kumaresan (Visa Research), Andrew Beams (Visa Research), Pedro Moreno-Sanchez (IMDEA Software Institute, MPI-SP), Yibin Yang (Georgia Institute of Technology), Srinivasan Raghuraman (Visa Research and MIT), Panagiotis Chatzigiannis (Visa Research), Mahdi Zamani (Visa Research), Duc V. Le (Visa Research)",
+              "order": 2
+            },
+            {
+              "item_id": "3480cea3d7b1f4f0",
+              "title": "Loki: Proactively discovering online scams by mining toxic search queries",
+              "url": "https://www.ndss-symposium.org/ndss-paper/loki-proactively-discovering-online-scams-by-mining-toxic-search-queries/",
+              "authors": "Pujan Paudel (Boston University), Gianluca Stringhini (Boston University)",
+              "order": 3
+            },
+            {
+              "item_id": "bffb0e6a99b6cdbe",
+              "title": "QNBAD: Quantum Noise-induced Backdoor Attacks against Zero Noise Extrapolation",
+              "url": "https://www.ndss-symposium.org/ndss-paper/qnbad-quantum-noise-induced-backdoor-attacks-against-zero-noise-extrapolation/",
+              "authors": "Cheng Chu (Indiana University Bloomington), Qian Lou (University of Central Florida), Fan Chen (Indiana University Bloomington), Lei Jiang (Indiana University Bloomington)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "4a4569517454fa09",
+          "start": "14:30",
+          "end": "15:50",
+          "track": "12C",
+          "room": "Porthole",
+          "title": "Session 12C: Connectivity & Privacy",
+          "url": "",
+          "items": [
+            {
+              "item_id": "1a5875977d605c19",
+              "title": "WCDCAnalyzer: Scalable Security Analysis of Wi-Fi Certified Device Connectivity Protocols",
+              "url": "https://www.ndss-symposium.org/ndss-paper/wcdcanalyzer-scalable-security-analysis-of-wi-fi-certified-device-connectivity-protocols/",
+              "authors": "Zilin Shen (Purdue University), Imtiaz Karim (The University of Texas at Dallas), Elisa Bertino (Purdue University)",
+              "order": 1
+            },
+            {
+              "item_id": "7e07822b580469c5",
+              "title": "PriSrv+: Privacy and Usability-Enhanced Wireless Service Discovery with Fast and Expressive Matchmaking Encryption",
+              "url": "https://www.ndss-symposium.org/ndss-paper/prisrv-privacy-and-usability-enhanced-wireless-service-discovery-with-fast-and-expressive-matchmaking-encryption/",
+              "authors": "Yang Yang (Singapore Management University), Guomin Yang (Singapore Management University), Yingjiu Li (University of Oregon, USA), Pengfei Wu (Singapore Management University), Rui Shi (Hainan University, China), Minming Huang (Singapore Management University), Jian Weng (Jinan University, Guangzhou, China), HweeHwa Pang (Singapore Management University), Robert H. Deng (Singapore Management University)",
+              "order": 2
+            },
+            {
+              "item_id": "17d20650dd3b9a49",
+              "title": "Mapping the Cloud: A Mixed-Methods Study of Cloud Security and Privacy Configuration Challenges",
+              "url": "https://www.ndss-symposium.org/ndss-paper/mapping-the-cloud-a-mixed-methods-study-of-cloud-security-and-privacy-configuration-challenges/",
+              "authors": "Sumair Ijaz Hashmi (CISPA Helmholtz Center for Information Security, Saarland University), Shafay Kashif (The University of Auckland), Lea Gröber (Lahore University of Management Sciences), Katharina Krombholz (CISPA Helmholtz Center for Information Security), Mobin Javed (Lahore University of Management Sciences)",
+              "order": 3
+            },
+            {
+              "item_id": "8201eb682f016219",
+              "title": "To Shuffle or not to Shuffle: Auditing DP-SGD with Shuffling",
+              "url": "https://www.ndss-symposium.org/ndss-paper/to-shuffle-or-not-to-shuffle-auditing-dp-sgd-with-shuffling/",
+              "authors": "Meenatchi Sundaram Muthu Selva Annamalai (University College London), Borja Balle (Google Deepmind), Jamie Hayes (Deepmind), Emiliano De Cristofaro (UC Riverside)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "75e3997f691afe89",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "13A",
+          "room": "Pacific Ballroom A-C",
+          "title": "Session 13A: Applied Cryptography",
+          "url": "",
+          "items": [
+            {
+              "item_id": "6a3acba67b538201",
+              "title": "Icarus: Achieving Performant Asynchronous BFT with Only Optimistic Paths",
+              "url": "https://www.ndss-symposium.org/ndss-paper/icarus-achieving-performant-asynchronous-bft-with-only-optimistic-paths/",
+              "authors": "Xiaohai Dai (Huazhong University of Science and Technology), Yiming Yu (Huazhong University of Science and Technology), Sisi Duan (Tsinghua University), Rui Hao (Wuhan University of Technology), Jiang Xiao (Huazhong University of Science and Technology), Hai Jin (Huazhong University of Science and Technology)",
+              "order": 1
+            },
+            {
+              "item_id": "ea9edbc90fad06ad",
+              "title": "SoK: Cryptographic Authenticated Dictionaries",
+              "url": "https://www.ndss-symposium.org/ndss-paper/sok-cryptographic-authenticated-dictionaries/",
+              "authors": "Harjasleen Malvai (University of Illinois, Urbana-Champaign), Francesca Falzon (ETH Zürich), Andrew Zitek-Estrada (EPFL), Sarah Meiklejohn (University College London), Joseph Bonneau (NYU)",
+              "order": 2
+            },
+            {
+              "item_id": "92bc18fe9b251b89",
+              "title": "Action Required: A Mixed-Methods Study of Security Practices in GitHub Actions",
+              "url": "https://www.ndss-symposium.org/ndss-paper/action-required-a-mixed-methods-study-of-security-practices-in-github-actions/",
+              "authors": "Yusuke Kubo (NTT DOCOMO BUSINESS, Inc. / Waseda University), Fumihiro Kanei (NTT DOCOMO BUSINESS, Inc.), Mitsuaki Akiyama (NTT, Inc.), Takuro Wakai (Waseda University), Tatsuya Mori (Waseda University / NICT / RIKEN AIP)",
+              "order": 3
+            },
+            {
+              "item_id": "ec0d05e3f803cf2d",
+              "title": "Analysis of the Security Design, Engineering, and Implementation of the SecureDNA System",
+              "url": "https://www.ndss-symposium.org/ndss-paper/analysis-of-the-security-design-engineering-and-implementation-of-the-securedna-system/",
+              "authors": "Alan T. Sherman (University of Maryland, Baltimore County (UMBC)), Jeremy J. Romanik Romano (University of Maryland, Baltimore County (UMBC)), Edward Zieglar (University of Maryland, Baltimore County (UMBC)), Enis Golaszewski (University of Maryland, Baltimore County (UMBC)), Jonathan D. Fuchs (University of Maryland, Baltimore County (UMBC)), William E. Byrd (University of Alabama at Birmingham)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "563cfc669b71d9e4",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "13B",
+          "room": "Coast Ballroom",
+          "title": "Session 13B: Network Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "f5561fa981bb2b74",
+              "title": "PathProb: Probabilistic Inference and Path Scoring for Enhanced and Flexible BGP Route Leak Detection",
+              "url": "https://www.ndss-symposium.org/ndss-paper/pathprob-probabilistic-inference-and-path-scoring-for-enhanced-and-flexible-bgp-route-leak-detection/",
+              "authors": "Yingqian Hao (Computer Network Information Center, Chinese Academy of Sciences; University of Chinese Academy of Sciences), Hui Zou (Computer Network Information Center, Chinese Academy of Sciences; University of Chinese Academy of Sciences), Lu Zhou (Computer Network Information Center, Chinese Academy of Sciences; University of Chinese Academy of Sciences), Yuxuan Chen (Computer Network Information Center, Chinese Academy of Sciences; University of Chinese Academy of Sciences), Yanbiao Li (Computer Network Information Center, Chinese Academy of Sciences; University of Chinese Academy of Sciences)",
+              "order": 1
+            },
+            {
+              "item_id": "c7812d0896696c00",
+              "title": "Demystifying RPKI-Invalid Prefixes: Hidden Causes and Security Risks",
+              "url": "https://www.ndss-symposium.org/ndss-paper/demystifying-rpki-invalid-prefixes-hidden-causes-and-security-risks/",
+              "authors": "Weitong Li (Virginia Tech), Tao Wan (CableLabs), Tijay Chung (Virginia Tech)",
+              "order": 2
+            },
+            {
+              "item_id": "58f98bbd2b421a57",
+              "title": "Know Me by My Pulse: Toward Practical Continuous Authentication on Wearable Devices via Wrist-Worn PPG",
+              "url": "https://www.ndss-symposium.org/ndss-paper/know-me-by-my-pulse-toward-practical-continuous-authentication-on-wearable-devices-via-wrist-worn-ppg/",
+              "authors": "Wei Shao (University of California, Davis), Zequan Liang (University of California Davis), Ruoyu Zhang (University of California, Davis), Ruijie Fang (University of California, Davis), Ning Miao (University of California, Davis), Ehsan Kourkchi (University of California - Davis), Setareh Rafatirad (University of California, Davis), Houman Homayoun (University of California Davis), Chongzhou Fang (Rochester Institute of Technology)",
+              "order": 3
+            },
+            {
+              "item_id": "e51ba4dd44890ccc",
+              "title": "The Heat is On: Understanding and Mitigating Vulnerabilities of Thermal Image Perception in Autonomous Systems",
+              "url": "https://www.ndss-symposium.org/ndss-paper/the-heat-is-on-understanding-and-mitigating-vulnerabilities-of-thermal-image-perception-in-autonomous-systems/",
+              "authors": "Sri Hrushikesh Varma Bhupathiraju (University of Florida), Shaoyuan Xie (University of California, Irvine), Michael Clifford (Toyota InfoTech Labs), Qi Alfred Chen (University of California, Irvine), Takeshi Sugawara (The University of Electro-Communications), Sara Rampazzi (University of Florida)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "cb35da4bd73c3672",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "13C",
+          "room": "Porthole",
+          "title": "Session 13C: Cloud Security",
+          "url": "",
+          "items": [
+            {
+              "item_id": "3019fc2905cb87f7",
+              "title": "The Dark Side of Flexibility: Detecting Risky Permission Chaining Attacks in Serverless Applications",
+              "url": "https://www.ndss-symposium.org/ndss-paper/the-dark-side-of-flexibility-detecting-risky-permission-chaining-attacks-in-serverless-applications/",
+              "authors": "Xunqi Liu (State Key Laboratory of Integrated Services Networks, School of Cyber Engineering, Xidian University), Nanzi Yang (University of Minnesota), Chang Li (State Key Laboratory of Integrated Services Networks, School of Cyber Engineering, Xidian University), Jinku Li (State Key Laboratory of Integrated Services Networks, School of Cyber Engineering, Xidian University), Jianfeng Ma (State Key Laboratory of Integrated Services Networks, School of Cyber Engineering, Xidian University), Kangjie Lu (University of Minnesota)",
+              "order": 1
+            },
+            {
+              "item_id": "5844d4144a367d8c",
+              "title": "Breaking the Bulkhead: Demystifying Cross-Namespace Reference Vulnerabilities in Kubernetes Operators",
+              "url": "https://www.ndss-symposium.org/ndss-paper/breaking-the-bulkhead-demystifying-cross-namespace-reference-vulnerabilities-in-kubernetes-operators/",
+              "authors": "Andong Chen (Zhejiang University), Ziyi Guo (Northwestern University), Zhaoxuan Jin (Northwestern University), Zhenyuan Li (Zhejiang University), Yan Chen (Northwestern University)",
+              "order": 2
+            },
+            {
+              "item_id": "45bb7d560a0aacda",
+              "title": "SIPConfusion: Exploiting SIP Semantic Ambiguities for Caller ID and SMS Spoofing",
+              "url": "https://www.ndss-symposium.org/ndss-paper/sipconfusion-exploiting-sip-semantic-ambiguities-for-caller-id-and-sms-spoofing/",
+              "authors": "Qi Wang (Tsinghua University), Jianjun Chen (Tsinghua University), Jingcheng Yang (Tsinghua University), Jiahe Zhang (Tsinghua University), Yaru Yang (Tsinghua University), Haixin Duan (Tsinghua University)",
+              "order": 3
+            },
+            {
+              "item_id": "455029ea6ff9687a",
+              "title": "Looma: A Low-Latency PQTLS Authentication Architecture for Cloud Applications",
+              "url": "https://www.ndss-symposium.org/ndss-paper/looma-a-low-latency-pqtls-authentication-architecture-for-cloud-applications/",
+              "authors": "Xinshu Ma (University of Edinburgh), Michio Honda (University of Edinburgh)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "3aa0e98c9120b1c2",
+          "start": "16:10",
+          "end": "17:30",
+          "track": "13D",
+          "room": "Embarcadero",
+          "title": "Session 13D: Malware & Reverse Engineering",
+          "url": "",
+          "items": [
+            {
+              "item_id": "3e23b33b301a396e",
+              "title": "Unveiling BYOVD Threats: Malware's Use and Abuse of Kernel Drivers",
+              "url": "https://www.ndss-symposium.org/ndss-paper/unveiling-byovd-threats-malwares-use-and-abuse-of-kernel-drivers/",
+              "authors": "Andrea Monzani (University of Milan), Antonio Parata (University of Milan), Andrea Oliveri (EURECOM), Simone Aonzo (EURECOM), Davide Balzarotti (EURECOM), Andrea Lanzi (University of Milan)",
+              "order": 1
+            },
+            {
+              "item_id": "7d5d053c81b0c532",
+              "title": "Understanding the Status and Strategies of the Code Signing Abuse Ecosystem",
+              "url": "https://www.ndss-symposium.org/ndss-paper/understanding-the-status-and-strategies-of-the-code-signing-abuse-ecosystem/",
+              "authors": "Hanqing Zhao (Tsinghua University & QI-ANXIN Technology Research Institute), Yiming Zhang (Tsinghua University), Lingyun Ying (QI-ANXIN Technology Research Institute), Mingming Zhang (Zhongguancun Laboratory), Baojun Liu (Tsinghua University), Haixin Duan (Tsinghua University), Zi-Quan You (Tsinghua University), Shuhao Zhang (QI-ANXIN Technology Research Institute)",
+              "order": 2
+            },
+            {
+              "item_id": "fdad47ceb37b7981",
+              "title": "SYSYPHUZZ: the Pressure of More Coverage",
+              "url": "https://www.ndss-symposium.org/ndss-paper/sysyphuzz-the-pressure-of-more-coverage/",
+              "authors": "Zezhong Ren (University of Chinese Academy of Sciences; EPFL), Han Zheng (EPFL), Zhiyao Feng (EPFL), Qinying Wang (EPFL), Marcel Busch (EPFL), Yuqing Zhang (University of Chinese Academy of Sciences), Chao Zhang (Tsinghua University), Mathias Payer (EPFL)",
+              "order": 3
+            },
+            {
+              "item_id": "ebae29af2e2d9edd",
+              "title": "Actively Understanding the Dynamics and Risks of the Threat Intelligence Ecosystem",
+              "url": "https://www.ndss-symposium.org/ndss-paper/actively-understanding-the-dynamics-and-risks-of-the-threat-intelligence-ecosystem/",
+              "authors": "Tillson Galloway (Georgia Institute of Technology), Omar Alrawi (Georgia Institute of Technology), Allen Chang (Georgia Institute of Technology), Athanasios Avgetidis (Georgia Institute of Technology), Manos Antonakakis (Georgia Institute of Technology), Fabian Monrose (Georgia Institute of Technology)",
+              "order": 4
+            }
+          ]
         }
       ]
     }

@@ -113,11 +113,12 @@ _TIME_RANGE_RE = re.compile(
 )
 _TIME_SINGLE_RE = re.compile(r"\b(\d{1,2}:\d{2})\s*(?:AM|PM)?\b", re.IGNORECASE)
 
-# Recognise dates such as "February 24, 2026",  "24 February 2026", "Mon, Feb 24"
+# Recognise dates such as "February 24, 2026",  "24 February 2026",
+# "Mon, Feb 24",  "Tuesday, 24 February"  (day may come before or after month)
 _DATE_RE = re.compile(
     r"(?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*[\s,]*)?(?:(\d{1,2})\s+)?"
     r"(January|February|March|April|May|June|July|August|September|October|November|December)"
-    r"\s+(\d{1,2})(?:,?\s+(\d{4}))?",
+    r"(?:\s+(\d{1,2}))?(?:,?\s+(\d{4}))?",
     re.IGNORECASE,
 )
 _MONTH_MAP = {
@@ -134,11 +135,13 @@ def _parse_date(text: str) -> str:
         return ""
     day_prefix, month_name, day_suffix, year = m.groups()
     day = day_prefix or day_suffix
+    if not day:
+        return ""
     month = _MONTH_MAP.get(month_name.lower(), "00")
     yr = year or "2026"
     try:
         return f"{int(yr):04d}-{int(month):02d}-{int(day):02d}"
-    except ValueError:
+    except (ValueError, TypeError):
         return ""
 
 
@@ -186,34 +189,44 @@ def parse_program(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
 
     # -----------------------------------------------------------------------
-    # Strategy: look for the typical NDSS accordion / schedule structure.
-    # The NDSS site uses WordPress + a schedule plugin.  We try several
-    # known structural patterns and fall back gracefully.
+    # Primary strategy: the NDSS site uses a Bootstrap card layout where each
+    # conference day is a <div class="card"> block containing an <h3> day
+    # label and collapsible session rows.  Co-located event days (Monday /
+    # Friday) contain only workshop links; we skip them.
     # -----------------------------------------------------------------------
 
-    days_out: list[dict] = []
+    days_out = _parse_ndss_card_layout(soup)
 
-    # --- Pattern A: <div class="...day..."> or <section class="...day...">
-    #     containing nested session blocks.
-    day_containers = soup.find_all(
-        lambda t: t.name in ("div", "section", "article")
-        and any(
-            kw in " ".join(t.get("class", [])).lower()
-            for kw in ("day", "schedule-day", "program-day")
+    # -----------------------------------------------------------------------
+    # Fallback A: <div class="...day..."> / <section class="...day...">
+    # -----------------------------------------------------------------------
+    if not days_out:
+        day_containers = soup.find_all(
+            lambda t: t.name in ("div", "section", "article")
+            and any(
+                kw in " ".join(t.get("class", [])).lower()
+                for kw in ("day", "schedule-day", "program-day")
+            )
         )
-    )
+        for day_el in day_containers:
+            day_dict = _parse_day(day_el)
+            if day_dict["sessions"]:
+                days_out.append(day_dict)
 
-    if not day_containers:
-        # Pattern B: look for day-level headings (h2/h3) and group content
-        # until the next heading of the same level.
-        day_containers = _group_by_heading(soup)
+    # -----------------------------------------------------------------------
+    # Fallback B: day-level h2/h3 headings
+    # -----------------------------------------------------------------------
+    if not days_out:
+        for day_el in _group_by_heading(soup):
+            day_dict = _parse_day(day_el)
+            if day_dict["sessions"]:
+                days_out.append(day_dict)
 
-    if not day_containers:
-        # Pattern C: treat the whole body as a single unnamed day.
-        day_containers = [soup.body or soup]
-
-    for day_el in day_containers:
-        day_dict = _parse_day(day_el)
+    # -----------------------------------------------------------------------
+    # Fallback C: treat whole body as one unnamed day
+    # -----------------------------------------------------------------------
+    if not days_out:
+        day_dict = _parse_day(soup.body or soup)
         if day_dict["sessions"]:
             days_out.append(day_dict)
 
@@ -223,6 +236,140 @@ def parse_program(html: str) -> dict:
         days_out = [{"day_id": _stable_id("unknown"), "label": "Unknown", "date": "", "sessions": []}]
 
     return days_out
+
+
+# Days that are co-located-event days on the NDSS site – skip them.
+_COLLOCATED_DAY_PREFIXES = ("monday", "friday")
+
+
+def _parse_ndss_card_layout(soup: BeautifulSoup) -> list[dict]:
+    """
+    Parse the Bootstrap card layout used on www.ndss-symposium.org.
+
+    Each conference day is a  <div class="card …">  block whose header
+    contains an <h3> with the day label.  Inside, session rows are
+    <a class="… card-subheading-session …"> elements; the paper list for
+    each session is the immediately-following
+    <ul class="list-group list-group-session …">.
+
+    Monday and Friday are co-located event days and are skipped entirely.
+    """
+    cards = soup.find_all("div", class_="card")
+    if not cards:
+        return []
+
+    days_out: list[dict] = []
+
+    for card in cards:
+        header = card.find("div", class_="card-header")
+        if not header:
+            continue
+        h3 = header.find("h3")
+        if not h3:
+            continue
+
+        label = _norm(h3.get_text(" ", strip=True))
+
+        # Skip co-located event days
+        if any(label.lower().startswith(p) for p in _COLLOCATED_DAY_PREFIXES):
+            continue
+
+        date_str = _parse_date(label)
+        day_id = _stable_id(label or "unknown", date_str)
+
+        sessions: list[dict] = []
+
+        # Each session is an <a> with class "card-subheading-session"
+        session_anchors = card.find_all("a", class_="card-subheading-session")
+        for anchor in session_anchors:
+            session = _parse_ndss_session(anchor)
+            if session:
+                sessions.append(session)
+
+        if sessions:
+            days_out.append({
+                "day_id": day_id,
+                "label": label,
+                "date": date_str,
+                "sessions": sessions,
+            })
+
+    return days_out
+
+
+def _parse_ndss_session(anchor: Tag) -> dict | None:
+    """
+    Extract one session from a  <a class="card-subheading-session">  element
+    and its immediately-following  <ul class="list-group-session">  sibling.
+    """
+    # Time is in the first col-2 div
+    time_div = anchor.find("div", class_="col-2")
+    time_text = _norm(time_div.get_text(" ", strip=True)) if time_div else ""
+    start_time, end_time = _parse_times(time_text)
+
+    # Title (and optional subtitle) are in the col-8 strong
+    col8 = anchor.find("div", class_="col-8")
+    if not col8:
+        return None
+    strong = col8.find("strong")
+    # The strong tag often has  Session title <br/> subtitle  – grab first text node
+    if strong:
+        parts = [t.strip() for t in strong.strings if t.strip()]
+        title = parts[0] if parts else _norm(col8.get_text(" ", strip=True))
+    else:
+        title = _norm(col8.get_text(" ", strip=True))
+
+    if not title:
+        return None
+
+    # Room is in the text-right div
+    room_div = anchor.find("div", class_="text-right")
+    room = _norm(room_div.get_text(" ", strip=True)) if room_div else ""
+
+    # Track badge (e.g. "1A" from "Session 1A: …")
+    track = ""
+    track_m = re.search(r"\bSession\s+([A-Z0-9]+[A-Z][A-Z0-9]*|[0-9]+[A-Z])\b", title)
+    if track_m:
+        track = track_m.group(1)
+
+    session_id = _stable_id(title, start_time, end_time, track, room)
+
+    # Papers are in the next sibling <ul class="list-group-session">
+    items: list[dict] = []
+    paper_ul = anchor.find_next_sibling("ul")
+    if paper_ul and "list-group-session" in " ".join(paper_ul.get("class", [])):
+        order = 0
+        for li in paper_ul.find_all("li", class_="list-group-item"):
+            paper_a = li.find("a", href=True)
+            if not paper_a:
+                continue
+            item_title = _norm(paper_a.get_text(" ", strip=True))
+            if not item_title:
+                continue
+            item_url = _absolute_url(paper_a["href"])
+            # Authors in <i> tag
+            authors_tag = li.find("i")
+            authors = _norm(authors_tag.get_text(" ", strip=True)) if authors_tag else ""
+            order += 1
+            item_id = _stable_id(item_title, item_url, str(order))
+            items.append({
+                "item_id": item_id,
+                "title": item_title,
+                "url": item_url,
+                "authors": authors,
+                "order": order,
+            })
+
+    return {
+        "session_id": session_id,
+        "start": start_time,
+        "end": end_time,
+        "track": track,
+        "room": room,
+        "title": title,
+        "url": "",
+        "items": items,
+    }
 
 
 def _group_by_heading(soup: BeautifulSoup) -> list[Tag]:
