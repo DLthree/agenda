@@ -1,0 +1,322 @@
+/* =========================================================
+   NDSS 2026 Personal Agenda – styles.css
+   No build step; pure CSS for GitHub Pages.
+   ========================================================= */
+
+/* ── Reset & base ─────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --accent:       #1a56db;
+  --accent-dark:  #1240a4;
+  --star-on:      #f59e0b;
+  --conflict:     #dc2626;
+  --conflict-bg:  #fef2f2;
+  --conflict-bdr: #fca5a5;
+  --surface:      #ffffff;
+  --bg:           #f3f4f6;
+  --border:       #d1d5db;
+  --text:         #111827;
+  --text-muted:   #6b7280;
+  --radius:       8px;
+  --shadow:       0 1px 3px rgba(0,0,0,.1);
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* ── Header ────────────────────────────────────────────── */
+header {
+  background: var(--accent);
+  color: #fff;
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .6rem 0;
+  flex-wrap: wrap;
+}
+
+header h1 { font-size: 1.15rem; font-weight: 700; white-space: nowrap; }
+
+.view-toggle { display: flex; gap: .4rem; }
+
+.tab-btn {
+  background: rgba(255,255,255,.15);
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: .35rem .85rem;
+  font-size: .9rem;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+
+.tab-btn:hover  { background: rgba(255,255,255,.25); }
+.tab-btn.active {
+  background: #fff;
+  color: var(--accent);
+  border-color: #fff;
+  font-weight: 600;
+}
+
+/* ── Views ─────────────────────────────────────────────── */
+.view { display: none; max-width: 1100px; margin: 1.5rem auto; padding: 0 1rem; }
+.view.active { display: block; }
+
+/* ── Toolbar ────────────────────────────────────────────── */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#search-input {
+  flex: 1;
+  min-width: 180px;
+  padding: .45rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: .9rem;
+  background: var(--surface);
+}
+
+#search-input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+#day-filter {
+  padding: .45rem .6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: .9rem;
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .9rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.count-badge {
+  font-size: .82rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+/* ── Day group ──────────────────────────────────────────── */
+.day-group { margin-bottom: 2rem; }
+
+.day-group h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: .6rem;
+  padding-bottom: .3rem;
+  border-bottom: 2px solid var(--border);
+}
+
+/* ── Session card ───────────────────────────────────────── */
+.session-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: .6rem;
+  box-shadow: var(--shadow);
+  transition: box-shadow .15s;
+}
+
+.session-card:hover { box-shadow: 0 3px 10px rgba(0,0,0,.12); }
+
+.session-card.starred { border-left: 4px solid var(--star-on); }
+
+.session-card.conflict {
+  background: var(--conflict-bg);
+  border-color: var(--conflict-bdr);
+}
+
+.session-header {
+  display: flex;
+  align-items: flex-start;
+  gap: .75rem;
+  padding: .75rem 1rem;
+  cursor: pointer;
+}
+
+.star-btn {
+  background: none;
+  border: none;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 .15rem;
+  flex-shrink: 0;
+  color: var(--border);
+  transition: color .15s, transform .1s;
+}
+
+.star-btn.on { color: var(--star-on); }
+.star-btn:hover { transform: scale(1.2); }
+
+.session-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.session-title {
+  font-weight: 600;
+  font-size: .95rem;
+  word-break: break-word;
+}
+
+.session-title a { color: inherit; text-decoration: none; }
+.session-title a:hover { text-decoration: underline; }
+
+.session-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem .8rem;
+  margin-top: .2rem;
+  font-size: .8rem;
+  color: var(--text-muted);
+}
+
+.badge {
+  display: inline-block;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: .05rem .4rem;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.conflict-badge {
+  color: var(--conflict);
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+/* ── Expand/collapse items ──────────────────────────────── */
+.expand-btn {
+  background: none;
+  border: none;
+  font-size: .78rem;
+  color: var(--accent);
+  cursor: pointer;
+  padding: 0;
+  margin-top: .25rem;
+}
+
+.expand-btn:hover { text-decoration: underline; }
+
+.session-items {
+  display: none;
+  padding: 0 1rem .75rem 3.2rem;
+  border-top: 1px solid var(--bg);
+}
+
+.session-items.open { display: block; }
+
+.session-items ol {
+  padding-left: 1.2em;
+  font-size: .87rem;
+  line-height: 1.6;
+}
+
+.session-items li { margin-bottom: .4rem; }
+
+.item-title a { color: var(--text); }
+.item-title a:hover { color: var(--accent); }
+
+.item-authors {
+  display: block;
+  color: var(--text-muted);
+  font-size: .8rem;
+}
+
+/* ── Agenda toolbar ─────────────────────────────────────── */
+.agenda-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.action-btn {
+  padding: .4rem .9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-size: .88rem;
+  cursor: pointer;
+  transition: background .15s;
+}
+
+.action-btn:hover { background: var(--bg); }
+.action-btn.danger { color: var(--conflict); border-color: var(--conflict-bdr); }
+.action-btn.danger:hover { background: var(--conflict-bg); }
+
+.conflict-banner {
+  font-size: .85rem;
+  color: var(--conflict);
+  font-weight: 600;
+}
+
+.conflict-banner.hidden { display: none; }
+
+/* ── Empty state ────────────────────────────────────────── */
+.empty-msg { color: var(--text-muted); font-style: italic; margin-top: 2rem; text-align: center; }
+.empty-msg.hidden { display: none; }
+
+/* ── Toast ──────────────────────────────────────────────── */
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(4rem);
+  background: #1f2937;
+  color: #fff;
+  padding: .6rem 1.2rem;
+  border-radius: 20px;
+  font-size: .9rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .25s ease, opacity .25s ease;
+  z-index: 200;
+  white-space: nowrap;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 600px) {
+  header h1 { font-size: 1rem; }
+  .tab-btn  { padding: .3rem .55rem; font-size: .82rem; }
+  .session-header { gap: .5rem; padding: .65rem .75rem; }
+}

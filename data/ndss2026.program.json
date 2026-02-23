@@ -1,0 +1,801 @@
+{
+  "meta": {
+    "source_url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+    "generated_at": "2026-02-23T13:21:20.235759+00:00",
+    "raw_html_sha256": "54b81e8983d7e08ea89cd8085ce2dd52bd1548a30e141b915cfde1b9306e147e"
+  },
+  "days": [
+    {
+      "day_id": "dc005a834d854a59",
+      "label": "Sunday, February 22, 2026",
+      "date": "2026-02-22",
+      "sessions": [
+        {
+          "session_id": "b79b0a3b8ee0d141",
+          "start": "08:00",
+          "end": "18:00",
+          "track": "",
+          "room": "",
+          "title": "Pre-Conference Workshops & Co-located Events",
+          "url": "https://www.ndss-symposium.org/ndss2026/workshop-day1/",
+          "items": [
+            {
+              "item_id": "d6aa6dabb2f24c00",
+              "title": "USEC 2026: Usable Security and Privacy Workshop",
+              "url": "https://www.ndss-symposium.org/ndss2026/usable-security-workshop/",
+              "authors": "",
+              "order": 1
+            },
+            {
+              "item_id": "53c1bbd56d031e14",
+              "title": "VehicleSec 2026: Vehicle Security and Privacy Workshop",
+              "url": "https://www.ndss-symposium.org/ndss2026/automotive-security/",
+              "authors": "",
+              "order": 2
+            },
+            {
+              "item_id": "31daf5a5ff236079",
+              "title": "DNS Privacy Workshop",
+              "url": "https://www.ndss-symposium.org/ndss2026/dns-workshop/",
+              "authors": "",
+              "order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_id": "a7ebe41e3ea08f0e",
+      "label": "Monday, February 23, 2026",
+      "date": "2026-02-23",
+      "sessions": [
+        {
+          "session_id": "d7e214cb27db2920",
+          "start": "08:00",
+          "end": "09:00",
+          "track": "",
+          "room": "",
+          "title": "Registration & Welcome",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "7bbb287ab53e3e28",
+          "start": "09:00",
+          "end": "10:00",
+          "track": "",
+          "room": "",
+          "title": "Keynote: The Future of Trustworthy AI Systems",
+          "url": "https://www.ndss-symposium.org/ndss2026/keynote-1/",
+          "items": [
+            {
+              "item_id": "41ca3db0f51c3f29",
+              "title": "The Future of Trustworthy AI Systems",
+              "url": "https://www.ndss-symposium.org/ndss2026/keynote-1/",
+              "authors": "Dr. Jane Smith, Stanford University",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "session_id": "8ac99df3672e6843",
+          "start": "10:00",
+          "end": "10:30",
+          "track": "",
+          "room": "",
+          "title": "Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "bda6d0446cd526af",
+          "start": "10:30",
+          "end": "12:00",
+          "track": "1A",
+          "room": "",
+          "title": "Session 1A: Network Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-1a/",
+          "items": [
+            {
+              "item_id": "0ce1031b13ee6f66",
+              "title": "Detecting BGP Hijacks at Scale Using Machine Learning",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/detecting-bgp-hijacks-at-scale/",
+              "authors": "Alice Johnson, Bob Williams, Carol Davis (MIT)",
+              "order": 1
+            },
+            {
+              "item_id": "68b02e993687494f",
+              "title": "DNS Cache Poisoning in Modern Recursive Resolvers",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/dns-cache-poisoning-modern-resolvers/",
+              "authors": "Dave Wilson, Eve Martinez (Carnegie Mellon University)",
+              "order": 2
+            },
+            {
+              "item_id": "27084f6f536d223e",
+              "title": "Security Analysis of QUIC Protocol Implementations",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/quic-protocol-analysis/",
+              "authors": "Frank Lee, Grace Kim, Henry Brown (UC Berkeley)",
+              "order": 3
+            },
+            {
+              "item_id": "90414541be061ebf",
+              "title": "TCP Side Channels in Cloud Environments",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/tcp-side-channels/",
+              "authors": "Ivan Chen, Julia Lopez (Columbia University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "05a0d74eb986f95e",
+          "start": "10:30",
+          "end": "12:00",
+          "track": "1B",
+          "room": "",
+          "title": "Session 1B: Web Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-1b/",
+          "items": [
+            {
+              "item_id": "b292959aea4a9dcf",
+              "title": "XSS Vulnerabilities in LLM-Generated Code",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/xss-llm-code-generation/",
+              "authors": "Kevin Zhang, Laura White (Georgia Tech)",
+              "order": 1
+            },
+            {
+              "item_id": "770196621d71c714",
+              "title": "Browser Extension Security: A Large-Scale Study",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/browser-extension-security/",
+              "authors": "Mike Taylor, Nancy Anderson (University of Michigan)",
+              "order": 2
+            },
+            {
+              "item_id": "69f52ccff6b4ec36",
+              "title": "CSRF Attacks on Modern Web Frameworks",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/csrf-modern-frameworks/",
+              "authors": "Oscar Harris, Patricia Lewis (Princeton University)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "d0ec7b92afe125b3",
+          "start": "12:00",
+          "end": "13:30",
+          "track": "",
+          "room": "",
+          "title": "Lunch Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "5f50a420eed22c68",
+          "start": "13:30",
+          "end": "15:00",
+          "track": "2A",
+          "room": "",
+          "title": "Session 2A: Machine Learning Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-2a/",
+          "items": [
+            {
+              "item_id": "4e0285994bafffc0",
+              "title": "Adversarial Attacks on Large Language Models via Prompt Injection",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/adversarial-attacks-nlp/",
+              "authors": "Quinn Robinson, Rose Walker (UT Austin)",
+              "order": 1
+            },
+            {
+              "item_id": "437f305e9229ed52",
+              "title": "Privacy Attacks on Federated Learning Systems",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/federated-learning-privacy/",
+              "authors": "Sam Young, Tina Scott (ETH Zurich)",
+              "order": 2
+            },
+            {
+              "item_id": "ae11241d3a6b1d95",
+              "title": "Model Stealing via Black-Box API Access",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/model-stealing-api/",
+              "authors": "Uma Allen, Victor Wright (Oxford University)",
+              "order": 3
+            },
+            {
+              "item_id": "ed8b3d232ffe99c4",
+              "title": "A Survey of Backdoor Attacks in Deep Neural Networks",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/backdoor-attacks-survey/",
+              "authors": "Walter King, Xena Turner (NYU)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "dafc2810165e7d49",
+          "start": "13:30",
+          "end": "15:00",
+          "track": "2B",
+          "room": "",
+          "title": "Session 2B: Privacy Enhancing Technologies",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-2b/",
+          "items": [
+            {
+              "item_id": "98f74cc6f6145872",
+              "title": "Differential Privacy in Practice: A Gap Analysis",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/differential-privacy-practice/",
+              "authors": "Yara Adams, Zoe Baker (Harvard University)",
+              "order": 1
+            },
+            {
+              "item_id": "62bc9aee912c0152",
+              "title": "Anonymous Credentials on Mobile Devices",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/anonymous-credentials-mobile/",
+              "authors": "Aaron Clark, Beth Davis (Imperial College London)",
+              "order": 2
+            },
+            {
+              "item_id": "080df82935e94a69",
+              "title": "Deanonymization Attacks Against Tor Hidden Services",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/tor-deanonymization/",
+              "authors": "Carlos Evans, Diana Foster (Johns Hopkins University)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "188af83b283c2058",
+          "start": "15:00",
+          "end": "15:30",
+          "track": "",
+          "room": "",
+          "title": "Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "fb7c7f3547095777",
+          "start": "15:30",
+          "end": "17:00",
+          "track": "3A",
+          "room": "",
+          "title": "Session 3A: Systems Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-3a/",
+          "items": [
+            {
+              "item_id": "5ca00fd5a441ecfd",
+              "title": "Kernel Exploit Mitigations: Effectiveness and Bypass",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/kernel-exploit-mitigations/",
+              "authors": "Ethan Gray, Fiona Hall (UIUC)",
+              "order": 1
+            },
+            {
+              "item_id": "ec8582cc73f29592",
+              "title": "New Speculative Execution Gadgets in Modern CPUs",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/speculative-execution-new-gadgets/",
+              "authors": "George Hill, Hannah Ingram (Purdue University)",
+              "order": 2
+            },
+            {
+              "item_id": "93a0c33c5fef234d",
+              "title": "Container Escape Techniques in Production Environments",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/container-escape-techniques/",
+              "authors": "Ian James, Jessica Knight (University of Wisconsin)",
+              "order": 3
+            },
+            {
+              "item_id": "e094397fd947a251",
+              "title": "New RowHammer Variants on Modern DRAM Chips",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/rowhammer-dram-new-variants/",
+              "authors": "Kyle Long, Laura Moore (TU Graz)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "099121e4d303ad7f",
+          "start": "15:30",
+          "end": "17:00",
+          "track": "3B",
+          "room": "",
+          "title": "Session 3B: Cryptography & Protocols",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-3b/",
+          "items": [
+            {
+              "item_id": "b798e03300514b28",
+              "title": "Post-Quantum TLS: Deployment Challenges and Performance",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/post-quantum-tls/",
+              "authors": "Mike Nelson, Nina Owen (Stanford)",
+              "order": 1
+            },
+            {
+              "item_id": "0c7924ee7b34bde3",
+              "title": "Practical Secure Multi-Party Computation for Database Queries",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/secure-computation-practical/",
+              "authors": "Oliver Parker, Penelope Quinn (MIT)",
+              "order": 2
+            },
+            {
+              "item_id": "ef8955b8d7f233d0",
+              "title": "A Formal Analysis of End-to-End Encrypted Messaging Protocols",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/e2e-messaging-analysis/",
+              "authors": "Rachel Roberts, Samuel Stone (CMU)",
+              "order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_id": "8749f4709d8e73db",
+      "label": "Tuesday, February 24, 2026",
+      "date": "2026-02-24",
+      "sessions": [
+        {
+          "session_id": "39ecde06c36d2be8",
+          "start": "09:00",
+          "end": "10:00",
+          "track": "",
+          "room": "",
+          "title": "Keynote: Securing Critical Infrastructure",
+          "url": "https://www.ndss-symposium.org/ndss2026/keynote-2/",
+          "items": [
+            {
+              "item_id": "3713778dda85d8e3",
+              "title": "Securing Critical Infrastructure Against Nation-State Threats",
+              "url": "https://www.ndss-symposium.org/ndss2026/keynote-2/",
+              "authors": "Dr. John Miller, Director, CISA",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "session_id": "8ac99df3672e6843",
+          "start": "10:00",
+          "end": "10:30",
+          "track": "",
+          "room": "",
+          "title": "Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "c798b6142f29130a",
+          "start": "10:30",
+          "end": "12:00",
+          "track": "4A",
+          "room": "",
+          "title": "Session 4A: Mobile Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-4a/",
+          "items": [
+            {
+              "item_id": "1930112497a7f5aa",
+              "title": "Android Malware Detection via Program Analysis",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/android-malware-detection/",
+              "authors": "Tara Sullivan, Uma Thompson (UC San Diego)",
+              "order": 1
+            },
+            {
+              "item_id": "bd8027ef01b7c89c",
+              "title": "Zero-Click Exploits on iOS: Anatomy and Mitigations",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/ios-zero-click/",
+              "authors": "Victor Underwood, Wendy Vasquez (University of Toronto)",
+              "order": 2
+            },
+            {
+              "item_id": "6578b6db09c5f3ac",
+              "title": "Baseband Security in Modern 5G Devices",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/baseband-security/",
+              "authors": "Xavier Walker, Yvonne Xavier (Seoul National University)",
+              "order": 3
+            },
+            {
+              "item_id": "4f60b87813bfc6b2",
+              "title": "Large-Scale Privacy Leak Analysis in Mobile Apps",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/mobile-app-privacy-leaks/",
+              "authors": "Zack Young, Amy Zimmerman (Northeastern University)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "ba47a2fdb717bf04",
+          "start": "10:30",
+          "end": "12:00",
+          "track": "4B",
+          "room": "",
+          "title": "Session 4B: Software Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-4b/",
+          "items": [
+            {
+              "item_id": "cc9d0a3350829233",
+              "title": "Fuzzing in 2026: A Comprehensive Survey",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/fuzzing-survey-2026/",
+              "authors": "Brian Adams, Christine Baker (ETH Zurich)",
+              "order": 1
+            },
+            {
+              "item_id": "6f9a6e1b5255f1d2",
+              "title": "Rust Memory Safety: Remaining Vulnerabilities",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/rust-memory-safety/",
+              "authors": "Daniel Carter, Emily Davis (University of Maryland)",
+              "order": 2
+            },
+            {
+              "item_id": "47db1faa77b48e7d",
+              "title": "Using LLMs for Automated Vulnerability Detection",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/llm-vulnerability-detection/",
+              "authors": "Frank Edwards, Grace Flynn (UC Berkeley)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "d0ec7b92afe125b3",
+          "start": "12:00",
+          "end": "13:30",
+          "track": "",
+          "room": "",
+          "title": "Lunch Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "15b3c4191e1ee560",
+          "start": "13:30",
+          "end": "15:00",
+          "track": "5A",
+          "room": "",
+          "title": "Session 5A: IoT and Embedded Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-5a/",
+          "items": [
+            {
+              "item_id": "dc467112031aeae6",
+              "title": "Automated Firmware Security Testing for IoT Devices",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/iot-firmware-security/",
+              "authors": "Henry Garcia, Isabel Hernandez (Northeastern)",
+              "order": 1
+            },
+            {
+              "item_id": "bb3bc2de97fa250e",
+              "title": "Threat Modeling for Smart Home Ecosystems",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/smart-home-threats/",
+              "authors": "James Ingram, Karen Johnson (Rice University)",
+              "order": 2
+            },
+            {
+              "item_id": "9898fe063256079c",
+              "title": "Vulnerabilities in Industrial Control System Protocols",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/ics-protocol-vulnerabilities/",
+              "authors": "Larry King, Mary Lewis (Virginia Tech)",
+              "order": 3
+            },
+            {
+              "item_id": "3006d1d8f662f569",
+              "title": "TEE Attestation Bypass Techniques",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/tee-attacks/",
+              "authors": "Nathan Martin, Olivia Moore (KU Leuven)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "73cd186d64ec0885",
+          "start": "13:30",
+          "end": "15:00",
+          "track": "5B",
+          "room": "",
+          "title": "Session 5B: Authentication & Access Control",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-5b/",
+          "items": [
+            {
+              "item_id": "b6ba9b3a210e625c",
+              "title": "Security Analysis of Passkeys (FIDO2/WebAuthn)",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/passkeys-security/",
+              "authors": "Peter Nelson, Quinn Oliver (University of Edinburgh)",
+              "order": 1
+            },
+            {
+              "item_id": "a082a5783f1f90bd",
+              "title": "MFA Fatigue Attacks: Detection and Prevention",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/mfa-fatigue-attacks/",
+              "authors": "Rebecca Parker, Steven Quinn (Boston University)",
+              "order": 2
+            },
+            {
+              "item_id": "7b505037ad7c5235",
+              "title": "Zero Trust Architecture: Security Analysis in Practice",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/zero-trust-architecture/",
+              "authors": "Thomas Roberts, Ursula Stone (Carnegie Mellon)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "188af83b283c2058",
+          "start": "15:00",
+          "end": "15:30",
+          "track": "",
+          "room": "",
+          "title": "Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "d259dff2005dd827",
+          "start": "15:30",
+          "end": "17:00",
+          "track": "6A",
+          "room": "",
+          "title": "Session 6A: Blockchain & Decentralized Systems",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-6a/",
+          "items": [
+            {
+              "item_id": "38526b66574e546a",
+              "title": "Automated Detection of Smart Contract Vulnerabilities",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/smart-contract-bugs/",
+              "authors": "Victoria Turner, Walter Underwood (Cornell)",
+              "order": 1
+            },
+            {
+              "item_id": "ae746b970d7cf0e8",
+              "title": "MEV Attacks in Decentralized Finance",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/defi-mev-attacks/",
+              "authors": "Xenia Vasquez, Yolanda Walker (MIT",
+              "order": 2
+            },
+            {
+              "item_id": "b76d1dc20930f7f3",
+              "title": "Privacy Analysis of Public Blockchain Transactions",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/blockchain-privacy-analysis/",
+              "authors": "Zachary Xavier, Abby Young (Brown University)",
+              "order": 3
+            },
+            {
+              "item_id": "5f768fbb57977fd5",
+              "title": "Security of Cross-Chain Bridge Protocols",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/cross-chain-bridge-attacks/",
+              "authors": "Benjamin Zimmerman, Clara Adams (Columbia)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "a2c1bf7016c472bf",
+          "start": "15:30",
+          "end": "17:00",
+          "track": "6B",
+          "room": "",
+          "title": "Session 6B: Malware & Threat Intelligence",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-6b/",
+          "items": [
+            {
+              "item_id": "4a12267fa445ff4c",
+              "title": "Real-Time Ransomware Detection via File I/O Analysis",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/ransomware-detection/",
+              "authors": "Derek Baker, Emily Carter (UC Irvine)",
+              "order": 1
+            },
+            {
+              "item_id": "b6221a44b83612c2",
+              "title": "APT Attribution Using Code Similarity Analysis",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/apt-attribution/",
+              "authors": "Frank Davis, Grace Edwards (Symantec Research)",
+              "order": 2
+            },
+            {
+              "item_id": "8e52aad81ce55d4e",
+              "title": "Packers and Anti-Analysis: Modern Obfuscation Techniques",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/malware-packing/",
+              "authors": "Henry Flynn, Iris Garcia (UC Santa Barbara)",
+              "order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_id": "6bc160fe8543175e",
+      "label": "Wednesday, February 25, 2026",
+      "date": "2026-02-25",
+      "sessions": [
+        {
+          "session_id": "5baaf3cee1cc1273",
+          "start": "09:00",
+          "end": "10:00",
+          "track": "",
+          "room": "",
+          "title": "Keynote: Privacy in the Age of AI",
+          "url": "https://www.ndss-symposium.org/ndss2026/keynote-3/",
+          "items": [
+            {
+              "item_id": "24ce0ac30e8c777e",
+              "title": "Privacy in the Age of AI: Challenges and Opportunities",
+              "url": "https://www.ndss-symposium.org/ndss2026/keynote-3/",
+              "authors": "Prof. Maria Gonzalez, Cambridge University",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "session_id": "8ac99df3672e6843",
+          "start": "10:00",
+          "end": "10:30",
+          "track": "",
+          "room": "",
+          "title": "Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "c74af088f41fef51",
+          "start": "10:30",
+          "end": "12:00",
+          "track": "7A",
+          "room": "",
+          "title": "Session 7A: Cloud & Virtualization Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-7a/",
+          "items": [
+            {
+              "item_id": "7815310e3113fc33",
+              "title": "Automated Detection of Cloud Misconfigurations at Scale",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/cloud-misconfigurations/",
+              "authors": "James Hernandez, Karen Ingram (Google Research)",
+              "order": 1
+            },
+            {
+              "item_id": "86f737d6c27b3b80",
+              "title": "MicroVM Isolation: Security Analysis of Firecracker and gVisor",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/microvm-isolation/",
+              "authors": "Larry Johnson, Mary King (AWS Research)",
+              "order": 2
+            },
+            {
+              "item_id": "0600ab5ed4f65da2",
+              "title": "New Attacks Against Intel SGX Enclaves",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/sgx-attacks-new/",
+              "authors": "Nathan Lewis, Olivia Martin (Graz University of Technology)",
+              "order": 3
+            },
+            {
+              "item_id": "db14e4a30ddc054d",
+              "title": "Security Challenges in Serverless Computing",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/serverless-security/",
+              "authors": "Peter Moore, Quinn Nelson (University of Chicago)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "5bd79b149cd95ac6",
+          "start": "10:30",
+          "end": "12:00",
+          "track": "7B",
+          "room": "",
+          "title": "Session 7B: Usable Security & Privacy",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-7b/",
+          "items": [
+            {
+              "item_id": "3d8b887e5b338f28",
+              "title": "Why Security Warnings Fail: A User Study",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/security-warnings-effectiveness/",
+              "authors": "Rachel Oliver, Steven Parker (Carnegie Mellon)",
+              "order": 1
+            },
+            {
+              "item_id": "4ec0a70706ffe437",
+              "title": "Privacy Nutrition Labels: Evaluation and Improvement",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/privacy-nutrition-labels/",
+              "authors": "Thomas Quinn, Ursula Roberts (Georgetown University)",
+              "order": 2
+            },
+            {
+              "item_id": "7b39d2bb6c1d8450",
+              "title": "A Usability Study of Modern Password Managers",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/password-managers-study/",
+              "authors": "Victoria Stone, Walter Turner (Indiana University)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "4f6aa4da71a5789e",
+          "start": "12:00",
+          "end": "14:00",
+          "track": "",
+          "room": "",
+          "title": "Lunch Break & Poster Session",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "60431af57d36dbd7",
+          "start": "14:00",
+          "end": "15:30",
+          "track": "8A",
+          "room": "",
+          "title": "Session 8A: AI Security",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-8a/",
+          "items": [
+            {
+              "item_id": "ad8e9e0511803153",
+              "title": "Systematic Study of LLM Jailbreaking Techniques",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/llm-jailbreaking/",
+              "authors": "Xenia Underwood, Yolanda Vasquez (Stanford)",
+              "order": 1
+            },
+            {
+              "item_id": "423004963884d23a",
+              "title": "AI-Powered Intrusion Detection: False Positive Analysis",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/ai-intrusion-detection/",
+              "authors": "Zachary Walker, Abby Xavier (University of Texas)",
+              "order": 2
+            },
+            {
+              "item_id": "d8ec7d11ca305057",
+              "title": "Deepfake Detection: State of the Art and Open Problems",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/deepfake-detection-survey/",
+              "authors": "Benjamin Young, Clara Zimmerman (Facebook Research)",
+              "order": 3
+            },
+            {
+              "item_id": "d9090ac3d8c15e91",
+              "title": "LLMs as Security Auditors: Benchmarks and Limits",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/llm-code-security-audit/",
+              "authors": "Derek Adams, Emily Baker (Microsoft Research)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "session_id": "6875e49156fb3604",
+          "start": "14:00",
+          "end": "15:30",
+          "track": "8B",
+          "room": "",
+          "title": "Session 8B: Network Intrusion & Detection",
+          "url": "https://www.ndss-symposium.org/ndss2026/session-8b/",
+          "items": [
+            {
+              "item_id": "53c0d5c4be3baf58",
+              "title": "Encrypted Traffic Classification Without Decryption",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/encrypted-traffic-classification/",
+              "authors": "Frank Carter, Grace Davis (EPFL)",
+              "order": 1
+            },
+            {
+              "item_id": "45a478484aed1265",
+              "title": "Botnet Detection Using Graph Neural Networks",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/botnet-detection-ml/",
+              "authors": "Henry Edwards, Iris Flynn (University of Amsterdam)",
+              "order": 2
+            },
+            {
+              "item_id": "5e7998b3e9747483",
+              "title": "New DDoS Amplification Vectors in Modern Protocols",
+              "url": "https://www.ndss-symposium.org/ndss2026/paper/ddos-amplification-new/",
+              "authors": "James Garcia, Karen Hernandez (Ruhr University Bochum)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "session_id": "cd103934d132ecbb",
+          "start": "15:30",
+          "end": "16:00",
+          "track": "",
+          "room": "",
+          "title": "Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "09b1f338555b8560",
+          "start": "16:00",
+          "end": "17:00",
+          "track": "",
+          "room": "",
+          "title": "Closing Ceremony & Awards",
+          "url": "https://www.ndss-symposium.org/ndss2026/closing/",
+          "items": []
+        }
+      ]
+    }
+  ]
+}

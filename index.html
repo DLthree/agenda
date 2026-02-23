@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NDSS 2026 Personal Agenda</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>NDSS 2026 Personal Agenda</h1>
+      <nav class="view-toggle">
+        <button id="btn-browse" class="tab-btn active" aria-pressed="true">Browse &amp; Star</button>
+        <button id="btn-agenda" class="tab-btn" aria-pressed="false">My Agenda</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── BROWSE VIEW ──────────────────────────────────────────────── -->
+  <main id="view-browse" class="view active">
+    <div class="toolbar">
+      <input id="search-input" type="search" placeholder="Search sessions or papers…" aria-label="Search" />
+      <select id="day-filter" aria-label="Filter by day">
+        <option value="">All days</option>
+      </select>
+      <label class="checkbox-label">
+        <input type="checkbox" id="filter-starred" />
+        Starred only
+      </label>
+      <span id="session-count" class="count-badge"></span>
+    </div>
+    <div id="browse-list" role="list" aria-label="Sessions"></div>
+  </main>
+
+  <!-- ── AGENDA VIEW ──────────────────────────────────────────────── -->
+  <main id="view-agenda" class="view">
+    <div class="agenda-toolbar">
+      <button id="btn-share" class="action-btn" title="Copy share link to clipboard">
+        🔗 Share link
+      </button>
+      <button id="btn-reset" class="action-btn danger" title="Remove all stars">
+        🗑 Reset agenda
+      </button>
+      <span id="conflict-badge" class="conflict-banner hidden">⚠ Scheduling conflicts detected</span>
+    </div>
+    <div id="agenda-list" aria-label="My agenda"></div>
+    <p id="agenda-empty" class="empty-msg hidden">No sessions starred yet. Switch to <em>Browse &amp; Star</em> to build your agenda.</p>
+  </main>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
