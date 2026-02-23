@@ -238,21 +238,20 @@ def parse_program(html: str) -> dict:
     return days_out
 
 
-# Days that are co-located-event days on the NDSS site – skip them.
-_COLLOCATED_DAY_PREFIXES = ("monday", "friday")
-
-
 def _parse_ndss_card_layout(soup: BeautifulSoup) -> list[dict]:
     """
     Parse the Bootstrap card layout used on www.ndss-symposium.org.
 
     Each conference day is a  <div class="card …">  block whose header
-    contains an <h3> with the day label.  Inside, session rows are
-    <a class="… card-subheading-session …"> elements; the paper list for
-    each session is the immediately-following
-    <ul class="list-group list-group-session …">.
+    contains an <h3> with the day label.  Three types of schedule items
+    appear inside each card (in document order):
 
-    Monday and Friday are co-located event days and are skipped entirely.
+    * <li  class="… card-subheading-session …">  – misc items (Registration,
+      Breakfast, Welcome, Breaks).  No href.
+    * <a   class="… card-subheading-workshop …">  – workshops (Mon/Fri) and
+      keynotes (Tue–Thu).  Carry a real href.
+    * <a   class="… card-subheading-session …">  – paper sessions.  No href;
+      followed by a <ul class="list-group-session …"> paper list.
     """
     cards = soup.find_all("div", class_="card")
     if not cards:
@@ -269,20 +268,21 @@ def _parse_ndss_card_layout(soup: BeautifulSoup) -> list[dict]:
             continue
 
         label = _norm(h3.get_text(" ", strip=True))
-
-        # Skip co-located event days
-        if any(label.lower().startswith(p) for p in _COLLOCATED_DAY_PREFIXES):
-            continue
-
         date_str = _parse_date(label)
         day_id = _stable_id(label or "unknown", date_str)
 
         sessions: list[dict] = []
 
-        # Each session is an <a> with class "card-subheading-session"
-        session_anchors = card.find_all("a", class_="card-subheading-session")
-        for anchor in session_anchors:
-            session = _parse_ndss_session(anchor)
+        # Iterate all schedule items in document order so the daily timeline
+        # is preserved across the three element types.
+        for el in card.find_all(
+            lambda t: t.name in ("a", "li")
+            and any(
+                cls in " ".join(t.get("class", []))
+                for cls in ("card-subheading-session", "card-subheading-workshop")
+            )
+        ):
+            session = _parse_ndss_item(el)
             if session:
                 sessions.append(session)
 
@@ -297,22 +297,26 @@ def _parse_ndss_card_layout(soup: BeautifulSoup) -> list[dict]:
     return days_out
 
 
-def _parse_ndss_session(anchor: Tag) -> dict | None:
+def _parse_ndss_item(el: Tag) -> dict | None:
     """
-    Extract one session from a  <a class="card-subheading-session">  element
-    and its immediately-following  <ul class="list-group-session">  sibling.
+    Extract one schedule item from any of the three NDSS card item types:
+
+    * <li  class="… card-subheading-session">   – misc (Registration, Breaks)
+    * <a   class="… card-subheading-workshop">  – workshop / keynote (has href)
+    * <a   class="… card-subheading-session">   – paper session (followed by paper <ul>)
     """
+    el_classes = " ".join(el.get("class", []))
+
     # Time is in the first col-2 div
-    time_div = anchor.find("div", class_="col-2")
+    time_div = el.find("div", class_="col-2")
     time_text = _norm(time_div.get_text(" ", strip=True)) if time_div else ""
     start_time, end_time = _parse_times(time_text)
 
-    # Title (and optional subtitle) are in the col-8 strong
-    col8 = anchor.find("div", class_="col-8")
+    # Title is in col-8; sessions wrap it in <strong>, misc items do not
+    col8 = el.find("div", class_="col-8")
     if not col8:
         return None
     strong = col8.find("strong")
-    # The strong tag often has  Session title <br/> subtitle  – grab first text node
     if strong:
         parts = [t.strip() for t in strong.strings if t.strip()]
         title = parts[0] if parts else _norm(col8.get_text(" ", strip=True))
@@ -323,7 +327,7 @@ def _parse_ndss_session(anchor: Tag) -> dict | None:
         return None
 
     # Room is in the text-right div
-    room_div = anchor.find("div", class_="text-right")
+    room_div = el.find("div", class_="text-right")
     room = _norm(room_div.get_text(" ", strip=True)) if room_div else ""
 
     # Track badge (e.g. "1A" from "Session 1A: …")
@@ -332,33 +336,36 @@ def _parse_ndss_session(anchor: Tag) -> dict | None:
     if track_m:
         track = track_m.group(1)
 
-    session_id = _stable_id(title, start_time, end_time, track, room)
+    # URL: workshop/keynote <a> elements carry a real href
+    url = _absolute_url(el.get("href")) if el.name == "a" else ""
 
-    # Papers are in the next sibling <ul class="list-group-session">
+    session_id = _stable_id(title, start_time, end_time, track, room, url)
+
+    # Papers are in the next sibling <ul class="list-group-session"> (paper sessions only)
     items: list[dict] = []
-    paper_ul = anchor.find_next_sibling("ul")
-    if paper_ul and "list-group-session" in " ".join(paper_ul.get("class", [])):
-        order = 0
-        for li in paper_ul.find_all("li", class_="list-group-item"):
-            paper_a = li.find("a", href=True)
-            if not paper_a:
-                continue
-            item_title = _norm(paper_a.get_text(" ", strip=True))
-            if not item_title:
-                continue
-            item_url = _absolute_url(paper_a["href"])
-            # Authors in <i> tag
-            authors_tag = li.find("i")
-            authors = _norm(authors_tag.get_text(" ", strip=True)) if authors_tag else ""
-            order += 1
-            item_id = _stable_id(item_title, item_url, str(order))
-            items.append({
-                "item_id": item_id,
-                "title": item_title,
-                "url": item_url,
-                "authors": authors,
-                "order": order,
-            })
+    if "card-subheading-session" in el_classes and el.name == "a":
+        paper_ul = el.find_next_sibling("ul")
+        if paper_ul and "list-group-session" in " ".join(paper_ul.get("class", [])):
+            order = 0
+            for li in paper_ul.find_all("li", class_="list-group-item"):
+                paper_a = li.find("a", href=True)
+                if not paper_a:
+                    continue
+                item_title = _norm(paper_a.get_text(" ", strip=True))
+                if not item_title:
+                    continue
+                item_url = _absolute_url(paper_a["href"])
+                authors_tag = li.find("i")
+                authors = _norm(authors_tag.get_text(" ", strip=True)) if authors_tag else ""
+                order += 1
+                item_id = _stable_id(item_title, item_url, str(order))
+                items.append({
+                    "item_id": item_id,
+                    "title": item_title,
+                    "url": item_url,
+                    "authors": authors,
+                    "order": order,
+                })
 
     return {
         "session_id": session_id,
@@ -367,7 +374,7 @@ def _parse_ndss_session(anchor: Tag) -> dict | None:
         "track": track,
         "room": room,
         "title": title,
-        "url": "",
+        "url": url,
         "items": items,
     }
 

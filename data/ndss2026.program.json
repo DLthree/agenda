@@ -1,17 +1,134 @@
 {
   "meta": {
     "source_url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
-    "generated_at": "2026-02-23T14:09:17.154737+00:00",
+    "generated_at": "2026-02-23T14:34:04.966370+00:00",
     "raw_html_sha256": "08aa82716aebfa14ea89cdc96b79cb13df32442068df2ce45d689b1945e11b02"
   },
   "days": [
+    {
+      "day_id": "08cbabf44dad55d7",
+      "label": "Monday, 23 February",
+      "date": "2026-02-23",
+      "sessions": [
+        {
+          "session_id": "b7e46af28392b929",
+          "start": "07:30",
+          "end": "17:30",
+          "track": "",
+          "room": "Concourse",
+          "title": "Registration",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "b2124081200dae4c",
+          "start": "08:40",
+          "end": "17:30",
+          "track": "",
+          "room": "Bay Room",
+          "title": "Workshop on Attack Provenance, Reasoning, and Investigation for Security in the Monitored Environment (PRISM) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/prism-2026/",
+          "items": []
+        },
+        {
+          "session_id": "36063f02c5b6ec14",
+          "start": "09:00",
+          "end": "17:35",
+          "track": "",
+          "room": "Embarcadero",
+          "title": "Workshop on Security and Privacy of Next-Generation Networks (FutureG) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/futureg-2026/",
+          "items": []
+        },
+        {
+          "session_id": "5b48f4734e5a08bc",
+          "start": "09:00",
+          "end": "16:20",
+          "track": "",
+          "room": "Pacific Ballroom A-C",
+          "title": "Workshop on Security and Privacy in Standardized IoT (SDIoTSec) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/sdiotsec-2026/",
+          "items": []
+        },
+        {
+          "session_id": "fe57f88527299427",
+          "start": "09:00",
+          "end": "15:45",
+          "track": "",
+          "room": "Coast Ballroom",
+          "title": "Workshop on the Security of Space and Satellite Systems (SpaceSec) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/spacesec-2026/",
+          "items": []
+        },
+        {
+          "session_id": "7032c1b39bc4b223",
+          "start": "09:00",
+          "end": "17:20",
+          "track": "",
+          "room": "Porthole",
+          "title": "Workshop on SOC Operations and Construction (WOSOC) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/wosoc-2026/",
+          "items": []
+        }
+      ]
+    },
     {
       "day_id": "be76f50ca95fdff4",
       "label": "Tuesday, 24 February",
       "date": "2026-02-24",
       "sessions": [
         {
-          "session_id": "63ae902663088a14",
+          "session_id": "b7e46af28392b929",
+          "start": "07:30",
+          "end": "17:30",
+          "track": "",
+          "room": "Concourse",
+          "title": "Registration",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "603aeb3acf713638",
+          "start": "07:30",
+          "end": "09:00",
+          "track": "",
+          "room": "Pacific Ballroom D",
+          "title": "Breakfast",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "966f5f0c172b0760",
+          "start": "08:30",
+          "end": "09:00",
+          "track": "",
+          "room": "Pacific Ballroom A-C",
+          "title": "Welcome Chair's Welcome and Opening Remarks",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "3598764f58519e8f",
+          "start": "09:00",
+          "end": "10:00",
+          "track": "",
+          "room": "Pacific Ballroom",
+          "title": "Keynote: Solving the Memory Safety Problem, Once and for All – Prof. Dan Wallach, DARPA",
+          "url": "https://www.ndss-symposium.org/ndss-program/keynote-prof-dan-wallach-darpa/",
+          "items": []
+        },
+        {
+          "session_id": "6de228626e41b288",
+          "start": "10:00",
+          "end": "10:30",
+          "track": "",
+          "room": "Pacific Ballroom D",
+          "title": "Morning Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "f34feee0cc6ccbe8",
           "start": "10:30",
           "end": "11:50",
           "track": "1A",
@@ -50,7 +167,7 @@
           ]
         },
         {
-          "session_id": "7f843e0db155fba6",
+          "session_id": "e1c36d5a52e48ebf",
           "start": "10:30",
           "end": "11:50",
           "track": "1B",
@@ -89,7 +206,7 @@
           ]
         },
         {
-          "session_id": "8edd03690b3d07d7",
+          "session_id": "505431237832c7ff",
           "start": "10:30",
           "end": "11:50",
           "track": "1C",
@@ -128,7 +245,7 @@
           ]
         },
         {
-          "session_id": "8d1c36380136a348",
+          "session_id": "9ae0d01459705a0f",
           "start": "10:30",
           "end": "11:50",
           "track": "1D",
@@ -167,7 +284,17 @@
           ]
         },
         {
-          "session_id": "33baf916c2c8ba51",
+          "session_id": "35fe0a5ba669eee2",
+          "start": "11:50",
+          "end": "13:00",
+          "track": "",
+          "room": "Loma Vista Terrace and Harborside",
+          "title": "Lunch",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "29aa2fa4eb4f3ea9",
           "start": "13:00",
           "end": "14:20",
           "track": "2A",
@@ -206,7 +333,7 @@
           ]
         },
         {
-          "session_id": "db496b4addc5dca6",
+          "session_id": "6df0e290ae8cd4a3",
           "start": "13:00",
           "end": "14:20",
           "track": "2B",
@@ -245,7 +372,7 @@
           ]
         },
         {
-          "session_id": "40996ffa9a0941fd",
+          "session_id": "71f8b1843b02fe0b",
           "start": "13:00",
           "end": "14:20",
           "track": "2C",
@@ -284,7 +411,7 @@
           ]
         },
         {
-          "session_id": "3eedc0ad48714611",
+          "session_id": "11b2e34a4cd4bd09",
           "start": "13:00",
           "end": "14:20",
           "track": "2D",
@@ -316,7 +443,7 @@
           ]
         },
         {
-          "session_id": "e03ad98665577d4a",
+          "session_id": "5bbeaa725a012ef9",
           "start": "14:30",
           "end": "15:50",
           "track": "3A",
@@ -355,7 +482,7 @@
           ]
         },
         {
-          "session_id": "fa24f635cd39aec2",
+          "session_id": "5f12ba0c38951f62",
           "start": "14:30",
           "end": "15:50",
           "track": "3B",
@@ -394,7 +521,7 @@
           ]
         },
         {
-          "session_id": "8d60aba3f30692b6",
+          "session_id": "1dacbcb5f3047311",
           "start": "14:30",
           "end": "15:50",
           "track": "3C",
@@ -433,7 +560,7 @@
           ]
         },
         {
-          "session_id": "44c696bb773901e3",
+          "session_id": "5a722b75fdae9711",
           "start": "14:30",
           "end": "15:50",
           "track": "3D",
@@ -472,7 +599,17 @@
           ]
         },
         {
-          "session_id": "4f3f9d559927977f",
+          "session_id": "ccfb70da29f7a9a7",
+          "start": "15:50",
+          "end": "16:10",
+          "track": "",
+          "room": "Pacific Ballroom D",
+          "title": "Afternoon Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "646966113ee0875d",
           "start": "16:10",
           "end": "17:30",
           "track": "4A",
@@ -511,7 +648,7 @@
           ]
         },
         {
-          "session_id": "965f496a9f94b1a5",
+          "session_id": "057797f0fd3dcb75",
           "start": "16:10",
           "end": "17:30",
           "track": "4B",
@@ -550,7 +687,7 @@
           ]
         },
         {
-          "session_id": "71d6e66aa9ae3751",
+          "session_id": "175c3923d5697358",
           "start": "16:10",
           "end": "17:30",
           "track": "4C",
@@ -589,7 +726,7 @@
           ]
         },
         {
-          "session_id": "22aefac222835a39",
+          "session_id": "525f40b60e34aa14",
           "start": "16:10",
           "end": "17:30",
           "track": "4D",
@@ -626,6 +763,16 @@
               "order": 4
             }
           ]
+        },
+        {
+          "session_id": "03eeed03d710c85a",
+          "start": "18:00",
+          "end": "20:00",
+          "track": "",
+          "room": "Loma Vista Terrace and Harborside",
+          "title": "Poster Reception",
+          "url": "",
+          "items": []
         }
       ]
     },
@@ -635,7 +782,57 @@
       "date": "2026-02-25",
       "sessions": [
         {
-          "session_id": "3028669ba5acfce8",
+          "session_id": "b7e46af28392b929",
+          "start": "07:30",
+          "end": "17:30",
+          "track": "",
+          "room": "Concourse",
+          "title": "Registration",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "603aeb3acf713638",
+          "start": "07:30",
+          "end": "09:00",
+          "track": "",
+          "room": "Pacific Ballroom D",
+          "title": "Breakfast",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "0f7f22ac677a81a4",
+          "start": "08:30",
+          "end": "09:00",
+          "track": "",
+          "room": "Pacific Ballroom A-C",
+          "title": "Awards and Announcements Plenary recognition of award winners",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "dae3eee202b3bb77",
+          "start": "09:00",
+          "end": "10:00",
+          "track": "",
+          "room": "Pacific Ballroom A-C",
+          "title": "Keynote: Securing the Software Supply Chain – Prof. Will Enck, Ph.D, NSCU",
+          "url": "https://www.ndss-symposium.org/ndss-program/keynote-securing-the-software-supply-chain-prof-will-enck-ph-d/",
+          "items": []
+        },
+        {
+          "session_id": "d8d515d0d0ee7781",
+          "start": "10:00",
+          "end": "10:20",
+          "track": "",
+          "room": "Pacific Ballroom D",
+          "title": "Morning Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "d02d548fa1e31267",
           "start": "10:30",
           "end": "11:50",
           "track": "5A",
@@ -674,7 +871,7 @@
           ]
         },
         {
-          "session_id": "e5ca5f29349bdcda",
+          "session_id": "4edf9596f203fd6b",
           "start": "10:30",
           "end": "11:50",
           "track": "5B",
@@ -713,7 +910,7 @@
           ]
         },
         {
-          "session_id": "7900348418634151",
+          "session_id": "0141a098fde7ac25",
           "start": "10:30",
           "end": "11:50",
           "track": "5C",
@@ -752,7 +949,7 @@
           ]
         },
         {
-          "session_id": "30958d0cabd5ee87",
+          "session_id": "9ccc541f71dafbe9",
           "start": "10:30",
           "end": "11:50",
           "track": "5D",
@@ -791,7 +988,17 @@
           ]
         },
         {
-          "session_id": "8da02119e97adc08",
+          "session_id": "35fe0a5ba669eee2",
+          "start": "11:50",
+          "end": "13:00",
+          "track": "",
+          "room": "Loma Vista Terrace and Harborside",
+          "title": "Lunch",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "d4215f6a42366a26",
           "start": "13:00",
           "end": "14:20",
           "track": "6A",
@@ -830,7 +1037,7 @@
           ]
         },
         {
-          "session_id": "8584160ef55ded4e",
+          "session_id": "0a5615759829ad6a",
           "start": "13:00",
           "end": "14:20",
           "track": "6B",
@@ -869,7 +1076,7 @@
           ]
         },
         {
-          "session_id": "ab7c4a0bc03ba756",
+          "session_id": "5a6ef3d3fd85e93e",
           "start": "13:00",
           "end": "14:20",
           "track": "6C",
@@ -901,7 +1108,7 @@
           ]
         },
         {
-          "session_id": "48f9f9653ebc8ad0",
+          "session_id": "16d360639203b9fe",
           "start": "13:00",
           "end": "14:20",
           "track": "6D",
@@ -940,7 +1147,7 @@
           ]
         },
         {
-          "session_id": "fd043ab0456ace00",
+          "session_id": "124b69b6f4e9cc43",
           "start": "14:30",
           "end": "15:50",
           "track": "7A",
@@ -979,7 +1186,7 @@
           ]
         },
         {
-          "session_id": "bc34d8235a77eee4",
+          "session_id": "d31d0badcddc1de0",
           "start": "14:30",
           "end": "15:50",
           "track": "7B",
@@ -1018,7 +1225,7 @@
           ]
         },
         {
-          "session_id": "ad97103f96f81cda",
+          "session_id": "4f1685e9e727f428",
           "start": "14:30",
           "end": "15:50",
           "track": "7C",
@@ -1057,7 +1264,7 @@
           ]
         },
         {
-          "session_id": "e1a0ab39ebd60ffe",
+          "session_id": "edef4b22e929f8a4",
           "start": "14:30",
           "end": "15:50",
           "track": "7D",
@@ -1096,7 +1303,17 @@
           ]
         },
         {
-          "session_id": "7e8aee887480f353",
+          "session_id": "ccfb70da29f7a9a7",
+          "start": "15:50",
+          "end": "16:10",
+          "track": "",
+          "room": "Pacific Ballroom D",
+          "title": "Afternoon Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "eeab08273df10844",
           "start": "16:10",
           "end": "17:30",
           "track": "8A",
@@ -1135,7 +1352,7 @@
           ]
         },
         {
-          "session_id": "d5ccbf061e3343c8",
+          "session_id": "e6cfd3400f0d25b6",
           "start": "16:10",
           "end": "17:30",
           "track": "8B",
@@ -1174,7 +1391,7 @@
           ]
         },
         {
-          "session_id": "8c046d28294c4bab",
+          "session_id": "054181b5ef18511d",
           "start": "16:10",
           "end": "17:30",
           "track": "8C",
@@ -1213,7 +1430,7 @@
           ]
         },
         {
-          "session_id": "a8688aaa191cf744",
+          "session_id": "5f004df4b22138a4",
           "start": "16:10",
           "end": "17:30",
           "track": "8D",
@@ -1250,6 +1467,16 @@
               "order": 4
             }
           ]
+        },
+        {
+          "session_id": "6de2315f8cf0c147",
+          "start": "17:30",
+          "end": "19:00",
+          "track": "",
+          "room": "Coast Ballroom",
+          "title": "NSF Office Hours",
+          "url": "",
+          "items": []
         }
       ]
     },
@@ -1259,7 +1486,37 @@
       "date": "2026-02-26",
       "sessions": [
         {
-          "session_id": "fb0c85b6a01bbd78",
+          "session_id": "b7e46af28392b929",
+          "start": "07:30",
+          "end": "17:30",
+          "track": "",
+          "room": "Concourse",
+          "title": "Registration",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "603aeb3acf713638",
+          "start": "07:30",
+          "end": "09:00",
+          "track": "",
+          "room": "Pacific Ballroom D",
+          "title": "Breakfast",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "a52d2a7c2aa16bd6",
+          "start": "08:30",
+          "end": "09:20",
+          "track": "",
+          "room": "Pacific Ballroom A-C",
+          "title": "Award Photos Photos of award winners and their certificates",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "d1803e1fbdd8aa67",
           "start": "09:20",
           "end": "10:40",
           "track": "9A",
@@ -1298,7 +1555,7 @@
           ]
         },
         {
-          "session_id": "1db0996d7c967fbe",
+          "session_id": "98148d897db9ab8b",
           "start": "09:20",
           "end": "10:40",
           "track": "9B",
@@ -1337,7 +1594,7 @@
           ]
         },
         {
-          "session_id": "920c9b92443f5f15",
+          "session_id": "92a170893e5f2fa1",
           "start": "09:20",
           "end": "10:40",
           "track": "9C",
@@ -1376,7 +1633,7 @@
           ]
         },
         {
-          "session_id": "9680615bd81dadda",
+          "session_id": "e34a6e426c271c47",
           "start": "09:20",
           "end": "10:40",
           "track": "9D",
@@ -1415,7 +1672,7 @@
           ]
         },
         {
-          "session_id": "5c2a24015e32b8a9",
+          "session_id": "d49341446580afe6",
           "start": "10:50",
           "end": "11:50",
           "track": "10A",
@@ -1447,7 +1704,7 @@
           ]
         },
         {
-          "session_id": "1db9a8e89e3e6835",
+          "session_id": "a22276bd2d0de302",
           "start": "10:50",
           "end": "11:50",
           "track": "10B",
@@ -1479,7 +1736,7 @@
           ]
         },
         {
-          "session_id": "fabcf2ff4a90874e",
+          "session_id": "fee464c116e73504",
           "start": "10:50",
           "end": "11:50",
           "track": "10C",
@@ -1511,7 +1768,17 @@
           ]
         },
         {
-          "session_id": "cc2d2c1d41c3c894",
+          "session_id": "35fe0a5ba669eee2",
+          "start": "11:50",
+          "end": "13:00",
+          "track": "",
+          "room": "Loma Vista Terrace and Harborside",
+          "title": "Lunch",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "ba9bc2457adcd0a5",
           "start": "13:00",
           "end": "14:20",
           "track": "11A",
@@ -1543,7 +1810,7 @@
           ]
         },
         {
-          "session_id": "b1b7f4ecfac2b51d",
+          "session_id": "66e8c8dc0a617238",
           "start": "13:00",
           "end": "14:20",
           "track": "11B",
@@ -1582,7 +1849,7 @@
           ]
         },
         {
-          "session_id": "8beeec72a783ad2b",
+          "session_id": "4dfb61b17404b0e9",
           "start": "13:00",
           "end": "14:20",
           "track": "11C",
@@ -1621,7 +1888,7 @@
           ]
         },
         {
-          "session_id": "019b9bbe6162d51f",
+          "session_id": "de6516432a9e15f8",
           "start": "13:00",
           "end": "14:20",
           "track": "11D",
@@ -1660,7 +1927,7 @@
           ]
         },
         {
-          "session_id": "ef9201eacd98d290",
+          "session_id": "a30f0e1b1169e8b4",
           "start": "14:30",
           "end": "15:50",
           "track": "12A",
@@ -1699,7 +1966,7 @@
           ]
         },
         {
-          "session_id": "eb8594828292ce74",
+          "session_id": "a099d668be7bec3b",
           "start": "14:30",
           "end": "15:50",
           "track": "12B",
@@ -1738,7 +2005,7 @@
           ]
         },
         {
-          "session_id": "4a4569517454fa09",
+          "session_id": "5da843255281d77b",
           "start": "14:30",
           "end": "15:50",
           "track": "12C",
@@ -1777,7 +2044,17 @@
           ]
         },
         {
-          "session_id": "75e3997f691afe89",
+          "session_id": "ccfb70da29f7a9a7",
+          "start": "15:50",
+          "end": "16:10",
+          "track": "",
+          "room": "Pacific Ballroom D",
+          "title": "Afternoon Break",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "78de156d10b6839e",
           "start": "16:10",
           "end": "17:30",
           "track": "13A",
@@ -1816,7 +2093,7 @@
           ]
         },
         {
-          "session_id": "563cfc669b71d9e4",
+          "session_id": "f66c0231882600b6",
           "start": "16:10",
           "end": "17:30",
           "track": "13B",
@@ -1855,7 +2132,7 @@
           ]
         },
         {
-          "session_id": "cb35da4bd73c3672",
+          "session_id": "5ce56cfcea75ed1c",
           "start": "16:10",
           "end": "17:30",
           "track": "13C",
@@ -1894,7 +2171,7 @@
           ]
         },
         {
-          "session_id": "3aa0e98c9120b1c2",
+          "session_id": "30dfa834d331f185",
           "start": "16:10",
           "end": "17:30",
           "track": "13D",
@@ -1931,6 +2208,73 @@
               "order": 4
             }
           ]
+        }
+      ]
+    },
+    {
+      "day_id": "fbef8b284bc7159f",
+      "label": "Friday, 27 February",
+      "date": "2026-02-27",
+      "sessions": [
+        {
+          "session_id": "0aaa5fc9e63ceb06",
+          "start": "07:30",
+          "end": "15:00",
+          "track": "",
+          "room": "Concourse",
+          "title": "Registration",
+          "url": "",
+          "items": []
+        },
+        {
+          "session_id": "6461e5b664ba3e1f",
+          "start": "07:30",
+          "end": "17:30",
+          "track": "",
+          "room": "Pacific Ballroom",
+          "title": "Symposium on Usable Security and Privacy (USEC) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/usec-2026/",
+          "items": []
+        },
+        {
+          "session_id": "cba79bd7739a4f7b",
+          "start": "07:30",
+          "end": "18:00",
+          "track": "",
+          "room": "Porthole",
+          "title": "Workshop on Measurements, Attacks, and Defenses for the Web (MADWeb) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/madweb-2026/",
+          "items": []
+        },
+        {
+          "session_id": "5f80ee5223ed4a51",
+          "start": "08:45",
+          "end": "17:00",
+          "track": "",
+          "room": "Coast Ballroom",
+          "title": "Workshop on Binary Analysis Research (BAR) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/bar-2026/",
+          "items": []
+        },
+        {
+          "session_id": "a31c95056ec75f55",
+          "start": "08:45",
+          "end": "16:40",
+          "track": "",
+          "room": "Embarcadero",
+          "title": "Fuzzing Workshop (FUZZING) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/fuzzing-2026/",
+          "items": []
+        },
+        {
+          "session_id": "25eaa434b1ba03c5",
+          "start": "09:00",
+          "end": "17:30",
+          "track": "",
+          "room": "Bay Room",
+          "title": "Workshop on LLM Assisted Security and Trust Exploration (LAST-X) 2026 Program",
+          "url": "https://www.ndss-symposium.org/ndss-program/last-x-2026/",
+          "items": []
         }
       ]
     }
